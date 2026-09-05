@@ -46,6 +46,19 @@ def daily_return(start_price: Real, end_price: Real) -> float:
     return end / start - 1.0
 
 
+def price_from_return(base_price: Real, return_rate: Real) -> float:
+    """Convert a decimal simple return into a positive target price."""
+
+    base = _positive_price(base_price, "base_price")
+    rate = _finite_float(return_rate, "return_rate")
+    result = base * (1.0 + rate)
+    if not math.isfinite(result) or result <= 0:
+        raise ModelInputError(
+            "target price is not positive; the return is outside its valid domain"
+        )
+    return result
+
+
 def solve_etf_price(
     stock_base: Real,
     etf_base: Real,
