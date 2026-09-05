@@ -9,6 +9,8 @@ __pycache__/
 .env.*
 !.env.example
 *.log
+AGENTS.md
+CLAUDE.md
 
 # Local downloads and generated reports
 data/raw/
