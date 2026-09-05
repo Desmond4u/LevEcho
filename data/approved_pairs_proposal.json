@@ -1,0 +1,340 @@
+{
+  "model_version": "1.0",
+  "updated_at": "2026-09-05T12:38:20Z",
+  "source_errors": [
+    "ProShares https://www.proshares.com/our-etfs/leveraged-and-inverse: DiscoverySourceError: unable to read issuer tables from https://www.proshares.com/our-etfs/leveraged-and-inverse: No tables found",
+    "ProShares https://www.proshares.com/resources/data-downloads: DiscoverySourceError: unable to read issuer tables from https://www.proshares.com/resources/data-downloads: No tables found"
+  ],
+  "pairs": [
+    {
+      "pair_id": "aapl-aapu",
+      "underlying_symbol": "AAPL",
+      "etf_symbol": "AAPU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "AAPL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "adbe-adbu",
+      "underlying_symbol": "ADBE",
+      "etf_symbol": "ADBU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "ADBE",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "amd-amuu",
+      "underlying_symbol": "AMD",
+      "etf_symbol": "AMUU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "AMD",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "amzn-amzu",
+      "underlying_symbol": "AMZN",
+      "etf_symbol": "AMZU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "AMZN",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "asml-asmu",
+      "underlying_symbol": "ASML",
+      "etf_symbol": "ASMU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "ASML",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "avgo-avl",
+      "underlying_symbol": "AVGO",
+      "etf_symbol": "AVL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "AVGO",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "ba-boeu",
+      "underlying_symbol": "BA",
+      "etf_symbol": "BOEU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "BA",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "coin-conx",
+      "underlying_symbol": "COIN",
+      "etf_symbol": "CONX",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "COIN",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "csco-cscl",
+      "underlying_symbol": "CSCO",
+      "etf_symbol": "CSCL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "CSCO",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "googl-ggll",
+      "underlying_symbol": "GOOGL",
+      "etf_symbol": "GGLL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "GOOGL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "hood-hodu",
+      "underlying_symbol": "HOOD",
+      "etf_symbol": "HODU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "HOOD",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "intc-lint",
+      "underlying_symbol": "INTC",
+      "etf_symbol": "LINT",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "INTC",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "lly-elil",
+      "underlying_symbol": "LLY",
+      "etf_symbol": "ELIL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "LLY",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "lmt-lmtl",
+      "underlying_symbol": "LMT",
+      "etf_symbol": "LMTL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "LMT",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "meta-metu",
+      "underlying_symbol": "META",
+      "etf_symbol": "METU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "META",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "mrvl-mrvu",
+      "underlying_symbol": "MRVL",
+      "etf_symbol": "MRVU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "MRVL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "msft-msfu",
+      "underlying_symbol": "MSFT",
+      "etf_symbol": "MSFU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "MSFT",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "mu-muu",
+      "underlying_symbol": "MU",
+      "etf_symbol": "MUU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "MU",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "nflx-nfxl",
+      "underlying_symbol": "NFLX",
+      "etf_symbol": "NFXL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "NFLX",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "nvda-nvdu",
+      "underlying_symbol": "NVDA",
+      "etf_symbol": "NVDU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "NVDA",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "orcl-orcu",
+      "underlying_symbol": "ORCL",
+      "etf_symbol": "ORCU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "ORCL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "panw-palu",
+      "underlying_symbol": "PANW",
+      "etf_symbol": "PALU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "PANW",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "pltr-pltu",
+      "underlying_symbol": "PLTR",
+      "etf_symbol": "PLTU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "PLTR",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "pypl-pypu",
+      "underlying_symbol": "PYPL",
+      "etf_symbol": "PYPU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "PYPL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "qcom-qcmu",
+      "underlying_symbol": "QCOM",
+      "etf_symbol": "QCMU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "QCOM",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "shop-shpu",
+      "underlying_symbol": "SHOP",
+      "etf_symbol": "SHPU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "SHOP",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "tsla-tsll",
+      "underlying_symbol": "TSLA",
+      "etf_symbol": "TSLL",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "TSLA",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "txn-txnu",
+      "underlying_symbol": "TXN",
+      "etf_symbol": "TXNU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "TXN",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "unh-unhu",
+      "underlying_symbol": "UNH",
+      "etf_symbol": "UNHU",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "UNH",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "xom-xomx",
+      "underlying_symbol": "XOM",
+      "etf_symbol": "XOMX",
+      "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "XOM",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    }
+  ]
+}

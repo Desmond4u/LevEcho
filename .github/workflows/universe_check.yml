@@ -1,0 +1,51 @@
+name: Check index constituents
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 9 * * 1"
+      timezone: "America/New_York"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: levecho-universe-check
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Fetch constituent candidates
+        run: python -m scripts.check_universe --write-approved-proposal
+
+      - name: Open review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Check index constituent changes"
+          title: "Review index constituent changes"
+          body: |
+            This PR was generated from the official S&P 500 and Nasdaq-100 constituent sources.
+
+            Review `reports/universe_diff.md` before replacing `data/approved_universe.json`.
+          branch: automation/universe-candidate
+          delete-branch: true
+          add-paths: |
+            data/universe_candidate.json
+            data/approved_universe.json
+            reports/universe_diff.md

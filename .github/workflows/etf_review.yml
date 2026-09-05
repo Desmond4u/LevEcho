@@ -1,0 +1,51 @@
+name: Review ETF mappings
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 10 * * 1"
+      timezone: "America/New_York"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: levecho-etf-review
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Discover ETF mappings
+        run: python -m scripts.check_etfs
+
+      - name: Open ETF mapping review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Review ETF mappings"
+          title: "Review ETF mapping candidates"
+          body: |
+            Review `reports/etf_pair_review.md` and the proposed pair file.
+
+            New or changed mappings must be verified against issuer materials before they are copied into `data/approved_pairs.json`.
+          branch: automation/etf-mapping-review
+          delete-branch: true
+          add-paths: |
+            data/approved_pairs_proposal.json
+            data/pending_pairs.json
+            reports/etf_pair_review.md

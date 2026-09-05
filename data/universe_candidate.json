@@ -1,0 +1,6884 @@
+{
+  "model_version": "1.0",
+  "source_status": "success",
+  "source_asof": "2026-09-05",
+  "updated_at": "2026-09-05T12:38:31Z",
+  "source_urls": {
+    "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "ndx100": "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+  },
+  "constituents": [
+    {
+      "display_symbol": "A",
+      "provider_symbol": "A",
+      "company_name": "Agilent Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AAPL",
+      "provider_symbol": "AAPL",
+      "company_name": "Apple Inc.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ABBV",
+      "provider_symbol": "ABBV",
+      "company_name": "AbbVie",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ABNB",
+      "provider_symbol": "ABNB",
+      "company_name": "AIRBNB, INC CL A CMN",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ABT",
+      "provider_symbol": "ABT",
+      "company_name": "Abbott Laboratories",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ACGL",
+      "provider_symbol": "ACGL",
+      "company_name": "Arch Capital Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ACN",
+      "provider_symbol": "ACN",
+      "company_name": "Accenture",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ADBE",
+      "provider_symbol": "ADBE",
+      "company_name": "Adobe Inc.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ADI",
+      "provider_symbol": "ADI",
+      "company_name": "ANALOG DEVICES CMN",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ADM",
+      "provider_symbol": "ADM",
+      "company_name": "Archer Daniels Midland",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ADP",
+      "provider_symbol": "ADP",
+      "company_name": "Automatic Data Processing",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ADSK",
+      "provider_symbol": "ADSK",
+      "company_name": "AUTODESK INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AEE",
+      "provider_symbol": "AEE",
+      "company_name": "Ameren",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AEP",
+      "provider_symbol": "AEP",
+      "company_name": "American Electric Power",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AES",
+      "provider_symbol": "AES",
+      "company_name": "AES Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AFL",
+      "provider_symbol": "AFL",
+      "company_name": "Aflac",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AIG",
+      "provider_symbol": "AIG",
+      "company_name": "American International Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AIZ",
+      "provider_symbol": "AIZ",
+      "company_name": "Assurant",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AJG",
+      "provider_symbol": "AJG",
+      "company_name": "Arthur J. Gallagher & Co.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AKAM",
+      "provider_symbol": "AKAM",
+      "company_name": "Akamai Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ALB",
+      "provider_symbol": "ALB",
+      "company_name": "Albemarle Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ALGN",
+      "provider_symbol": "ALGN",
+      "company_name": "Align Technology",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ALL",
+      "provider_symbol": "ALL",
+      "company_name": "Allstate",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ALLE",
+      "provider_symbol": "ALLE",
+      "company_name": "Allegion",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ALNY",
+      "provider_symbol": "ALNY",
+      "company_name": "ALNYLAM PHARMACEUTICALS, INC.",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMAT",
+      "provider_symbol": "AMAT",
+      "company_name": "Applied Materials",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMCR",
+      "provider_symbol": "AMCR",
+      "company_name": "Amcor",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMD",
+      "provider_symbol": "AMD",
+      "company_name": "Advanced Micro Devices",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AME",
+      "provider_symbol": "AME",
+      "company_name": "Ametek",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMGN",
+      "provider_symbol": "AMGN",
+      "company_name": "Amgen",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMP",
+      "provider_symbol": "AMP",
+      "company_name": "Ameriprise Financial",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMT",
+      "provider_symbol": "AMT",
+      "company_name": "American Tower",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AMZN",
+      "provider_symbol": "AMZN",
+      "company_name": "AMAZON.COM INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ANET",
+      "provider_symbol": "ANET",
+      "company_name": "Arista Networks",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AON",
+      "provider_symbol": "AON",
+      "company_name": "Aon plc",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AOS",
+      "provider_symbol": "AOS",
+      "company_name": "A. O. Smith",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "APA",
+      "provider_symbol": "APA",
+      "company_name": "APA Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "APD",
+      "provider_symbol": "APD",
+      "company_name": "Air Products",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "APH",
+      "provider_symbol": "APH",
+      "company_name": "Amphenol",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "APO",
+      "provider_symbol": "APO",
+      "company_name": "Apollo Global Management",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "APP",
+      "provider_symbol": "APP",
+      "company_name": "APPLOVIN CORP CLA CM",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "APTV",
+      "provider_symbol": "APTV",
+      "company_name": "Aptiv",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ARE",
+      "provider_symbol": "ARE",
+      "company_name": "Alexandria Real Estate Equities",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ARES",
+      "provider_symbol": "ARES",
+      "company_name": "Ares Management",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ARM",
+      "provider_symbol": "ARM",
+      "company_name": "ARM HOLDINGS PLC ADS",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ASML",
+      "provider_symbol": "ASML",
+      "company_name": "ASML HLDG NY REG",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ATO",
+      "provider_symbol": "ATO",
+      "company_name": "Atmos Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AVGO",
+      "provider_symbol": "AVGO",
+      "company_name": "BROADCOM INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AVY",
+      "provider_symbol": "AVY",
+      "company_name": "Avery Dennison",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AWK",
+      "provider_symbol": "AWK",
+      "company_name": "American Water Works",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AXON",
+      "provider_symbol": "AXON",
+      "company_name": "AXON ENTERPRISE, INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AXP",
+      "provider_symbol": "AXP",
+      "company_name": "American Express",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "AZO",
+      "provider_symbol": "AZO",
+      "company_name": "AutoZone",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BA",
+      "provider_symbol": "BA",
+      "company_name": "Boeing",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BAC",
+      "provider_symbol": "BAC",
+      "company_name": "Bank of America",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BALL",
+      "provider_symbol": "BALL",
+      "company_name": "Ball Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BAX",
+      "provider_symbol": "BAX",
+      "company_name": "Baxter International",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BBY",
+      "provider_symbol": "BBY",
+      "company_name": "Best Buy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BDX",
+      "provider_symbol": "BDX",
+      "company_name": "Becton Dickinson",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BEN",
+      "provider_symbol": "BEN",
+      "company_name": "Franklin Resources",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BF.B",
+      "provider_symbol": "BF-B",
+      "company_name": "Brown–Forman",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BG",
+      "provider_symbol": "BG",
+      "company_name": "Bunge Global",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BIIB",
+      "provider_symbol": "BIIB",
+      "company_name": "Biogen",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BKNG",
+      "provider_symbol": "BKNG",
+      "company_name": "BOOKING HOLDINGS INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BKR",
+      "provider_symbol": "BKR",
+      "company_name": "BAKER HUGHES CO",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BLDR",
+      "provider_symbol": "BLDR",
+      "company_name": "Builders FirstSource",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BLK",
+      "provider_symbol": "BLK",
+      "company_name": "BlackRock",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BMY",
+      "provider_symbol": "BMY",
+      "company_name": "Bristol Myers Squibb",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BNY",
+      "provider_symbol": "BNY",
+      "company_name": "BNY Mellon",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BR",
+      "provider_symbol": "BR",
+      "company_name": "Broadridge Financial Solutions",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BRK.B",
+      "provider_symbol": "BRK-B",
+      "company_name": "Berkshire Hathaway",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BRO",
+      "provider_symbol": "BRO",
+      "company_name": "Brown & Brown",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BSX",
+      "provider_symbol": "BSX",
+      "company_name": "Boston Scientific",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BX",
+      "provider_symbol": "BX",
+      "company_name": "Blackstone Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "BXP",
+      "provider_symbol": "BXP",
+      "company_name": "BXP, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "C",
+      "provider_symbol": "C",
+      "company_name": "Citigroup",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CAH",
+      "provider_symbol": "CAH",
+      "company_name": "Cardinal Health",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CARR",
+      "provider_symbol": "CARR",
+      "company_name": "Carrier Global",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CASY",
+      "provider_symbol": "CASY",
+      "company_name": "Casey's",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CAT",
+      "provider_symbol": "CAT",
+      "company_name": "Caterpillar Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CB",
+      "provider_symbol": "CB",
+      "company_name": "Chubb Limited",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CBOE",
+      "provider_symbol": "CBOE",
+      "company_name": "Cboe Global Markets",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CBRE",
+      "provider_symbol": "CBRE",
+      "company_name": "CBRE Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CCEP",
+      "provider_symbol": "CCEP",
+      "company_name": "COCA-COLA EUROPACIFI",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CCI",
+      "provider_symbol": "CCI",
+      "company_name": "Crown Castle",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CCL",
+      "provider_symbol": "CCL",
+      "company_name": "Carnival Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CDNS",
+      "provider_symbol": "CDNS",
+      "company_name": "Cadence Design Systems",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CDW",
+      "provider_symbol": "CDW",
+      "company_name": "CDW Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CEG",
+      "provider_symbol": "CEG",
+      "company_name": "Constellation Energy",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CF",
+      "provider_symbol": "CF",
+      "company_name": "CF Industries",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CFG",
+      "provider_symbol": "CFG",
+      "company_name": "Citizens Financial Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CHD",
+      "provider_symbol": "CHD",
+      "company_name": "Church & Dwight",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CHRW",
+      "provider_symbol": "CHRW",
+      "company_name": "C.H. Robinson",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CHTR",
+      "provider_symbol": "CHTR",
+      "company_name": "Charter Communications",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CI",
+      "provider_symbol": "CI",
+      "company_name": "Cigna",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CIEN",
+      "provider_symbol": "CIEN",
+      "company_name": "Ciena",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CINF",
+      "provider_symbol": "CINF",
+      "company_name": "Cincinnati Financial",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CL",
+      "provider_symbol": "CL",
+      "company_name": "Colgate-Palmolive",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CLX",
+      "provider_symbol": "CLX",
+      "company_name": "Clorox",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CMCSA",
+      "provider_symbol": "CMCSA",
+      "company_name": "COMCAST CORP A",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CME",
+      "provider_symbol": "CME",
+      "company_name": "CME Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CMG",
+      "provider_symbol": "CMG",
+      "company_name": "Chipotle Mexican Grill",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CMI",
+      "provider_symbol": "CMI",
+      "company_name": "Cummins",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CMS",
+      "provider_symbol": "CMS",
+      "company_name": "CMS Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CNC",
+      "provider_symbol": "CNC",
+      "company_name": "Centene Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CNP",
+      "provider_symbol": "CNP",
+      "company_name": "CenterPoint Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COF",
+      "provider_symbol": "COF",
+      "company_name": "Capital One",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COHR",
+      "provider_symbol": "COHR",
+      "company_name": "Coherent Corp.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COIN",
+      "provider_symbol": "COIN",
+      "company_name": "Coinbase",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COO",
+      "provider_symbol": "COO",
+      "company_name": "Cooper Companies (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COP",
+      "provider_symbol": "COP",
+      "company_name": "ConocoPhillips",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COR",
+      "provider_symbol": "COR",
+      "company_name": "Cencora",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "COST",
+      "provider_symbol": "COST",
+      "company_name": "COSTCO WHOLESALE",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CPAY",
+      "provider_symbol": "CPAY",
+      "company_name": "Corpay",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CPRT",
+      "provider_symbol": "CPRT",
+      "company_name": "COPART, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CPT",
+      "provider_symbol": "CPT",
+      "company_name": "Camden Property Trust",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CRH",
+      "provider_symbol": "CRH",
+      "company_name": "CRH plc",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CRL",
+      "provider_symbol": "CRL",
+      "company_name": "Charles River Laboratories",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CRM",
+      "provider_symbol": "CRM",
+      "company_name": "Salesforce",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CRWD",
+      "provider_symbol": "CRWD",
+      "company_name": "CROWDSTRIKE HLD CM A",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CSCO",
+      "provider_symbol": "CSCO",
+      "company_name": "CISCO SYSTEMS INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CSGP",
+      "provider_symbol": "CSGP",
+      "company_name": "COSTAR GROUP INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CSX",
+      "provider_symbol": "CSX",
+      "company_name": "CSX Corporation",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CTAS",
+      "provider_symbol": "CTAS",
+      "company_name": "CINTAS CORP",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CTSH",
+      "provider_symbol": "CTSH",
+      "company_name": "COGNIZANT TECH SOL",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CTVA",
+      "provider_symbol": "CTVA",
+      "company_name": "Corteva",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CVNA",
+      "provider_symbol": "CVNA",
+      "company_name": "Carvana",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CVS",
+      "provider_symbol": "CVS",
+      "company_name": "CVS Health",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CVX",
+      "provider_symbol": "CVX",
+      "company_name": "Chevron Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "D",
+      "provider_symbol": "D",
+      "company_name": "Dominion Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DAL",
+      "provider_symbol": "DAL",
+      "company_name": "Delta Air Lines",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DASH",
+      "provider_symbol": "DASH",
+      "company_name": "DOORDASH, INC. CL A",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DD",
+      "provider_symbol": "DD",
+      "company_name": "DuPont",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DDOG",
+      "provider_symbol": "DDOG",
+      "company_name": "DATADOG INC.L A CM",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DE",
+      "provider_symbol": "DE",
+      "company_name": "Deere & Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DECK",
+      "provider_symbol": "DECK",
+      "company_name": "Deckers Brands",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DELL",
+      "provider_symbol": "DELL",
+      "company_name": "Dell Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DG",
+      "provider_symbol": "DG",
+      "company_name": "Dollar General",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DGX",
+      "provider_symbol": "DGX",
+      "company_name": "Quest Diagnostics",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DHI",
+      "provider_symbol": "DHI",
+      "company_name": "D. R. Horton",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DHR",
+      "provider_symbol": "DHR",
+      "company_name": "Danaher Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DIS",
+      "provider_symbol": "DIS",
+      "company_name": "Walt Disney Company (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DLR",
+      "provider_symbol": "DLR",
+      "company_name": "Digital Realty",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DLTR",
+      "provider_symbol": "DLTR",
+      "company_name": "Dollar Tree",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DOC",
+      "provider_symbol": "DOC",
+      "company_name": "Healthpeak Properties",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DOV",
+      "provider_symbol": "DOV",
+      "company_name": "Dover Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DOW",
+      "provider_symbol": "DOW",
+      "company_name": "Dow Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DPZ",
+      "provider_symbol": "DPZ",
+      "company_name": "Domino's",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DRI",
+      "provider_symbol": "DRI",
+      "company_name": "Darden Restaurants",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DTE",
+      "provider_symbol": "DTE",
+      "company_name": "DTE Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DUK",
+      "provider_symbol": "DUK",
+      "company_name": "Duke Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DVA",
+      "provider_symbol": "DVA",
+      "company_name": "DaVita",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DVN",
+      "provider_symbol": "DVN",
+      "company_name": "Devon Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "DXCM",
+      "provider_symbol": "DXCM",
+      "company_name": "Dexcom",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EBAY",
+      "provider_symbol": "EBAY",
+      "company_name": "eBay Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ECHO",
+      "provider_symbol": "ECHO",
+      "company_name": "EchoStar",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ECL",
+      "provider_symbol": "ECL",
+      "company_name": "Ecolab",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ED",
+      "provider_symbol": "ED",
+      "company_name": "Consolidated Edison",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EFX",
+      "provider_symbol": "EFX",
+      "company_name": "Equifax",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EG",
+      "provider_symbol": "EG",
+      "company_name": "Everest Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EIX",
+      "provider_symbol": "EIX",
+      "company_name": "Edison International",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EL",
+      "provider_symbol": "EL",
+      "company_name": "Estée Lauder Companies (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ELV",
+      "provider_symbol": "ELV",
+      "company_name": "Elevance Health",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EME",
+      "provider_symbol": "EME",
+      "company_name": "Emcor",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EMR",
+      "provider_symbol": "EMR",
+      "company_name": "Emerson Electric",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EOG",
+      "provider_symbol": "EOG",
+      "company_name": "EOG Resources",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EQIX",
+      "provider_symbol": "EQIX",
+      "company_name": "Equinix",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EQT",
+      "provider_symbol": "EQT",
+      "company_name": "EQT Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ERIE",
+      "provider_symbol": "ERIE",
+      "company_name": "Erie Indemnity",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ES",
+      "provider_symbol": "ES",
+      "company_name": "Eversource Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ESS",
+      "provider_symbol": "ESS",
+      "company_name": "Essex Property Trust",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ETN",
+      "provider_symbol": "ETN",
+      "company_name": "Eaton Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ETR",
+      "provider_symbol": "ETR",
+      "company_name": "Entergy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EVRG",
+      "provider_symbol": "EVRG",
+      "company_name": "Evergy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EW",
+      "provider_symbol": "EW",
+      "company_name": "Edwards Lifesciences",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EXC",
+      "provider_symbol": "EXC",
+      "company_name": "EXELON CORP CMN STK",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EXE",
+      "provider_symbol": "EXE",
+      "company_name": "Expand Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EXPD",
+      "provider_symbol": "EXPD",
+      "company_name": "Expeditors International",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EXPE",
+      "provider_symbol": "EXPE",
+      "company_name": "Expedia Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "EXR",
+      "provider_symbol": "EXR",
+      "company_name": "Extra Space Storage",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "F",
+      "provider_symbol": "F",
+      "company_name": "Ford Motor Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FANG",
+      "provider_symbol": "FANG",
+      "company_name": "Diamondback Energy",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FAST",
+      "provider_symbol": "FAST",
+      "company_name": "FASTENAL CO",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FCX",
+      "provider_symbol": "FCX",
+      "company_name": "Freeport-McMoRan",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FDS",
+      "provider_symbol": "FDS",
+      "company_name": "FactSet",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FDX",
+      "provider_symbol": "FDX",
+      "company_name": "FedEx",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FDXF",
+      "provider_symbol": "FDXF",
+      "company_name": "FedEx Freight",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FE",
+      "provider_symbol": "FE",
+      "company_name": "FirstEnergy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FER",
+      "provider_symbol": "FER",
+      "company_name": "FERROVIAL SE",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FERG",
+      "provider_symbol": "FERG",
+      "company_name": "Ferguson Enterprises",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FFIV",
+      "provider_symbol": "FFIV",
+      "company_name": "F5, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FICO",
+      "provider_symbol": "FICO",
+      "company_name": "Fair Isaac",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FIS",
+      "provider_symbol": "FIS",
+      "company_name": "Fidelity National Information Services",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FISV",
+      "provider_symbol": "FISV",
+      "company_name": "Fiserv",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FITB",
+      "provider_symbol": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FIX",
+      "provider_symbol": "FIX",
+      "company_name": "Comfort Systems USA",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FLEX",
+      "provider_symbol": "FLEX",
+      "company_name": "Flex Ltd.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FOX",
+      "provider_symbol": "FOX",
+      "company_name": "Fox Corporation (Class B)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FOXA",
+      "provider_symbol": "FOXA",
+      "company_name": "Fox Corporation (Class A)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FRT",
+      "provider_symbol": "FRT",
+      "company_name": "Federal Realty Investment Trust",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FSLR",
+      "provider_symbol": "FSLR",
+      "company_name": "First Solar",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FTNT",
+      "provider_symbol": "FTNT",
+      "company_name": "FORTINET, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "FTV",
+      "provider_symbol": "FTV",
+      "company_name": "Fortive",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GD",
+      "provider_symbol": "GD",
+      "company_name": "General Dynamics",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GDDY",
+      "provider_symbol": "GDDY",
+      "company_name": "GoDaddy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GE",
+      "provider_symbol": "GE",
+      "company_name": "GE Aerospace",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GEHC",
+      "provider_symbol": "GEHC",
+      "company_name": "GE HEALTHCARE CM",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GEN",
+      "provider_symbol": "GEN",
+      "company_name": "Gen Digital",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GEV",
+      "provider_symbol": "GEV",
+      "company_name": "GE Vernova",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GILD",
+      "provider_symbol": "GILD",
+      "company_name": "GILEAD SCIENCES, INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GIS",
+      "provider_symbol": "GIS",
+      "company_name": "General Mills",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GL",
+      "provider_symbol": "GL",
+      "company_name": "Globe Life",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GLW",
+      "provider_symbol": "GLW",
+      "company_name": "Corning Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GM",
+      "provider_symbol": "GM",
+      "company_name": "General Motors",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GNRC",
+      "provider_symbol": "GNRC",
+      "company_name": "Generac",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GOOG",
+      "provider_symbol": "GOOG",
+      "company_name": "Alphabet Inc. (Class C)",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GOOGL",
+      "provider_symbol": "GOOGL",
+      "company_name": "Alphabet Inc. (Class A)",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GPC",
+      "provider_symbol": "GPC",
+      "company_name": "Genuine Parts Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GPN",
+      "provider_symbol": "GPN",
+      "company_name": "Global Payments",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GRMN",
+      "provider_symbol": "GRMN",
+      "company_name": "Garmin",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GS",
+      "provider_symbol": "GS",
+      "company_name": "Goldman Sachs",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "GWW",
+      "provider_symbol": "GWW",
+      "company_name": "W. W. Grainger",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HAL",
+      "provider_symbol": "HAL",
+      "company_name": "Halliburton",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HAS",
+      "provider_symbol": "HAS",
+      "company_name": "Hasbro",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HBAN",
+      "provider_symbol": "HBAN",
+      "company_name": "Huntington Bancshares",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HCA",
+      "provider_symbol": "HCA",
+      "company_name": "HCA Healthcare",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HD",
+      "provider_symbol": "HD",
+      "company_name": "Home Depot (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HIG",
+      "provider_symbol": "HIG",
+      "company_name": "Hartford (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HII",
+      "provider_symbol": "HII",
+      "company_name": "Huntington Ingalls Industries",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HLT",
+      "provider_symbol": "HLT",
+      "company_name": "Hilton Worldwide",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HON",
+      "provider_symbol": "HON",
+      "company_name": "Honeywell Technologies",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HONA",
+      "provider_symbol": "HONA",
+      "company_name": "Honeywell Aerospace",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HOOD",
+      "provider_symbol": "HOOD",
+      "company_name": "Robinhood Markets",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HPE",
+      "provider_symbol": "HPE",
+      "company_name": "Hewlett Packard Enterprise",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HPQ",
+      "provider_symbol": "HPQ",
+      "company_name": "HP Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HRL",
+      "provider_symbol": "HRL",
+      "company_name": "Hormel Foods",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HSIC",
+      "provider_symbol": "HSIC",
+      "company_name": "Henry Schein",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HST",
+      "provider_symbol": "HST",
+      "company_name": "Host Hotels & Resorts",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HSY",
+      "provider_symbol": "HSY",
+      "company_name": "Hershey Company (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HUBB",
+      "provider_symbol": "HUBB",
+      "company_name": "Hubbell Incorporated",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HUM",
+      "provider_symbol": "HUM",
+      "company_name": "Humana",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "HWM",
+      "provider_symbol": "HWM",
+      "company_name": "Howmet Aerospace",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IBKR",
+      "provider_symbol": "IBKR",
+      "company_name": "Interactive Brokers",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IBM",
+      "provider_symbol": "IBM",
+      "company_name": "IBM",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ICE",
+      "provider_symbol": "ICE",
+      "company_name": "Intercontinental Exchange",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IDXX",
+      "provider_symbol": "IDXX",
+      "company_name": "Idexx Laboratories",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IEX",
+      "provider_symbol": "IEX",
+      "company_name": "IDEX Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IFF",
+      "provider_symbol": "IFF",
+      "company_name": "International Flavors & Fragrances",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "INCY",
+      "provider_symbol": "INCY",
+      "company_name": "Incyte",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "INSM",
+      "provider_symbol": "INSM",
+      "company_name": "INSMED INCORPORATED",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "INTC",
+      "provider_symbol": "INTC",
+      "company_name": "INTEL CORP",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "INTU",
+      "provider_symbol": "INTU",
+      "company_name": "INTUIT INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "INVH",
+      "provider_symbol": "INVH",
+      "company_name": "Invitation Homes",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IP",
+      "provider_symbol": "IP",
+      "company_name": "International Paper",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IQV",
+      "provider_symbol": "IQV",
+      "company_name": "IQVIA",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IR",
+      "provider_symbol": "IR",
+      "company_name": "Ingersoll Rand",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IRM",
+      "provider_symbol": "IRM",
+      "company_name": "Iron Mountain",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ISRG",
+      "provider_symbol": "ISRG",
+      "company_name": "INTUITIVE SURG, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IT",
+      "provider_symbol": "IT",
+      "company_name": "Gartner",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ITW",
+      "provider_symbol": "ITW",
+      "company_name": "Illinois Tool Works",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "IVZ",
+      "provider_symbol": "IVZ",
+      "company_name": "Invesco",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "J",
+      "provider_symbol": "J",
+      "company_name": "Jacobs Solutions",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "JBHT",
+      "provider_symbol": "JBHT",
+      "company_name": "J.B. Hunt",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "JBL",
+      "provider_symbol": "JBL",
+      "company_name": "Jabil",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "JCI",
+      "provider_symbol": "JCI",
+      "company_name": "Johnson Controls",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "JKHY",
+      "provider_symbol": "JKHY",
+      "company_name": "Jack Henry & Associates",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "JNJ",
+      "provider_symbol": "JNJ",
+      "company_name": "Johnson & Johnson",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "JPM",
+      "provider_symbol": "JPM",
+      "company_name": "JPMorgan Chase",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KDP",
+      "provider_symbol": "KDP",
+      "company_name": "KEURIG DR PEPPER INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KEY",
+      "provider_symbol": "KEY",
+      "company_name": "KeyCorp",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KEYS",
+      "provider_symbol": "KEYS",
+      "company_name": "Keysight Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KHC",
+      "provider_symbol": "KHC",
+      "company_name": "KRAFT HEINZ CO CMN",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KIM",
+      "provider_symbol": "KIM",
+      "company_name": "Kimco Realty",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KKR",
+      "provider_symbol": "KKR",
+      "company_name": "KKR & Co.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KLAC",
+      "provider_symbol": "KLAC",
+      "company_name": "KLA Corporation",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KMB",
+      "provider_symbol": "KMB",
+      "company_name": "Kimberly-Clark",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KMI",
+      "provider_symbol": "KMI",
+      "company_name": "Kinder Morgan",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KO",
+      "provider_symbol": "KO",
+      "company_name": "Coca-Cola Company (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KR",
+      "provider_symbol": "KR",
+      "company_name": "Kroger",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "KVUE",
+      "provider_symbol": "KVUE",
+      "company_name": "Kenvue",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "L",
+      "provider_symbol": "L",
+      "company_name": "Loews Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LDOS",
+      "provider_symbol": "LDOS",
+      "company_name": "Leidos",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LEN",
+      "provider_symbol": "LEN",
+      "company_name": "Lennar",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LH",
+      "provider_symbol": "LH",
+      "company_name": "Labcorp",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LHX",
+      "provider_symbol": "LHX",
+      "company_name": "L3Harris",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LII",
+      "provider_symbol": "LII",
+      "company_name": "Lennox International",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LIN",
+      "provider_symbol": "LIN",
+      "company_name": "Linde plc",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LITE",
+      "provider_symbol": "LITE",
+      "company_name": "Lumentum",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LLY",
+      "provider_symbol": "LLY",
+      "company_name": "Lilly (Eli)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LMT",
+      "provider_symbol": "LMT",
+      "company_name": "Lockheed Martin",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LNT",
+      "provider_symbol": "LNT",
+      "company_name": "Alliant Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LOW",
+      "provider_symbol": "LOW",
+      "company_name": "Lowe's",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LRCX",
+      "provider_symbol": "LRCX",
+      "company_name": "LAM RESEARCH CORP",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LULU",
+      "provider_symbol": "LULU",
+      "company_name": "Lululemon Athletica",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LUV",
+      "provider_symbol": "LUV",
+      "company_name": "Southwest Airlines",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LVS",
+      "provider_symbol": "LVS",
+      "company_name": "Las Vegas Sands",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LYB",
+      "provider_symbol": "LYB",
+      "company_name": "LyondellBasell",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "LYV",
+      "provider_symbol": "LYV",
+      "company_name": "Live Nation Entertainment",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MA",
+      "provider_symbol": "MA",
+      "company_name": "Mastercard",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MAA",
+      "provider_symbol": "MAA",
+      "company_name": "Mid-America Apartment Communities",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MAR",
+      "provider_symbol": "MAR",
+      "company_name": "Marriott International",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MAS",
+      "provider_symbol": "MAS",
+      "company_name": "Masco",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MCD",
+      "provider_symbol": "MCD",
+      "company_name": "McDonald's",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MCHP",
+      "provider_symbol": "MCHP",
+      "company_name": "Microchip Technology",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MCK",
+      "provider_symbol": "MCK",
+      "company_name": "McKesson Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MCO",
+      "provider_symbol": "MCO",
+      "company_name": "Moody's Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MDLZ",
+      "provider_symbol": "MDLZ",
+      "company_name": "Mondelez International",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MDT",
+      "provider_symbol": "MDT",
+      "company_name": "Medtronic",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MELI",
+      "provider_symbol": "MELI",
+      "company_name": "MERCADOLIBRE, INC.",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MET",
+      "provider_symbol": "MET",
+      "company_name": "MetLife",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "META",
+      "provider_symbol": "META",
+      "company_name": "META PLATFORMS, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MGM",
+      "provider_symbol": "MGM",
+      "company_name": "MGM Resorts",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MKC",
+      "provider_symbol": "MKC",
+      "company_name": "McCormick & Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MLM",
+      "provider_symbol": "MLM",
+      "company_name": "Martin Marietta Materials",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MMM",
+      "provider_symbol": "MMM",
+      "company_name": "3M",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MNST",
+      "provider_symbol": "MNST",
+      "company_name": "MONSTER BEVERAGE CP",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MO",
+      "provider_symbol": "MO",
+      "company_name": "Altria",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MOS",
+      "provider_symbol": "MOS",
+      "company_name": "Mosaic Company (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MPC",
+      "provider_symbol": "MPC",
+      "company_name": "Marathon Petroleum",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MPWR",
+      "provider_symbol": "MPWR",
+      "company_name": "MONOLITHIC POWER SYSTEMS, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MRK",
+      "provider_symbol": "MRK",
+      "company_name": "Merck & Co.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MRNA",
+      "provider_symbol": "MRNA",
+      "company_name": "Moderna",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MRSH",
+      "provider_symbol": "MRSH",
+      "company_name": "Marsh McLennan",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MRVL",
+      "provider_symbol": "MRVL",
+      "company_name": "MARVELL TECH INC CMN",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MS",
+      "provider_symbol": "MS",
+      "company_name": "Morgan Stanley",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MSCI",
+      "provider_symbol": "MSCI",
+      "company_name": "MSCI",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MSFT",
+      "provider_symbol": "MSFT",
+      "company_name": "MICROSOFT CORP",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MSI",
+      "provider_symbol": "MSI",
+      "company_name": "Motorola Solutions",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MSTR",
+      "provider_symbol": "MSTR",
+      "company_name": "MICROSTRATEGY INCORPORATED",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MTB",
+      "provider_symbol": "MTB",
+      "company_name": "M&T Bank",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MTD",
+      "provider_symbol": "MTD",
+      "company_name": "Mettler Toledo",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "MU",
+      "provider_symbol": "MU",
+      "company_name": "Micron Technology",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NCLH",
+      "provider_symbol": "NCLH",
+      "company_name": "Norwegian Cruise Line Holdings",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NDAQ",
+      "provider_symbol": "NDAQ",
+      "company_name": "Nasdaq, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NDSN",
+      "provider_symbol": "NDSN",
+      "company_name": "Nordson Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NEE",
+      "provider_symbol": "NEE",
+      "company_name": "NextEra Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NEM",
+      "provider_symbol": "NEM",
+      "company_name": "Newmont",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NFLX",
+      "provider_symbol": "NFLX",
+      "company_name": "NETFLIX, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NI",
+      "provider_symbol": "NI",
+      "company_name": "NiSource",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NKE",
+      "provider_symbol": "NKE",
+      "company_name": "Nike, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NOC",
+      "provider_symbol": "NOC",
+      "company_name": "Northrop Grumman",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NOW",
+      "provider_symbol": "NOW",
+      "company_name": "ServiceNow",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NRG",
+      "provider_symbol": "NRG",
+      "company_name": "NRG Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NSC",
+      "provider_symbol": "NSC",
+      "company_name": "Norfolk Southern",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NTAP",
+      "provider_symbol": "NTAP",
+      "company_name": "NetApp",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NTRS",
+      "provider_symbol": "NTRS",
+      "company_name": "Northern Trust",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NUE",
+      "provider_symbol": "NUE",
+      "company_name": "Nucor",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NVDA",
+      "provider_symbol": "NVDA",
+      "company_name": "NVIDIA CORPORATION",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NVR",
+      "provider_symbol": "NVR",
+      "company_name": "NVR, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NWS",
+      "provider_symbol": "NWS",
+      "company_name": "News Corp (Class B)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NWSA",
+      "provider_symbol": "NWSA",
+      "company_name": "News Corp (Class A)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NXPI",
+      "provider_symbol": "NXPI",
+      "company_name": "NXP Semiconductors",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "O",
+      "provider_symbol": "O",
+      "company_name": "Realty Income",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ODFL",
+      "provider_symbol": "ODFL",
+      "company_name": "OLD DOMINION FREIG",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "OKE",
+      "provider_symbol": "OKE",
+      "company_name": "Oneok",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "OMC",
+      "provider_symbol": "OMC",
+      "company_name": "Omnicom Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ON",
+      "provider_symbol": "ON",
+      "company_name": "ON Semiconductor",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ORCL",
+      "provider_symbol": "ORCL",
+      "company_name": "Oracle Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ORLY",
+      "provider_symbol": "ORLY",
+      "company_name": "O'Reilly Automotive",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "OTIS",
+      "provider_symbol": "OTIS",
+      "company_name": "Otis Worldwide",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "OXY",
+      "provider_symbol": "OXY",
+      "company_name": "Occidental Petroleum",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PANW",
+      "provider_symbol": "PANW",
+      "company_name": "Palo Alto Networks",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PAYX",
+      "provider_symbol": "PAYX",
+      "company_name": "PAYCHEX, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PCAR",
+      "provider_symbol": "PCAR",
+      "company_name": "PACCAR INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PCG",
+      "provider_symbol": "PCG",
+      "company_name": "PG&E Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PDD",
+      "provider_symbol": "PDD",
+      "company_name": "PDD HOLDINGS INC ADS",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PEG",
+      "provider_symbol": "PEG",
+      "company_name": "Public Service Enterprise Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PEP",
+      "provider_symbol": "PEP",
+      "company_name": "PEPSICO INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PFE",
+      "provider_symbol": "PFE",
+      "company_name": "Pfizer",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PFG",
+      "provider_symbol": "PFG",
+      "company_name": "Principal Financial Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PG",
+      "provider_symbol": "PG",
+      "company_name": "Procter & Gamble",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PGR",
+      "provider_symbol": "PGR",
+      "company_name": "Progressive Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PH",
+      "provider_symbol": "PH",
+      "company_name": "Parker Hannifin",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PHM",
+      "provider_symbol": "PHM",
+      "company_name": "PulteGroup",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PKG",
+      "provider_symbol": "PKG",
+      "company_name": "Packaging Corporation of America",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PLD",
+      "provider_symbol": "PLD",
+      "company_name": "Prologis",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PLTR",
+      "provider_symbol": "PLTR",
+      "company_name": "PALANTIR TECHNOLOGIES INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PM",
+      "provider_symbol": "PM",
+      "company_name": "Philip Morris International",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PNC",
+      "provider_symbol": "PNC",
+      "company_name": "PNC Financial Services",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PNR",
+      "provider_symbol": "PNR",
+      "company_name": "Pentair",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PNW",
+      "provider_symbol": "PNW",
+      "company_name": "Pinnacle West Capital",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PODD",
+      "provider_symbol": "PODD",
+      "company_name": "Insulet Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PPG",
+      "provider_symbol": "PPG",
+      "company_name": "PPG Industries",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PPL",
+      "provider_symbol": "PPL",
+      "company_name": "PPL Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PRU",
+      "provider_symbol": "PRU",
+      "company_name": "Prudential Financial",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PSA",
+      "provider_symbol": "PSA",
+      "company_name": "Public Storage",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PSKY",
+      "provider_symbol": "PSKY",
+      "company_name": "Paramount Skydance Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PSX",
+      "provider_symbol": "PSX",
+      "company_name": "Phillips 66",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PTC",
+      "provider_symbol": "PTC",
+      "company_name": "PTC Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PWR",
+      "provider_symbol": "PWR",
+      "company_name": "Quanta Services",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "PYPL",
+      "provider_symbol": "PYPL",
+      "company_name": "PAYPAL HOLDINGS",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "Q",
+      "provider_symbol": "Q",
+      "company_name": "Qnity Electronics",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "QCOM",
+      "provider_symbol": "QCOM",
+      "company_name": "QUALCOMM INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RCL",
+      "provider_symbol": "RCL",
+      "company_name": "Royal Caribbean Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RDDT",
+      "provider_symbol": "RDDT",
+      "company_name": "Reddit",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "REG",
+      "provider_symbol": "REG",
+      "company_name": "Regency Centers",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "REGN",
+      "provider_symbol": "REGN",
+      "company_name": "Regeneron Pharmaceuticals",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RF",
+      "provider_symbol": "RF",
+      "company_name": "Regions Financial Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RJF",
+      "provider_symbol": "RJF",
+      "company_name": "Raymond James Financial",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RL",
+      "provider_symbol": "RL",
+      "company_name": "Ralph Lauren Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RMD",
+      "provider_symbol": "RMD",
+      "company_name": "ResMed|",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ROK",
+      "provider_symbol": "ROK",
+      "company_name": "Rockwell Automation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ROL",
+      "provider_symbol": "ROL",
+      "company_name": "Rollins, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ROP",
+      "provider_symbol": "ROP",
+      "company_name": "Roper Technologies",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ROST",
+      "provider_symbol": "ROST",
+      "company_name": "ROSS STORES, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RSG",
+      "provider_symbol": "RSG",
+      "company_name": "Republic Services",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RTX",
+      "provider_symbol": "RTX",
+      "company_name": "RTX Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RVTY",
+      "provider_symbol": "RVTY",
+      "company_name": "Revvity",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SBAC",
+      "provider_symbol": "SBAC",
+      "company_name": "SBA Communications",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SBUX",
+      "provider_symbol": "SBUX",
+      "company_name": "STARBUCKS CORP",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SCHW",
+      "provider_symbol": "SCHW",
+      "company_name": "Charles Schwab Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SHOP",
+      "provider_symbol": "SHOP",
+      "company_name": "SHOPIFY, INC.",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SHW",
+      "provider_symbol": "SHW",
+      "company_name": "Sherwin-Williams",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SJM",
+      "provider_symbol": "SJM",
+      "company_name": "J.M. Smucker Company (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SLB",
+      "provider_symbol": "SLB",
+      "company_name": "Schlumberger",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SMCI",
+      "provider_symbol": "SMCI",
+      "company_name": "Supermicro",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SNA",
+      "provider_symbol": "SNA",
+      "company_name": "Snap-on",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SNDK",
+      "provider_symbol": "SNDK",
+      "company_name": "Sandisk",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SNPS",
+      "provider_symbol": "SNPS",
+      "company_name": "SYNOPSYS, INC.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SO",
+      "provider_symbol": "SO",
+      "company_name": "Southern Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SOLV",
+      "provider_symbol": "SOLV",
+      "company_name": "Solventum",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SPG",
+      "provider_symbol": "SPG",
+      "company_name": "Simon Property Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SPGI",
+      "provider_symbol": "SPGI",
+      "company_name": "S&P Global",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SRE",
+      "provider_symbol": "SRE",
+      "company_name": "Sempra",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "STE",
+      "provider_symbol": "STE",
+      "company_name": "Steris",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "STLD",
+      "provider_symbol": "STLD",
+      "company_name": "Steel Dynamics",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "STT",
+      "provider_symbol": "STT",
+      "company_name": "State Street Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "STX",
+      "provider_symbol": "STX",
+      "company_name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "STZ",
+      "provider_symbol": "STZ",
+      "company_name": "Constellation Brands",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SW",
+      "provider_symbol": "SW",
+      "company_name": "Smurfit Westrock",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SWK",
+      "provider_symbol": "SWK",
+      "company_name": "Stanley Black & Decker",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SWKS",
+      "provider_symbol": "SWKS",
+      "company_name": "Skyworks Solutions",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SYF",
+      "provider_symbol": "SYF",
+      "company_name": "Synchrony Financial",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SYK",
+      "provider_symbol": "SYK",
+      "company_name": "Stryker Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SYY",
+      "provider_symbol": "SYY",
+      "company_name": "Sysco",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "T",
+      "provider_symbol": "T",
+      "company_name": "AT&T",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TAP",
+      "provider_symbol": "TAP",
+      "company_name": "Molson Coors Beverage Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TDG",
+      "provider_symbol": "TDG",
+      "company_name": "TransDigm Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TDY",
+      "provider_symbol": "TDY",
+      "company_name": "Teledyne Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TEAM",
+      "provider_symbol": "TEAM",
+      "company_name": "ATLASSIAN CLS A CS",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TECH",
+      "provider_symbol": "TECH",
+      "company_name": "Bio-Techne",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TEL",
+      "provider_symbol": "TEL",
+      "company_name": "TE Connectivity",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TER",
+      "provider_symbol": "TER",
+      "company_name": "Teradyne",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TFC",
+      "provider_symbol": "TFC",
+      "company_name": "Truist Financial",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TGT",
+      "provider_symbol": "TGT",
+      "company_name": "Target Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TJX",
+      "provider_symbol": "TJX",
+      "company_name": "TJX Companies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TKO",
+      "provider_symbol": "TKO",
+      "company_name": "TKO Group Holdings",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TMO",
+      "provider_symbol": "TMO",
+      "company_name": "Thermo Fisher Scientific",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TMUS",
+      "provider_symbol": "TMUS",
+      "company_name": "T-MOBILE US CMN",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TPL",
+      "provider_symbol": "TPL",
+      "company_name": "Texas Pacific Land Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TPR",
+      "provider_symbol": "TPR",
+      "company_name": "Tapestry, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TRGP",
+      "provider_symbol": "TRGP",
+      "company_name": "Targa Resources",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TRI",
+      "provider_symbol": "TRI",
+      "company_name": "THOMSON REUTERS CORP",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TRMB",
+      "provider_symbol": "TRMB",
+      "company_name": "Trimble Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TROW",
+      "provider_symbol": "TROW",
+      "company_name": "T. Rowe Price",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TRV",
+      "provider_symbol": "TRV",
+      "company_name": "Travelers Companies (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TSCO",
+      "provider_symbol": "TSCO",
+      "company_name": "Tractor Supply",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TSLA",
+      "provider_symbol": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TSN",
+      "provider_symbol": "TSN",
+      "company_name": "Tyson Foods",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TT",
+      "provider_symbol": "TT",
+      "company_name": "Trane Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TTD",
+      "provider_symbol": "TTD",
+      "company_name": "Trade Desk (The)",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TTWO",
+      "provider_symbol": "TTWO",
+      "company_name": "Take-Two Interactive",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TXN",
+      "provider_symbol": "TXN",
+      "company_name": "Texas Instruments",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TXT",
+      "provider_symbol": "TXT",
+      "company_name": "Textron",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "TYL",
+      "provider_symbol": "TYL",
+      "company_name": "Tyler Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UAL",
+      "provider_symbol": "UAL",
+      "company_name": "United Airlines Holdings",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UBER",
+      "provider_symbol": "UBER",
+      "company_name": "Uber",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UDR",
+      "provider_symbol": "UDR",
+      "company_name": "UDR, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UHS",
+      "provider_symbol": "UHS",
+      "company_name": "Universal Health Services",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ULTA",
+      "provider_symbol": "ULTA",
+      "company_name": "Ulta Beauty",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UNH",
+      "provider_symbol": "UNH",
+      "company_name": "UnitedHealth Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UNP",
+      "provider_symbol": "UNP",
+      "company_name": "Union Pacific Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "UPS",
+      "provider_symbol": "UPS",
+      "company_name": "United Parcel Service",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "URI",
+      "provider_symbol": "URI",
+      "company_name": "United Rentals",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "USB",
+      "provider_symbol": "USB",
+      "company_name": "U.S. Bancorp",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "V",
+      "provider_symbol": "V",
+      "company_name": "Visa Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VEEV",
+      "provider_symbol": "VEEV",
+      "company_name": "Veeva Systems",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VICI",
+      "provider_symbol": "VICI",
+      "company_name": "Vici Properties",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VLO",
+      "provider_symbol": "VLO",
+      "company_name": "Valero Energy",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VLTO",
+      "provider_symbol": "VLTO",
+      "company_name": "Veralto",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VMC",
+      "provider_symbol": "VMC",
+      "company_name": "Vulcan Materials Company",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VMRK",
+      "provider_symbol": "VMRK",
+      "company_name": "Vivmark Residential",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VRSK",
+      "provider_symbol": "VRSK",
+      "company_name": "VERISK ANALYTICS INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VRSN",
+      "provider_symbol": "VRSN",
+      "company_name": "Verisign",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VRT",
+      "provider_symbol": "VRT",
+      "company_name": "Vertiv",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VRTX",
+      "provider_symbol": "VRTX",
+      "company_name": "Vertex Pharmaceuticals",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VST",
+      "provider_symbol": "VST",
+      "company_name": "Vistra Corp.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VTR",
+      "provider_symbol": "VTR",
+      "company_name": "Ventas",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VTRS",
+      "provider_symbol": "VTRS",
+      "company_name": "Viatris",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "VZ",
+      "provider_symbol": "VZ",
+      "company_name": "Verizon",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WAB",
+      "provider_symbol": "WAB",
+      "company_name": "Wabtec",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WAT",
+      "provider_symbol": "WAT",
+      "company_name": "Waters Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WBD",
+      "provider_symbol": "WBD",
+      "company_name": "Warner Bros. Discovery",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WDAY",
+      "provider_symbol": "WDAY",
+      "company_name": "WORKDAY INC CL A",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WDC",
+      "provider_symbol": "WDC",
+      "company_name": "WESTERN DIGITAL CORP.",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WEC",
+      "provider_symbol": "WEC",
+      "company_name": "WEC Energy Group",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WELL",
+      "provider_symbol": "WELL",
+      "company_name": "Welltower",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WFC",
+      "provider_symbol": "WFC",
+      "company_name": "Wells Fargo",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WM",
+      "provider_symbol": "WM",
+      "company_name": "Waste Management",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WMB",
+      "provider_symbol": "WMB",
+      "company_name": "Williams Companies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WMT",
+      "provider_symbol": "WMT",
+      "company_name": "WALMART. INC",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WRB",
+      "provider_symbol": "WRB",
+      "company_name": "W. R. Berkley Corporation",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WSM",
+      "provider_symbol": "WSM",
+      "company_name": "Williams-Sonoma, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WST",
+      "provider_symbol": "WST",
+      "company_name": "West Pharmaceutical Services",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WTW",
+      "provider_symbol": "WTW",
+      "company_name": "Willis Towers Watson",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WY",
+      "provider_symbol": "WY",
+      "company_name": "Weyerhaeuser",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "WYNN",
+      "provider_symbol": "WYNN",
+      "company_name": "Wynn Resorts",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "XEL",
+      "provider_symbol": "XEL",
+      "company_name": "XCEL ENERGY CMN",
+      "indices": [
+        "ndx100",
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "XOM",
+      "provider_symbol": "XOM",
+      "company_name": "ExxonMobil",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "XYL",
+      "provider_symbol": "XYL",
+      "company_name": "Xylem Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "XYZ",
+      "provider_symbol": "XYZ",
+      "company_name": "Block, Inc.",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "YUM",
+      "provider_symbol": "YUM",
+      "company_name": "Yum! Brands",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ZBH",
+      "provider_symbol": "ZBH",
+      "company_name": "Zimmer Biomet",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ZBRA",
+      "provider_symbol": "ZBRA",
+      "company_name": "Zebra Technologies",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "ZTS",
+      "provider_symbol": "ZTS",
+      "company_name": "Zoetis",
+      "indices": [
+        "sp500"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    }
+  ],
+  "diff": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  }
+}

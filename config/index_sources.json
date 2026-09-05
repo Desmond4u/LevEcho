@@ -1,0 +1,18 @@
+{
+  "sp500": {
+    "name": "S&P 500",
+    "parser": "table",
+    "urls": [
+      "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+      "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    ]
+  },
+  "ndx100": {
+    "name": "Nasdaq-100",
+    "parser": "table",
+    "urls": [
+      "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies",
+      "https://www.nasdaq.com/solutions/nasdaq-100/companies"
+    ]
+  }
+}

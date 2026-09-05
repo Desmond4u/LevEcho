@@ -1,0 +1,18 @@
+[
+  {
+    "issuer": "Direxion",
+    "parser": "table",
+    "urls": [
+      "https://www.direxion.com/single-stock-etfs",
+      "https://www.direxion.com/uploads/Single-Stock-ETFs-List.pdf"
+    ]
+  },
+  {
+    "issuer": "ProShares",
+    "parser": "table",
+    "urls": [
+      "https://www.proshares.com/our-etfs/leveraged-and-inverse",
+      "https://www.proshares.com/resources/data-downloads"
+    ]
+  }
+]
