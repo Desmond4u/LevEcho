@@ -2,7 +2,12 @@ import math
 
 import pytest
 
-from levecho.model import ModelInputError, solve_etf_price, solve_stock_price
+from levecho.model import (
+    ModelInputError,
+    price_from_return,
+    solve_etf_price,
+    solve_stock_price,
+)
 
 
 def test_example_works_in_both_directions() -> None:
@@ -15,6 +20,25 @@ def test_next_session_example_uses_previous_close_as_base() -> None:
 
     assert theoretical_etf == pytest.approx(18.5572413793)
     assert solve_stock_price(1740, 17.36, 2, theoretical_etf) == pytest.approx(1800)
+
+
+@pytest.mark.parametrize(
+    ("base_price", "return_rate", "expected"),
+    [(100, 0.10, 110), (100, -0.20, 80), (17.36, 0, 17.36)],
+)
+def test_price_from_return(base_price: float, return_rate: float, expected: float) -> None:
+    assert price_from_return(base_price, return_rate) == pytest.approx(expected)
+
+
+@pytest.mark.parametrize(
+    ("base_price", "return_rate"),
+    [(100, -1), (100, -1.1), (0, 0), (100, math.nan), (100, math.inf)],
+)
+def test_price_from_return_rejects_invalid_inputs(
+    base_price: float, return_rate: float
+) -> None:
+    with pytest.raises(ModelInputError):
+        price_from_return(base_price, return_rate)
 
 
 @pytest.mark.parametrize("leverage", [3, -2, -3])
