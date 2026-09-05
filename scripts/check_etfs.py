@@ -55,6 +55,7 @@ def main() -> int:
 
     universe_payload = load_json(args.universe, default={}) or {}
     existing_payload = load_json(args.approved, default={}) or {}
+    existing_pending_payload = load_json(args.pending, default={}) or {}
     source_configs = load_json(args.sources, default=[]) or []
     universe = universe_payload.get("constituents", [])
     existing = existing_payload.get("pairs", [])
@@ -63,6 +64,13 @@ def main() -> int:
     proposed, changed_pending = merge_approved_pairs(existing, discovered)
     pending.extend(changed_pending)
     updated_at = utc_now_iso()
+
+    same_pairs = proposed == existing_payload.get("pairs", [])
+    same_pending = pending == existing_pending_payload.get("candidates", [])
+    same_errors = source_errors == existing_pending_payload.get("source_errors", [])
+    if same_pairs and same_pending and same_errors and Path(args.proposal).exists() and Path(args.report).exists():
+        print(f"No ETF mapping changes detected (approved={len(proposed)} pending={len(pending)}).")
+        return 0
 
     write_json(
         args.proposal,

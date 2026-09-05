@@ -43,6 +43,9 @@ def main() -> int:
     approved = load_json(args.approved, default={})
     old = approved.get("constituents", [])
     diff = constituent_diff(old, merged)
+    if not any(diff.values()):
+        print(f"No constituent changes detected ({len(merged)} constituents).")
+        return 0
     candidate = {
         "model_version": "1.0",
         "source_status": "success",

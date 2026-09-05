@@ -240,11 +240,13 @@ def constituent_diff(old: Iterable[dict[str, Any]], new: Iterable[dict[str, Any]
             "company_name": old_map[key].get("company_name"),
             "indices": old_map[key].get("indices"),
             "provider_symbol": old_map[key].get("provider_symbol"),
+            "source_urls": old_map[key].get("source_urls"),
         }
         != {
             "company_name": new_map[key].get("company_name"),
             "indices": new_map[key].get("indices"),
             "provider_symbol": new_map[key].get("provider_symbol"),
+            "source_urls": new_map[key].get("source_urls"),
         }
     ]
     return {"added": added, "removed": removed, "changed": changed}

@@ -40,15 +40,22 @@ def _refresh_pairs(universe_path: str, pairs_path: str, pending_path: str, sourc
         "source_errors": discovery_errors,
         "candidates": pending,
     }
-    write_json(pending_path, pending_payload)
-    write_json(
-        pairs_path,
-        {
-            "model_version": "1.0",
-            "updated_at": utc_now_iso(),
-            "pairs": merged,
-        },
-    )
+    existing_pending_payload = load_json(pending_path, default={}) or {}
+    if (
+        pending_payload.get("source_errors") != existing_pending_payload.get("source_errors", [])
+        or pending_payload.get("candidates") != existing_pending_payload.get("candidates", [])
+        or not Path(pending_path).exists()
+    ):
+        write_json(pending_path, pending_payload)
+    if merged != existing or not Path(pairs_path).exists():
+        write_json(
+            pairs_path,
+            {
+                "model_version": "1.0",
+                "updated_at": utc_now_iso(),
+                "pairs": merged,
+            },
+        )
     return [PairConfig.from_mapping(item) for item in merged if item.get("status", "active") == "active"]
 
 
