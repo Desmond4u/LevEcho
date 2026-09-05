@@ -10,6 +10,13 @@ def test_example_works_in_both_directions() -> None:
     assert solve_etf_price(100, 10, 2, 110) == pytest.approx(12)
 
 
+def test_next_session_example_uses_previous_close_as_base() -> None:
+    theoretical_etf = solve_etf_price(1740, 17.36, 2, 1800)
+
+    assert theoretical_etf == pytest.approx(18.5572413793)
+    assert solve_stock_price(1740, 17.36, 2, theoretical_etf) == pytest.approx(1800)
+
+
 @pytest.mark.parametrize("leverage", [3, -2, -3])
 def test_signed_leverage_is_supported(leverage: float) -> None:
     stock_input = 105

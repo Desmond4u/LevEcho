@@ -72,6 +72,10 @@ def build_pair_snapshot(
         "source_url": pair.source_url,
         "confidence": pair.confidence,
         "status": pair.status,
+        # The latest common close is the reference for the next target session.
+        "calculation_base_session": as_of_session.isoformat(),
+        "calculation_base_stock_close": stock_latest.close,
+        "calculation_base_etf_close": etf_latest.close,
         "base_session": base_session.isoformat(),
         "as_of_session": as_of_session.isoformat(),
         "base_stock_close": stock_base.close,
@@ -115,11 +119,15 @@ def build_snapshot(pairs: Iterable[PairConfig], fetched: FetchResult) -> dict[st
     if len(as_of_sessions) != 1 or len(base_sessions) != 1:
         raise SnapshotBuildError("active pairs do not share the same latest/base session")
 
+    as_of_session = next(iter(as_of_sessions))
+    base_session = next(iter(base_sessions))
+
     return {
         "model_version": "1.0",
         "source_status": "success",
-        "base_session": next(iter(base_sessions)),
-        "as_of_session": next(iter(as_of_sessions)),
+        "calculation_base_session": as_of_session,
+        "base_session": base_session,
+        "as_of_session": as_of_session,
         "published_at": utc_now_iso(),
         "pairs": sorted(snapshots, key=lambda item: item["pair_id"]),
     }

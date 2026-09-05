@@ -25,6 +25,10 @@ def test_snapshot_contains_tracking_error() -> None:
     assert item["stock_return"] == pytest.approx(0.1)
     assert item["ideal_etf_return"] == pytest.approx(0.2)
     assert item["tracking_error"] == pytest.approx(0)
+    assert snapshot["calculation_base_session"] == "2026-09-04"
+    assert item["calculation_base_session"] == "2026-09-04"
+    assert item["calculation_base_stock_close"] == pytest.approx(110)
+    assert item["calculation_base_etf_close"] == pytest.approx(12)
 
 
 def test_mismatched_latest_sessions_do_not_publish() -> None:
