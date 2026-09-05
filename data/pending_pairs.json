@@ -1,10 +1,7 @@
 {
   "model_version": "1.0",
-  "updated_at": "2026-09-05T12:38:20Z",
-  "source_errors": [
-    "ProShares https://www.proshares.com/our-etfs/leveraged-and-inverse: DiscoverySourceError: unable to read issuer tables from https://www.proshares.com/our-etfs/leveraged-and-inverse: No tables found",
-    "ProShares https://www.proshares.com/resources/data-downloads: DiscoverySourceError: unable to read issuer tables from https://www.proshares.com/resources/data-downloads: No tables found"
-  ],
+  "updated_at": "2026-09-05T14:11:07Z",
+  "source_errors": [],
   "candidates": [
     {
       "ticker": "AAPD",
@@ -66,6 +63,19 @@
       "leverage": -1.0,
       "issuer": "Direxion",
       "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "single_stock": true,
+      "reason": "unsupported leverage; v1 supports signed 2x and 3x only",
+      "status": "pending_review"
+    },
+    {
+      "ticker": "DSPC",
+      "fund_name": "1x Short SPCX Daily ETF",
+      "reference_symbol": "SPCX",
+      "reference_text": "SPCX",
+      "leverage": -1.0,
+      "issuer": "Leverage Shares",
+      "source_url": "https://leverageshares.com/us/all-etfs?category=Daily+Leveraged",
       "confidence": "high",
       "single_stock": true,
       "reason": "unsupported leverage; v1 supports signed 2x and 3x only",
@@ -150,6 +160,19 @@
       "status": "pending_review"
     },
     {
+      "ticker": "NVDS",
+      "fund_name": "Tradr 1.5X Short NVDA Daily ETF",
+      "reference_symbol": "NVDA",
+      "reference_text": "NVDA",
+      "leverage": -1.5,
+      "issuer": "Tradr",
+      "source_url": "https://www.tradretfs.com/etfs",
+      "confidence": "high",
+      "single_stock": true,
+      "reason": "unsupported leverage; v1 supports signed 2x and 3x only",
+      "status": "pending_review"
+    },
+    {
       "ticker": "ORCS",
       "fund_name": "nan",
       "reference_symbol": "ORCL",
@@ -196,6 +219,19 @@
       "leverage": -1.0,
       "issuer": "Direxion",
       "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "single_stock": true,
+      "reason": "unsupported leverage; v1 supports signed 2x and 3x only",
+      "status": "pending_review"
+    },
+    {
+      "ticker": "TSL",
+      "fund_name": "GraniteShares 1.25x Long TSLA Daily ETF",
+      "reference_symbol": "TSLA",
+      "reference_text": "1.25x long exposure to Tesla Inc (TSLA)",
+      "leverage": 1.25,
+      "issuer": "GraniteShares",
+      "source_url": "https://www.graniteshares.com/etfs/?category=leveraged",
       "confidence": "high",
       "single_stock": true,
       "reason": "unsupported leverage; v1 supports signed 2x and 3x only",

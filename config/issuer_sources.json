@@ -11,8 +11,43 @@
     "issuer": "ProShares",
     "parser": "table",
     "urls": [
-      "https://www.proshares.com/our-etfs/leveraged-and-inverse",
-      "https://www.proshares.com/resources/data-downloads"
+      "https://www.proshares.com/our-etfs/find-leveraged-and-inverse-etfs?product=Product%20Overview&strategy=Single%20Stock",
+      "https://www.proshares.com/our-etfs/leveraged-and-inverse"
+    ]
+  },
+  {
+    "issuer": "Tradr",
+    "parser": "table",
+    "urls": [
+      "https://www.tradretfs.com/etfs"
+    ]
+  },
+  {
+    "issuer": "GraniteShares",
+    "parser": "graniteshares_cards",
+    "urls": [
+      "https://www.graniteshares.com/etfs/?category=leveraged"
+    ]
+  },
+  {
+    "issuer": "T-REX",
+    "parser": "trex_page",
+    "urls": [
+      "https://www.tuttlecap.com/etfs"
+    ]
+  },
+  {
+    "issuer": "Leverage Shares",
+    "parser": "leverage_shares_page",
+    "urls": [
+      "https://leverageshares.com/us/all-etfs?category=Daily+Leveraged"
+    ]
+  },
+  {
+    "issuer": "Defiance",
+    "parser": "defiance_cards",
+    "urls": [
+      "https://www.defianceetfs.com/prospectuses/"
     ]
   }
 ]

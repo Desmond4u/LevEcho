@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
+import json
+import subprocess
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from io import StringIO
 from typing import Iterable, Protocol
+from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 
 import pandas as pd
@@ -139,30 +142,69 @@ class NasdaqProvider:
     def _request_symbol(symbol: str) -> str:
         return symbol.upper().replace("-", ".")
 
+    @staticmethod
+    def _request_json(
+        url: str,
+        params: dict[str, str | int],
+        headers: dict[str, str],
+        timeout: int,
+    ) -> dict:
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=timeout)
+            response.raise_for_status()
+            return response.json()
+        except Exception as request_error:  # noqa: BLE001 - try the transport fallback
+            try:
+                result = subprocess.run(
+                    [
+                        "curl",
+                        "--fail",
+                        "--silent",
+                        "--show-error",
+                        "--location",
+                        "--max-time",
+                        str(timeout),
+                        "--user-agent",
+                        headers["User-Agent"],
+                        "--header",
+                        f"Accept: {headers['Accept']}",
+                        "--header",
+                        f"Origin: {headers['Origin']}",
+                        "--header",
+                        f"Referer: {headers['Referer']}",
+                        f"{url}?{urlencode(params)}",
+                    ],
+                    check=True,
+                    capture_output=True,
+                    timeout=timeout + 5,
+                )
+                return json.loads(result.stdout.decode("utf-8"))
+            except Exception as curl_error:  # noqa: BLE001 - surface both failures
+                raise DataSourceError(
+                    f"requests failed ({type(request_error).__name__}: {request_error}); "
+                    f"curl failed ({type(curl_error).__name__}: {curl_error})"
+                ) from request_error
+
     def _fetch_one(self, symbol: str, asset_class: str, lookback_days: int) -> list[PriceBar]:
         today = datetime.now(ZoneInfo("America/New_York")).date()
         from_date = today - timedelta(days=max(30, lookback_days * 3))
-        response = requests.get(
-            f"https://api.nasdaq.com/api/quote/{self._request_symbol(symbol)}/historical",
-            params={
-                "assetclass": asset_class,
-                "fromdate": from_date.isoformat(),
-                "todate": today.isoformat(),
-                "limit": max(20, lookback_days * 2),
-            },
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
-                ),
-                "Accept": "application/json, text/plain, */*",
-                "Origin": "https://www.nasdaq.com",
-                "Referer": "https://www.nasdaq.com/",
-            },
-            timeout=self.timeout,
-        )
-        response.raise_for_status()
-        payload = response.json()
+        url = f"https://api.nasdaq.com/api/quote/{self._request_symbol(symbol)}/historical"
+        params = {
+            "assetclass": asset_class,
+            "fromdate": from_date.isoformat(),
+            "todate": today.isoformat(),
+            "limit": max(20, lookback_days * 2),
+        }
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+            ),
+            "Accept": "application/json, text/plain, */*",
+            "Origin": "https://www.nasdaq.com",
+            "Referer": "https://www.nasdaq.com/",
+        }
+        payload = self._request_json(url, params, headers, self.timeout)
         data = payload.get("data") or {}
         table = data.get("tradesTable") or {}
         rows = table.get("rows") or []

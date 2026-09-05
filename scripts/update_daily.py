@@ -76,7 +76,7 @@ def main() -> int:
     symbols = []
     for pair in pairs:
         symbols.extend((pair.underlying_provider_symbol, pair.etf_provider_symbol))
-    provider = FallbackProvider(NasdaqProvider(), YFinanceProvider())
+    provider = FallbackProvider(YFinanceProvider(), NasdaqProvider())
     fetched = provider.fetch(symbols, lookback_days=15)
     try:
         snapshot = build_snapshot(pairs, fetched)

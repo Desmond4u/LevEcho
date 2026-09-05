@@ -20,6 +20,16 @@ def _render_report(
 ) -> str:
     lines = ["# ETF mapping review", "", f"Generated at: `{updated_at}`", ""]
     lines.extend([f"Approved active pairs in proposal: **{len(approved)}**", ""])
+    issuer_counts: dict[str, int] = {}
+    for item in approved:
+        issuer = str(item.get("issuer") or "Unknown")
+        issuer_counts[issuer] = issuer_counts.get(issuer, 0) + 1
+    lines.extend(["## Approved pairs by issuer", ""])
+    lines.extend(
+        f"- `{issuer}`: **{count}**"
+        for issuer, count in sorted(issuer_counts.items())
+    )
+    lines.append("")
     lines.extend([f"Pending records: **{len(pending)}**", ""])
     if errors:
         lines.extend(["## Source errors", ""])
