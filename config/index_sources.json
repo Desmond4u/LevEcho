@@ -1,18 +1,35 @@
 {
   "sp500": {
     "name": "S&P 500",
-    "parser": "table",
-    "urls": [
-      "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
-      "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    "sources": [
+      {
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+        "parser": "html"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "parser": "html"
+      }
     ]
   },
   "ndx100": {
     "name": "Nasdaq-100",
-    "parser": "table",
-    "urls": [
-      "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies",
-      "https://www.nasdaq.com/solutions/nasdaq-100/companies"
+    "sources": [
+      {
+        "url": "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "parser": "nasdaq_api",
+        "minimum_records": 100
+      },
+      {
+        "url": "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies",
+        "parser": "html",
+        "minimum_records": 100
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_NASDAQ-100_companies",
+        "parser": "html",
+        "minimum_records": 100
+      }
     ]
   }
 }

@@ -35,7 +35,11 @@ def main() -> int:
     groups = {}
     source_urls = {}
     for index_id, config in source_configs.items():
-        constituents, source_url = fetch_index_constituents(index_id, config["urls"], source_asof)
+        sources = config.get("sources")
+        if sources is None:
+            parser_name = config.get("parser", "html")
+            sources = [{"url": url, "parser": parser_name} for url in config.get("urls", [])]
+        constituents, source_url = fetch_index_constituents(index_id, sources, source_asof)
         groups[index_id] = constituents
         source_urls[index_id] = source_url
 

@@ -2,10 +2,10 @@
   "model_version": "1.0",
   "source_status": "success",
   "source_asof": "2026-09-05",
-  "updated_at": "2026-09-05T12:38:31Z",
+  "updated_at": "2026-09-05T13:04:47Z",
   "source_urls": {
     "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-    "ndx100": "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+    "ndx100": "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
   },
   "constituents": [
     {
@@ -24,15 +24,15 @@
     {
       "display_symbol": "AAPL",
       "provider_symbol": "AAPL",
-      "company_name": "Apple Inc.",
+      "company_name": "Apple Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -52,15 +52,15 @@
     {
       "display_symbol": "ABNB",
       "provider_symbol": "ABNB",
-      "company_name": "AIRBNB, INC CL A CMN",
+      "company_name": "Airbnb, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -106,30 +106,30 @@
     {
       "display_symbol": "ADBE",
       "provider_symbol": "ADBE",
-      "company_name": "Adobe Inc.",
+      "company_name": "Adobe Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "ADI",
       "provider_symbol": "ADI",
-      "company_name": "ANALOG DEVICES CMN",
+      "company_name": "Analog Devices, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -149,30 +149,30 @@
     {
       "display_symbol": "ADP",
       "provider_symbol": "ADP",
-      "company_name": "Automatic Data Processing",
+      "company_name": "Automatic Data Processing, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "ADSK",
       "provider_symbol": "ADSK",
-      "company_name": "AUTODESK INC",
+      "company_name": "Autodesk, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -192,15 +192,15 @@
     {
       "display_symbol": "AEP",
       "provider_symbol": "AEP",
-      "company_name": "American Electric Power",
+      "company_name": "American Electric Power Company, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -283,6 +283,19 @@
       "active": true
     },
     {
+      "display_symbol": "ALAB",
+      "provider_symbol": "ALAB",
+      "company_name": "Astera Labs, Inc. Common Stock",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+      ],
+      "active": true
+    },
+    {
       "display_symbol": "ALB",
       "provider_symbol": "ALB",
       "company_name": "Albemarle Corporation",
@@ -337,28 +350,28 @@
     {
       "display_symbol": "ALNY",
       "provider_symbol": "ALNY",
-      "company_name": "ALNYLAM PHARMACEUTICALS, INC.",
+      "company_name": "Alnylam Pharmaceuticals, Inc. Common Stock",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
     {
       "display_symbol": "AMAT",
       "provider_symbol": "AMAT",
-      "company_name": "Applied Materials",
+      "company_name": "Applied Materials, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -378,15 +391,15 @@
     {
       "display_symbol": "AMD",
       "provider_symbol": "AMD",
-      "company_name": "Advanced Micro Devices",
+      "company_name": "Advanced Micro Devices, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -406,15 +419,15 @@
     {
       "display_symbol": "AMGN",
       "provider_symbol": "AMGN",
-      "company_name": "Amgen",
+      "company_name": "Amgen Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -447,15 +460,15 @@
     {
       "display_symbol": "AMZN",
       "provider_symbol": "AMZN",
-      "company_name": "AMAZON.COM INC",
+      "company_name": "Amazon.com, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -553,15 +566,15 @@
     {
       "display_symbol": "APP",
       "provider_symbol": "APP",
-      "company_name": "APPLOVIN CORP CLA CM",
+      "company_name": "Applovin Corporation Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -607,26 +620,26 @@
     {
       "display_symbol": "ARM",
       "provider_symbol": "ARM",
-      "company_name": "ARM HOLDINGS PLC ADS",
+      "company_name": "Arm Holdings plc American Depositary Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
     {
       "display_symbol": "ASML",
       "provider_symbol": "ASML",
-      "company_name": "ASML HLDG NY REG",
+      "company_name": "ASML Holding N.V. New York Registry Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -646,15 +659,15 @@
     {
       "display_symbol": "AVGO",
       "provider_symbol": "AVGO",
-      "company_name": "BROADCOM INC.",
+      "company_name": "Broadcom Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -687,15 +700,15 @@
     {
       "display_symbol": "AXON",
       "provider_symbol": "AXON",
-      "company_name": "AXON ENTERPRISE, INC",
+      "company_name": "Axon Enterprise, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -858,30 +871,30 @@
     {
       "display_symbol": "BKNG",
       "provider_symbol": "BKNG",
-      "company_name": "BOOKING HOLDINGS INC",
+      "company_name": "Booking Holdings Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "BKR",
       "provider_symbol": "BKR",
-      "company_name": "BAKER HUGHES CO",
+      "company_name": "Baker Hughes Company Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1122,13 +1135,13 @@
     {
       "display_symbol": "CCEP",
       "provider_symbol": "CCEP",
-      "company_name": "COCA-COLA EUROPACIFI",
+      "company_name": "Coca-Cola Europacific Partners plc Ordinary Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -1161,15 +1174,15 @@
     {
       "display_symbol": "CDNS",
       "provider_symbol": "CDNS",
-      "company_name": "Cadence Design Systems",
+      "company_name": "Cadence Design Systems, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1189,15 +1202,15 @@
     {
       "display_symbol": "CEG",
       "provider_symbol": "CEG",
-      "company_name": "Constellation Energy",
+      "company_name": "Constellation Energy Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1258,13 +1271,11 @@
       "provider_symbol": "CHTR",
       "company_name": "Charter Communications",
       "indices": [
-        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1336,15 +1347,15 @@
     {
       "display_symbol": "CMCSA",
       "provider_symbol": "CMCSA",
-      "company_name": "COMCAST CORP A",
+      "company_name": "Comcast Corporation Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1507,15 +1518,15 @@
     {
       "display_symbol": "COST",
       "provider_symbol": "COST",
-      "company_name": "COSTCO WHOLESALE",
+      "company_name": "Costco Wholesale Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1535,15 +1546,15 @@
     {
       "display_symbol": "CPRT",
       "provider_symbol": "CPRT",
-      "company_name": "COPART, INC.",
+      "company_name": "Copart, Inc. (DE) Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1602,90 +1613,99 @@
     {
       "display_symbol": "CRWD",
       "provider_symbol": "CRWD",
-      "company_name": "CROWDSTRIKE HLD CM A",
+      "company_name": "CrowdStrike Holdings, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "CRWV",
+      "provider_symbol": "CRWV",
+      "company_name": "CoreWeave, Inc. Class A Common Stock",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
     {
       "display_symbol": "CSCO",
       "provider_symbol": "CSCO",
-      "company_name": "CISCO SYSTEMS INC.",
+      "company_name": "Cisco Systems, Inc. Common Stock (DE)",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "CSGP",
       "provider_symbol": "CSGP",
-      "company_name": "COSTAR GROUP INC",
+      "company_name": "CoStar Group",
       "indices": [
-        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "CSX",
       "provider_symbol": "CSX",
-      "company_name": "CSX Corporation",
+      "company_name": "CSX Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "CTAS",
       "provider_symbol": "CTAS",
-      "company_name": "CINTAS CORP",
+      "company_name": "Cintas Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "CTSH",
       "provider_symbol": "CTSH",
-      "company_name": "COGNIZANT TECH SOL",
+      "company_name": "Cognizant",
       "indices": [
-        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1770,15 +1790,15 @@
     {
       "display_symbol": "DASH",
       "provider_symbol": "DASH",
-      "company_name": "DOORDASH, INC. CL A",
+      "company_name": "DoorDash, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -1798,15 +1818,15 @@
     {
       "display_symbol": "DDOG",
       "provider_symbol": "DDOG",
-      "company_name": "DATADOG INC.L A CM",
+      "company_name": "Datadog, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2060,15 +2080,15 @@
     {
       "display_symbol": "DXCM",
       "provider_symbol": "DXCM",
-      "company_name": "Dexcom",
+      "company_name": "DexCom, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2348,15 +2368,15 @@
     {
       "display_symbol": "EXC",
       "provider_symbol": "EXC",
-      "company_name": "EXELON CORP CMN STK",
+      "company_name": "Exelon Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2428,30 +2448,30 @@
     {
       "display_symbol": "FANG",
       "provider_symbol": "FANG",
-      "company_name": "Diamondback Energy",
+      "company_name": "Diamondback Energy, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "FAST",
       "provider_symbol": "FAST",
-      "company_name": "FASTENAL CO",
+      "company_name": "Fastenal Company Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2523,13 +2543,13 @@
     {
       "display_symbol": "FER",
       "provider_symbol": "FER",
-      "company_name": "FERROVIAL SE",
+      "company_name": "Ferrovial N.V. Ordinary Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -2692,15 +2712,15 @@
     {
       "display_symbol": "FTNT",
       "provider_symbol": "FTNT",
-      "company_name": "FORTINET, INC.",
+      "company_name": "Fortinet, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2759,15 +2779,15 @@
     {
       "display_symbol": "GEHC",
       "provider_symbol": "GEHC",
-      "company_name": "GE HEALTHCARE CM",
+      "company_name": "GE HealthCare Technologies Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2800,15 +2820,15 @@
     {
       "display_symbol": "GILD",
       "provider_symbol": "GILD",
-      "company_name": "GILEAD SCIENCES, INC",
+      "company_name": "Gilead Sciences, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -2880,30 +2900,30 @@
     {
       "display_symbol": "GOOG",
       "provider_symbol": "GOOG",
-      "company_name": "Alphabet Inc. (Class C)",
+      "company_name": "Alphabet Inc. Class C Capital Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "GOOGL",
       "provider_symbol": "GOOGL",
-      "company_name": "Alphabet Inc. (Class A)",
+      "company_name": "Alphabet Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3079,27 +3099,29 @@
     {
       "display_symbol": "HON",
       "provider_symbol": "HON",
-      "company_name": "Honeywell Technologies",
+      "company_name": "Honeywell International Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "HONA",
       "provider_symbol": "HONA",
-      "company_name": "Honeywell Aerospace",
+      "company_name": "Honeywell Aerospace Inc. Common Stock",
       "indices": [
+        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
@@ -3276,15 +3298,15 @@
     {
       "display_symbol": "IDXX",
       "provider_symbol": "IDXX",
-      "company_name": "Idexx Laboratories",
+      "company_name": "IDEXX Laboratories, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3328,45 +3350,32 @@
       "active": true
     },
     {
-      "display_symbol": "INSM",
-      "provider_symbol": "INSM",
-      "company_name": "INSMED INCORPORATED",
-      "indices": [
-        "ndx100"
-      ],
-      "source_asof": "2026-09-05",
-      "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
-      ],
-      "active": true
-    },
-    {
       "display_symbol": "INTC",
       "provider_symbol": "INTC",
-      "company_name": "INTEL CORP",
+      "company_name": "Intel Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "INTU",
       "provider_symbol": "INTU",
-      "company_name": "INTUIT INC",
+      "company_name": "Intuit Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3438,15 +3447,15 @@
     {
       "display_symbol": "ISRG",
       "provider_symbol": "ISRG",
-      "company_name": "INTUITIVE SURG, INC.",
+      "company_name": "Intuitive Surgical, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3583,15 +3592,15 @@
     {
       "display_symbol": "KDP",
       "provider_symbol": "KDP",
-      "company_name": "KEURIG DR PEPPER INC",
+      "company_name": "Keurig Dr Pepper Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3624,15 +3633,15 @@
     {
       "display_symbol": "KHC",
       "provider_symbol": "KHC",
-      "company_name": "KRAFT HEINZ CO CMN",
+      "company_name": "The Kraft Heinz Company Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3665,15 +3674,15 @@
     {
       "display_symbol": "KLAC",
       "provider_symbol": "KLAC",
-      "company_name": "KLA Corporation",
+      "company_name": "KLA Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -3823,27 +3832,29 @@
     {
       "display_symbol": "LIN",
       "provider_symbol": "LIN",
-      "company_name": "Linde plc",
+      "company_name": "Linde plc Ordinary Shares",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "LITE",
       "provider_symbol": "LITE",
-      "company_name": "Lumentum",
+      "company_name": "Lumentum Holdings Inc. Common Stock",
       "indices": [
+        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
@@ -3903,15 +3914,15 @@
     {
       "display_symbol": "LRCX",
       "provider_symbol": "LRCX",
-      "company_name": "LAM RESEARCH CORP",
+      "company_name": "Lam Research Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4009,15 +4020,15 @@
     {
       "display_symbol": "MAR",
       "provider_symbol": "MAR",
-      "company_name": "Marriott International",
+      "company_name": "Marriott International Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4050,15 +4061,15 @@
     {
       "display_symbol": "MCHP",
       "provider_symbol": "MCHP",
-      "company_name": "Microchip Technology",
+      "company_name": "Microchip Technology Incorporated Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4091,15 +4102,15 @@
     {
       "display_symbol": "MDLZ",
       "provider_symbol": "MDLZ",
-      "company_name": "Mondelez International",
+      "company_name": "Mondelez International, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4119,13 +4130,13 @@
     {
       "display_symbol": "MELI",
       "provider_symbol": "MELI",
-      "company_name": "MERCADOLIBRE, INC.",
+      "company_name": "MercadoLibre, Inc. Common Stock",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -4145,15 +4156,15 @@
     {
       "display_symbol": "META",
       "provider_symbol": "META",
-      "company_name": "META PLATFORMS, INC.",
+      "company_name": "Meta Platforms, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4212,15 +4223,15 @@
     {
       "display_symbol": "MNST",
       "provider_symbol": "MNST",
-      "company_name": "MONSTER BEVERAGE CP",
+      "company_name": "Monster Beverage Corporation",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4266,15 +4277,15 @@
     {
       "display_symbol": "MPWR",
       "provider_symbol": "MPWR",
-      "company_name": "MONOLITHIC POWER SYSTEMS, INC.",
+      "company_name": "Monolithic Power Systems, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4320,15 +4331,15 @@
     {
       "display_symbol": "MRVL",
       "provider_symbol": "MRVL",
-      "company_name": "MARVELL TECH INC CMN",
+      "company_name": "Marvell Technology, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4361,15 +4372,15 @@
     {
       "display_symbol": "MSFT",
       "provider_symbol": "MSFT",
-      "company_name": "MICROSOFT CORP",
+      "company_name": "Microsoft Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4389,13 +4400,13 @@
     {
       "display_symbol": "MSTR",
       "provider_symbol": "MSTR",
-      "company_name": "MICROSTRATEGY INCORPORATED",
+      "company_name": "Strategy Inc Common Stock Class A",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -4428,13 +4439,28 @@
     {
       "display_symbol": "MU",
       "provider_symbol": "MU",
-      "company_name": "Micron Technology",
+      "company_name": "Micron Technology, Inc. Common Stock",
       "indices": [
+        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "NBIS",
+      "provider_symbol": "NBIS",
+      "company_name": "Nebius Group N.V. Class A Ordinary Shares",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -4506,15 +4532,15 @@
     {
       "display_symbol": "NFLX",
       "provider_symbol": "NFLX",
-      "company_name": "NETFLIX, INC.",
+      "company_name": "Netflix, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4638,15 +4664,15 @@
     {
       "display_symbol": "NVDA",
       "provider_symbol": "NVDA",
-      "company_name": "NVIDIA CORPORATION",
+      "company_name": "NVIDIA Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4692,15 +4718,15 @@
     {
       "display_symbol": "NXPI",
       "provider_symbol": "NXPI",
-      "company_name": "NXP Semiconductors",
+      "company_name": "NXP Semiconductors N.V. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4720,15 +4746,15 @@
     {
       "display_symbol": "ODFL",
       "provider_symbol": "ODFL",
-      "company_name": "OLD DOMINION FREIG",
+      "company_name": "Old Dominion Freight Line, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4787,15 +4813,15 @@
     {
       "display_symbol": "ORLY",
       "provider_symbol": "ORLY",
-      "company_name": "O'Reilly Automotive",
+      "company_name": "O'Reilly Automotive, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4828,45 +4854,45 @@
     {
       "display_symbol": "PANW",
       "provider_symbol": "PANW",
-      "company_name": "Palo Alto Networks",
+      "company_name": "Palo Alto Networks, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "PAYX",
       "provider_symbol": "PAYX",
-      "company_name": "PAYCHEX, INC.",
+      "company_name": "Paychex, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "PCAR",
       "provider_symbol": "PCAR",
-      "company_name": "PACCAR INC.",
+      "company_name": "PACCAR Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -4886,13 +4912,13 @@
     {
       "display_symbol": "PDD",
       "provider_symbol": "PDD",
-      "company_name": "PDD HOLDINGS INC ADS",
+      "company_name": "PDD Holdings Inc. American Depositary Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -4912,15 +4938,15 @@
     {
       "display_symbol": "PEP",
       "provider_symbol": "PEP",
-      "company_name": "PEPSICO INC",
+      "company_name": "PepsiCo, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5031,15 +5057,15 @@
     {
       "display_symbol": "PLTR",
       "provider_symbol": "PLTR",
-      "company_name": "PALANTIR TECHNOLOGIES INC.",
+      "company_name": "Palantir Technologies Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5215,15 +5241,15 @@
     {
       "display_symbol": "PYPL",
       "provider_symbol": "PYPL",
-      "company_name": "PAYPAL HOLDINGS",
+      "company_name": "PayPal Holdings, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5243,15 +5269,15 @@
     {
       "display_symbol": "QCOM",
       "provider_symbol": "QCOM",
-      "company_name": "QUALCOMM INC",
+      "company_name": "QUALCOMM Incorporated Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5297,15 +5323,15 @@
     {
       "display_symbol": "REGN",
       "provider_symbol": "REGN",
-      "company_name": "Regeneron Pharmaceuticals",
+      "company_name": "Regeneron Pharmaceuticals, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5332,6 +5358,19 @@
       "source_asof": "2026-09-05",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "RKLB",
+      "provider_symbol": "RKLB",
+      "company_name": "Rocket Lab Corporation Common Stock",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -5390,30 +5429,30 @@
     {
       "display_symbol": "ROP",
       "provider_symbol": "ROP",
-      "company_name": "Roper Technologies",
+      "company_name": "Roper Technologies, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "ROST",
       "provider_symbol": "ROST",
-      "company_name": "ROSS STORES, INC.",
+      "company_name": "Ross Stores, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5472,15 +5511,15 @@
     {
       "display_symbol": "SBUX",
       "provider_symbol": "SBUX",
-      "company_name": "STARBUCKS CORP",
+      "company_name": "Starbucks Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5500,13 +5539,13 @@
     {
       "display_symbol": "SHOP",
       "provider_symbol": "SHOP",
-      "company_name": "SHOPIFY, INC.",
+      "company_name": "Shopify Inc. Class A Subordinate Voting Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -5578,12 +5617,14 @@
     {
       "display_symbol": "SNDK",
       "provider_symbol": "SNDK",
-      "company_name": "Sandisk",
+      "company_name": "Sandisk Corporation Common Stock",
       "indices": [
+        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
@@ -5591,15 +5632,15 @@
     {
       "display_symbol": "SNPS",
       "provider_symbol": "SNPS",
-      "company_name": "SYNOPSYS, INC.",
+      "company_name": "Synopsys, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5626,6 +5667,19 @@
       "source_asof": "2026-09-05",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+      ],
+      "active": true
+    },
+    {
+      "display_symbol": "SPCX",
+      "provider_symbol": "SPCX",
+      "company_name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "indices": [
+        "ndx100"
+      ],
+      "source_asof": "2026-09-05",
+      "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -5710,15 +5764,15 @@
     {
       "display_symbol": "STX",
       "provider_symbol": "STX",
-      "company_name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+      "company_name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -5866,19 +5920,6 @@
       "active": true
     },
     {
-      "display_symbol": "TEAM",
-      "provider_symbol": "TEAM",
-      "company_name": "ATLASSIAN CLS A CS",
-      "indices": [
-        "ndx100"
-      ],
-      "source_asof": "2026-09-05",
-      "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
-      ],
-      "active": true
-    },
-    {
       "display_symbol": "TECH",
       "provider_symbol": "TECH",
       "company_name": "Bio-Techne",
@@ -5907,12 +5948,14 @@
     {
       "display_symbol": "TER",
       "provider_symbol": "TER",
-      "company_name": "Teradyne",
+      "company_name": "Teradyne, Inc. Common Stock",
       "indices": [
+        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
@@ -5985,15 +6028,15 @@
     {
       "display_symbol": "TMUS",
       "provider_symbol": "TMUS",
-      "company_name": "T-MOBILE US CMN",
+      "company_name": "T-Mobile US, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6039,13 +6082,13 @@
     {
       "display_symbol": "TRI",
       "provider_symbol": "TRI",
-      "company_name": "THOMSON REUTERS CORP",
+      "company_name": "Thomson Reuters Corporation Common Shares",
       "indices": [
         "ndx100"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
       "active": true
     },
@@ -6104,15 +6147,15 @@
     {
       "display_symbol": "TSLA",
       "provider_symbol": "TSLA",
-      "company_name": "Tesla, Inc.",
+      "company_name": "Tesla, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6158,30 +6201,30 @@
     {
       "display_symbol": "TTWO",
       "provider_symbol": "TTWO",
-      "company_name": "Take-Two Interactive",
+      "company_name": "Take-Two Interactive Software, Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "TXN",
       "provider_symbol": "TXN",
-      "company_name": "Texas Instruments",
+      "company_name": "Texas Instruments Incorporated Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6435,15 +6478,13 @@
     {
       "display_symbol": "VRSK",
       "provider_symbol": "VRSK",
-      "company_name": "VERISK ANALYTICS INC",
+      "company_name": "Verisk Analytics",
       "indices": [
-        "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6476,15 +6517,15 @@
     {
       "display_symbol": "VRTX",
       "provider_symbol": "VRTX",
-      "company_name": "Vertex Pharmaceuticals",
+      "company_name": "Vertex Pharmaceuticals Incorporated Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6569,45 +6610,45 @@
     {
       "display_symbol": "WBD",
       "provider_symbol": "WBD",
-      "company_name": "Warner Bros. Discovery",
+      "company_name": "Warner Bros. Discovery, Inc. Series A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "WDAY",
       "provider_symbol": "WDAY",
-      "company_name": "WORKDAY INC CL A",
+      "company_name": "Workday, Inc. Class A Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
     {
       "display_symbol": "WDC",
       "provider_symbol": "WDC",
-      "company_name": "WESTERN DIGITAL CORP.",
+      "company_name": "Western Digital Corporation Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6679,15 +6720,15 @@
     {
       "display_symbol": "WMT",
       "provider_symbol": "WMT",
-      "company_name": "WALMART. INC",
+      "company_name": "Walmart Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6772,15 +6813,15 @@
     {
       "display_symbol": "XEL",
       "provider_symbol": "XEL",
-      "company_name": "XCEL ENERGY CMN",
+      "company_name": "Xcel Energy Inc. Common Stock",
       "indices": [
         "ndx100",
         "sp500"
       ],
       "source_asof": "2026-09-05",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-        "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
     },
@@ -6877,8 +6918,3276 @@
     }
   ],
   "diff": {
-    "added": [],
-    "removed": [],
-    "changed": []
+    "added": [
+      {
+        "display_symbol": "ALAB",
+        "provider_symbol": "ALAB",
+        "company_name": "Astera Labs, Inc. Common Stock",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+        ],
+        "active": true
+      },
+      {
+        "display_symbol": "CRWV",
+        "provider_symbol": "CRWV",
+        "company_name": "CoreWeave, Inc. Class A Common Stock",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+        ],
+        "active": true
+      },
+      {
+        "display_symbol": "NBIS",
+        "provider_symbol": "NBIS",
+        "company_name": "Nebius Group N.V. Class A Ordinary Shares",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+        ],
+        "active": true
+      },
+      {
+        "display_symbol": "RKLB",
+        "provider_symbol": "RKLB",
+        "company_name": "Rocket Lab Corporation Common Stock",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+        ],
+        "active": true
+      },
+      {
+        "display_symbol": "SPCX",
+        "provider_symbol": "SPCX",
+        "company_name": "Space Exploration Technologies Corp. Class A Common Stock",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+        ],
+        "active": true
+      }
+    ],
+    "removed": [
+      {
+        "display_symbol": "INSM",
+        "provider_symbol": "INSM",
+        "company_name": "INSMED INCORPORATED",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        ],
+        "active": true
+      },
+      {
+        "display_symbol": "TEAM",
+        "provider_symbol": "TEAM",
+        "company_name": "ATLASSIAN CLS A CS",
+        "indices": [
+          "ndx100"
+        ],
+        "source_asof": "2026-09-05",
+        "source_urls": [
+          "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+        ],
+        "active": true
+      }
+    ],
+    "changed": [
+      {
+        "before": {
+          "display_symbol": "AAPL",
+          "provider_symbol": "AAPL",
+          "company_name": "Apple Inc.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AAPL",
+          "provider_symbol": "AAPL",
+          "company_name": "Apple Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ABNB",
+          "provider_symbol": "ABNB",
+          "company_name": "AIRBNB, INC CL A CMN",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ABNB",
+          "provider_symbol": "ABNB",
+          "company_name": "Airbnb, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ADBE",
+          "provider_symbol": "ADBE",
+          "company_name": "Adobe Inc.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ADBE",
+          "provider_symbol": "ADBE",
+          "company_name": "Adobe Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ADI",
+          "provider_symbol": "ADI",
+          "company_name": "ANALOG DEVICES CMN",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ADI",
+          "provider_symbol": "ADI",
+          "company_name": "Analog Devices, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ADP",
+          "provider_symbol": "ADP",
+          "company_name": "Automatic Data Processing",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ADP",
+          "provider_symbol": "ADP",
+          "company_name": "Automatic Data Processing, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ADSK",
+          "provider_symbol": "ADSK",
+          "company_name": "AUTODESK INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ADSK",
+          "provider_symbol": "ADSK",
+          "company_name": "Autodesk, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AEP",
+          "provider_symbol": "AEP",
+          "company_name": "American Electric Power",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AEP",
+          "provider_symbol": "AEP",
+          "company_name": "American Electric Power Company, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ALNY",
+          "provider_symbol": "ALNY",
+          "company_name": "ALNYLAM PHARMACEUTICALS, INC.",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ALNY",
+          "provider_symbol": "ALNY",
+          "company_name": "Alnylam Pharmaceuticals, Inc. Common Stock",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AMAT",
+          "provider_symbol": "AMAT",
+          "company_name": "Applied Materials",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AMAT",
+          "provider_symbol": "AMAT",
+          "company_name": "Applied Materials, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AMD",
+          "provider_symbol": "AMD",
+          "company_name": "Advanced Micro Devices",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AMD",
+          "provider_symbol": "AMD",
+          "company_name": "Advanced Micro Devices, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AMGN",
+          "provider_symbol": "AMGN",
+          "company_name": "Amgen",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AMGN",
+          "provider_symbol": "AMGN",
+          "company_name": "Amgen Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AMZN",
+          "provider_symbol": "AMZN",
+          "company_name": "AMAZON.COM INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AMZN",
+          "provider_symbol": "AMZN",
+          "company_name": "Amazon.com, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "APP",
+          "provider_symbol": "APP",
+          "company_name": "APPLOVIN CORP CLA CM",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "APP",
+          "provider_symbol": "APP",
+          "company_name": "Applovin Corporation Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ARM",
+          "provider_symbol": "ARM",
+          "company_name": "ARM HOLDINGS PLC ADS",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ARM",
+          "provider_symbol": "ARM",
+          "company_name": "Arm Holdings plc American Depositary Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ASML",
+          "provider_symbol": "ASML",
+          "company_name": "ASML HLDG NY REG",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ASML",
+          "provider_symbol": "ASML",
+          "company_name": "ASML Holding N.V. New York Registry Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AVGO",
+          "provider_symbol": "AVGO",
+          "company_name": "BROADCOM INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AVGO",
+          "provider_symbol": "AVGO",
+          "company_name": "Broadcom Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "AXON",
+          "provider_symbol": "AXON",
+          "company_name": "AXON ENTERPRISE, INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "AXON",
+          "provider_symbol": "AXON",
+          "company_name": "Axon Enterprise, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "BKNG",
+          "provider_symbol": "BKNG",
+          "company_name": "BOOKING HOLDINGS INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "BKNG",
+          "provider_symbol": "BKNG",
+          "company_name": "Booking Holdings Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "BKR",
+          "provider_symbol": "BKR",
+          "company_name": "BAKER HUGHES CO",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "BKR",
+          "provider_symbol": "BKR",
+          "company_name": "Baker Hughes Company Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CCEP",
+          "provider_symbol": "CCEP",
+          "company_name": "COCA-COLA EUROPACIFI",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CCEP",
+          "provider_symbol": "CCEP",
+          "company_name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CDNS",
+          "provider_symbol": "CDNS",
+          "company_name": "Cadence Design Systems",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CDNS",
+          "provider_symbol": "CDNS",
+          "company_name": "Cadence Design Systems, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CEG",
+          "provider_symbol": "CEG",
+          "company_name": "Constellation Energy",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CEG",
+          "provider_symbol": "CEG",
+          "company_name": "Constellation Energy Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CHTR",
+          "provider_symbol": "CHTR",
+          "company_name": "Charter Communications",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CHTR",
+          "provider_symbol": "CHTR",
+          "company_name": "Charter Communications",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CMCSA",
+          "provider_symbol": "CMCSA",
+          "company_name": "COMCAST CORP A",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CMCSA",
+          "provider_symbol": "CMCSA",
+          "company_name": "Comcast Corporation Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "COST",
+          "provider_symbol": "COST",
+          "company_name": "COSTCO WHOLESALE",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "COST",
+          "provider_symbol": "COST",
+          "company_name": "Costco Wholesale Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CPRT",
+          "provider_symbol": "CPRT",
+          "company_name": "COPART, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CPRT",
+          "provider_symbol": "CPRT",
+          "company_name": "Copart, Inc. (DE) Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CRWD",
+          "provider_symbol": "CRWD",
+          "company_name": "CROWDSTRIKE HLD CM A",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CRWD",
+          "provider_symbol": "CRWD",
+          "company_name": "CrowdStrike Holdings, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CSCO",
+          "provider_symbol": "CSCO",
+          "company_name": "CISCO SYSTEMS INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CSCO",
+          "provider_symbol": "CSCO",
+          "company_name": "Cisco Systems, Inc. Common Stock (DE)",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CSGP",
+          "provider_symbol": "CSGP",
+          "company_name": "COSTAR GROUP INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CSGP",
+          "provider_symbol": "CSGP",
+          "company_name": "CoStar Group",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CSX",
+          "provider_symbol": "CSX",
+          "company_name": "CSX Corporation",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CSX",
+          "provider_symbol": "CSX",
+          "company_name": "CSX Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CTAS",
+          "provider_symbol": "CTAS",
+          "company_name": "CINTAS CORP",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CTAS",
+          "provider_symbol": "CTAS",
+          "company_name": "Cintas Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "CTSH",
+          "provider_symbol": "CTSH",
+          "company_name": "COGNIZANT TECH SOL",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "CTSH",
+          "provider_symbol": "CTSH",
+          "company_name": "Cognizant",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "DASH",
+          "provider_symbol": "DASH",
+          "company_name": "DOORDASH, INC. CL A",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "DASH",
+          "provider_symbol": "DASH",
+          "company_name": "DoorDash, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "DDOG",
+          "provider_symbol": "DDOG",
+          "company_name": "DATADOG INC.L A CM",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "DDOG",
+          "provider_symbol": "DDOG",
+          "company_name": "Datadog, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "DXCM",
+          "provider_symbol": "DXCM",
+          "company_name": "Dexcom",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "DXCM",
+          "provider_symbol": "DXCM",
+          "company_name": "DexCom, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "EXC",
+          "provider_symbol": "EXC",
+          "company_name": "EXELON CORP CMN STK",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "EXC",
+          "provider_symbol": "EXC",
+          "company_name": "Exelon Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "FANG",
+          "provider_symbol": "FANG",
+          "company_name": "Diamondback Energy",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "FANG",
+          "provider_symbol": "FANG",
+          "company_name": "Diamondback Energy, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "FAST",
+          "provider_symbol": "FAST",
+          "company_name": "FASTENAL CO",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "FAST",
+          "provider_symbol": "FAST",
+          "company_name": "Fastenal Company Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "FER",
+          "provider_symbol": "FER",
+          "company_name": "FERROVIAL SE",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "FER",
+          "provider_symbol": "FER",
+          "company_name": "Ferrovial N.V. Ordinary Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "FTNT",
+          "provider_symbol": "FTNT",
+          "company_name": "FORTINET, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "FTNT",
+          "provider_symbol": "FTNT",
+          "company_name": "Fortinet, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "GEHC",
+          "provider_symbol": "GEHC",
+          "company_name": "GE HEALTHCARE CM",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "GEHC",
+          "provider_symbol": "GEHC",
+          "company_name": "GE HealthCare Technologies Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "GILD",
+          "provider_symbol": "GILD",
+          "company_name": "GILEAD SCIENCES, INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "GILD",
+          "provider_symbol": "GILD",
+          "company_name": "Gilead Sciences, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "GOOG",
+          "provider_symbol": "GOOG",
+          "company_name": "Alphabet Inc. (Class C)",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "GOOG",
+          "provider_symbol": "GOOG",
+          "company_name": "Alphabet Inc. Class C Capital Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "GOOGL",
+          "provider_symbol": "GOOGL",
+          "company_name": "Alphabet Inc. (Class A)",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "GOOGL",
+          "provider_symbol": "GOOGL",
+          "company_name": "Alphabet Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "HON",
+          "provider_symbol": "HON",
+          "company_name": "Honeywell Technologies",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "HON",
+          "provider_symbol": "HON",
+          "company_name": "Honeywell International Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "HONA",
+          "provider_symbol": "HONA",
+          "company_name": "Honeywell Aerospace",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "HONA",
+          "provider_symbol": "HONA",
+          "company_name": "Honeywell Aerospace Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "IDXX",
+          "provider_symbol": "IDXX",
+          "company_name": "Idexx Laboratories",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "IDXX",
+          "provider_symbol": "IDXX",
+          "company_name": "IDEXX Laboratories, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "INTC",
+          "provider_symbol": "INTC",
+          "company_name": "INTEL CORP",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "INTC",
+          "provider_symbol": "INTC",
+          "company_name": "Intel Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "INTU",
+          "provider_symbol": "INTU",
+          "company_name": "INTUIT INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "INTU",
+          "provider_symbol": "INTU",
+          "company_name": "Intuit Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ISRG",
+          "provider_symbol": "ISRG",
+          "company_name": "INTUITIVE SURG, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ISRG",
+          "provider_symbol": "ISRG",
+          "company_name": "Intuitive Surgical, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "KDP",
+          "provider_symbol": "KDP",
+          "company_name": "KEURIG DR PEPPER INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "KDP",
+          "provider_symbol": "KDP",
+          "company_name": "Keurig Dr Pepper Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "KHC",
+          "provider_symbol": "KHC",
+          "company_name": "KRAFT HEINZ CO CMN",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "KHC",
+          "provider_symbol": "KHC",
+          "company_name": "The Kraft Heinz Company Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "KLAC",
+          "provider_symbol": "KLAC",
+          "company_name": "KLA Corporation",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "KLAC",
+          "provider_symbol": "KLAC",
+          "company_name": "KLA Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "LIN",
+          "provider_symbol": "LIN",
+          "company_name": "Linde plc",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "LIN",
+          "provider_symbol": "LIN",
+          "company_name": "Linde plc Ordinary Shares",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "LITE",
+          "provider_symbol": "LITE",
+          "company_name": "Lumentum",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "LITE",
+          "provider_symbol": "LITE",
+          "company_name": "Lumentum Holdings Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "LRCX",
+          "provider_symbol": "LRCX",
+          "company_name": "LAM RESEARCH CORP",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "LRCX",
+          "provider_symbol": "LRCX",
+          "company_name": "Lam Research Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MAR",
+          "provider_symbol": "MAR",
+          "company_name": "Marriott International",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MAR",
+          "provider_symbol": "MAR",
+          "company_name": "Marriott International Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MCHP",
+          "provider_symbol": "MCHP",
+          "company_name": "Microchip Technology",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MCHP",
+          "provider_symbol": "MCHP",
+          "company_name": "Microchip Technology Incorporated Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MDLZ",
+          "provider_symbol": "MDLZ",
+          "company_name": "Mondelez International",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MDLZ",
+          "provider_symbol": "MDLZ",
+          "company_name": "Mondelez International, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MELI",
+          "provider_symbol": "MELI",
+          "company_name": "MERCADOLIBRE, INC.",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MELI",
+          "provider_symbol": "MELI",
+          "company_name": "MercadoLibre, Inc. Common Stock",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "META",
+          "provider_symbol": "META",
+          "company_name": "META PLATFORMS, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "META",
+          "provider_symbol": "META",
+          "company_name": "Meta Platforms, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MNST",
+          "provider_symbol": "MNST",
+          "company_name": "MONSTER BEVERAGE CP",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MNST",
+          "provider_symbol": "MNST",
+          "company_name": "Monster Beverage Corporation",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MPWR",
+          "provider_symbol": "MPWR",
+          "company_name": "MONOLITHIC POWER SYSTEMS, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MPWR",
+          "provider_symbol": "MPWR",
+          "company_name": "Monolithic Power Systems, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MRVL",
+          "provider_symbol": "MRVL",
+          "company_name": "MARVELL TECH INC CMN",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MRVL",
+          "provider_symbol": "MRVL",
+          "company_name": "Marvell Technology, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MSFT",
+          "provider_symbol": "MSFT",
+          "company_name": "MICROSOFT CORP",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MSFT",
+          "provider_symbol": "MSFT",
+          "company_name": "Microsoft Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MSTR",
+          "provider_symbol": "MSTR",
+          "company_name": "MICROSTRATEGY INCORPORATED",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MSTR",
+          "provider_symbol": "MSTR",
+          "company_name": "Strategy Inc Common Stock Class A",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "MU",
+          "provider_symbol": "MU",
+          "company_name": "Micron Technology",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "MU",
+          "provider_symbol": "MU",
+          "company_name": "Micron Technology, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "NFLX",
+          "provider_symbol": "NFLX",
+          "company_name": "NETFLIX, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "NFLX",
+          "provider_symbol": "NFLX",
+          "company_name": "Netflix, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "NVDA",
+          "provider_symbol": "NVDA",
+          "company_name": "NVIDIA CORPORATION",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "NVDA",
+          "provider_symbol": "NVDA",
+          "company_name": "NVIDIA Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "NXPI",
+          "provider_symbol": "NXPI",
+          "company_name": "NXP Semiconductors",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "NXPI",
+          "provider_symbol": "NXPI",
+          "company_name": "NXP Semiconductors N.V. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ODFL",
+          "provider_symbol": "ODFL",
+          "company_name": "OLD DOMINION FREIG",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ODFL",
+          "provider_symbol": "ODFL",
+          "company_name": "Old Dominion Freight Line, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ORLY",
+          "provider_symbol": "ORLY",
+          "company_name": "O'Reilly Automotive",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ORLY",
+          "provider_symbol": "ORLY",
+          "company_name": "O'Reilly Automotive, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PANW",
+          "provider_symbol": "PANW",
+          "company_name": "Palo Alto Networks",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PANW",
+          "provider_symbol": "PANW",
+          "company_name": "Palo Alto Networks, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PAYX",
+          "provider_symbol": "PAYX",
+          "company_name": "PAYCHEX, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PAYX",
+          "provider_symbol": "PAYX",
+          "company_name": "Paychex, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PCAR",
+          "provider_symbol": "PCAR",
+          "company_name": "PACCAR INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PCAR",
+          "provider_symbol": "PCAR",
+          "company_name": "PACCAR Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PDD",
+          "provider_symbol": "PDD",
+          "company_name": "PDD HOLDINGS INC ADS",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PDD",
+          "provider_symbol": "PDD",
+          "company_name": "PDD Holdings Inc. American Depositary Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PEP",
+          "provider_symbol": "PEP",
+          "company_name": "PEPSICO INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PEP",
+          "provider_symbol": "PEP",
+          "company_name": "PepsiCo, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PLTR",
+          "provider_symbol": "PLTR",
+          "company_name": "PALANTIR TECHNOLOGIES INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PLTR",
+          "provider_symbol": "PLTR",
+          "company_name": "Palantir Technologies Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "PYPL",
+          "provider_symbol": "PYPL",
+          "company_name": "PAYPAL HOLDINGS",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "PYPL",
+          "provider_symbol": "PYPL",
+          "company_name": "PayPal Holdings, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "QCOM",
+          "provider_symbol": "QCOM",
+          "company_name": "QUALCOMM INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "QCOM",
+          "provider_symbol": "QCOM",
+          "company_name": "QUALCOMM Incorporated Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "REGN",
+          "provider_symbol": "REGN",
+          "company_name": "Regeneron Pharmaceuticals",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "REGN",
+          "provider_symbol": "REGN",
+          "company_name": "Regeneron Pharmaceuticals, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ROP",
+          "provider_symbol": "ROP",
+          "company_name": "Roper Technologies",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ROP",
+          "provider_symbol": "ROP",
+          "company_name": "Roper Technologies, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "ROST",
+          "provider_symbol": "ROST",
+          "company_name": "ROSS STORES, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "ROST",
+          "provider_symbol": "ROST",
+          "company_name": "Ross Stores, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "SBUX",
+          "provider_symbol": "SBUX",
+          "company_name": "STARBUCKS CORP",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "SBUX",
+          "provider_symbol": "SBUX",
+          "company_name": "Starbucks Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "SHOP",
+          "provider_symbol": "SHOP",
+          "company_name": "SHOPIFY, INC.",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "SHOP",
+          "provider_symbol": "SHOP",
+          "company_name": "Shopify Inc. Class A Subordinate Voting Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "SNDK",
+          "provider_symbol": "SNDK",
+          "company_name": "Sandisk",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "SNDK",
+          "provider_symbol": "SNDK",
+          "company_name": "Sandisk Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "SNPS",
+          "provider_symbol": "SNPS",
+          "company_name": "SYNOPSYS, INC.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "SNPS",
+          "provider_symbol": "SNPS",
+          "company_name": "Synopsys, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "STX",
+          "provider_symbol": "STX",
+          "company_name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "STX",
+          "provider_symbol": "STX",
+          "company_name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "TER",
+          "provider_symbol": "TER",
+          "company_name": "Teradyne",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "TER",
+          "provider_symbol": "TER",
+          "company_name": "Teradyne, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "TMUS",
+          "provider_symbol": "TMUS",
+          "company_name": "T-MOBILE US CMN",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "TMUS",
+          "provider_symbol": "TMUS",
+          "company_name": "T-Mobile US, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "TRI",
+          "provider_symbol": "TRI",
+          "company_name": "THOMSON REUTERS CORP",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "TRI",
+          "provider_symbol": "TRI",
+          "company_name": "Thomson Reuters Corporation Common Shares",
+          "indices": [
+            "ndx100"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "TSLA",
+          "provider_symbol": "TSLA",
+          "company_name": "Tesla, Inc.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "TSLA",
+          "provider_symbol": "TSLA",
+          "company_name": "Tesla, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "TTWO",
+          "provider_symbol": "TTWO",
+          "company_name": "Take-Two Interactive",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "TTWO",
+          "provider_symbol": "TTWO",
+          "company_name": "Take-Two Interactive Software, Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "TXN",
+          "provider_symbol": "TXN",
+          "company_name": "Texas Instruments",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "TXN",
+          "provider_symbol": "TXN",
+          "company_name": "Texas Instruments Incorporated Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "VRSK",
+          "provider_symbol": "VRSK",
+          "company_name": "VERISK ANALYTICS INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "VRSK",
+          "provider_symbol": "VRSK",
+          "company_name": "Verisk Analytics",
+          "indices": [
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "VRTX",
+          "provider_symbol": "VRTX",
+          "company_name": "Vertex Pharmaceuticals",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "VRTX",
+          "provider_symbol": "VRTX",
+          "company_name": "Vertex Pharmaceuticals Incorporated Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "WBD",
+          "provider_symbol": "WBD",
+          "company_name": "Warner Bros. Discovery",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "WBD",
+          "provider_symbol": "WBD",
+          "company_name": "Warner Bros. Discovery, Inc. Series A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "WDAY",
+          "provider_symbol": "WDAY",
+          "company_name": "WORKDAY INC CL A",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "WDAY",
+          "provider_symbol": "WDAY",
+          "company_name": "Workday, Inc. Class A Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "WDC",
+          "provider_symbol": "WDC",
+          "company_name": "WESTERN DIGITAL CORP.",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "WDC",
+          "provider_symbol": "WDC",
+          "company_name": "Western Digital Corporation Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "WMT",
+          "provider_symbol": "WMT",
+          "company_name": "WALMART. INC",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "WMT",
+          "provider_symbol": "WMT",
+          "company_name": "Walmart Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      },
+      {
+        "before": {
+          "display_symbol": "XEL",
+          "provider_symbol": "XEL",
+          "company_name": "XCEL ENERGY CMN",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            "https://www.nasdaq.com/products/global-indexes/nasdaq-100/companies"
+          ],
+          "active": true
+        },
+        "after": {
+          "display_symbol": "XEL",
+          "provider_symbol": "XEL",
+          "company_name": "Xcel Energy Inc. Common Stock",
+          "indices": [
+            "ndx100",
+            "sp500"
+          ],
+          "source_asof": "2026-09-05",
+          "source_urls": [
+            "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+          ],
+          "active": true
+        }
+      }
+    ]
   }
 }

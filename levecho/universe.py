@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections.abc import Mapping
 from dataclasses import dataclass
 from io import StringIO
 from typing import Any, Iterable
@@ -23,9 +24,16 @@ DEFAULT_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+NASDAQ_API_HEADERS = {
+    **DEFAULT_HEADERS,
+    "Accept": "application/json, text/plain, */*",
+    "Origin": "https://www.nasdaq.com",
+    "Referer": "https://www.nasdaq.com/",
+}
+
 
 class UniverseSourceError(RuntimeError):
-    """Raised when an official constituent source cannot be parsed."""
+    """Raised when a configured constituent source cannot be parsed."""
 
 
 @dataclass(frozen=True)
@@ -164,6 +172,81 @@ def parse_constituent_jsonld(html: str, index_id: str, source_url: str, source_a
     raise UniverseSourceError(f"no constituent JSON-LD found at {source_url}")
 
 
+def parse_nasdaq_api_payload(
+    payload: object,
+    index_id: str,
+    source_url: str,
+    source_asof: str,
+    minimum_records: int = 0,
+) -> list[Constituent]:
+    """Parse Nasdaq's public list-type JSON response.
+
+    The endpoint currently returns rows under ``data.data.rows`` and includes
+    both the declared record count and the source's as-of date.  The count
+    checks prevent a truncated paginated response from replacing the approved
+    universe.
+    """
+    if not isinstance(payload, Mapping):
+        raise UniverseSourceError(f"invalid JSON object from {source_url}")
+
+    envelope = payload.get("data")
+    if not isinstance(envelope, Mapping):
+        raise UniverseSourceError(f"missing data envelope from {source_url}")
+    table = envelope.get("data", envelope)
+    if not isinstance(table, Mapping):
+        raise UniverseSourceError(f"missing constituent table from {source_url}")
+    rows = table.get("rows")
+    if not isinstance(rows, list) or not rows:
+        raise UniverseSourceError(f"no constituent rows found at {source_url}")
+
+    declared_count = envelope.get("totalrecords", table.get("totalrecords"))
+    if declared_count is not None:
+        try:
+            declared_count = int(declared_count)
+        except (TypeError, ValueError) as exc:
+            raise UniverseSourceError(f"invalid totalrecords from {source_url}") from exc
+        if declared_count != len(rows):
+            raise UniverseSourceError(
+                f"truncated response from {source_url}: declared {declared_count}, got {len(rows)}"
+            )
+
+    if len(rows) < minimum_records:
+        raise UniverseSourceError(
+            f"incomplete response from {source_url}: expected at least {minimum_records}, got {len(rows)}"
+        )
+
+    constituents: list[Constituent] = []
+    symbols: set[str] = set()
+    for row in rows:
+        if not isinstance(row, Mapping):
+            continue
+        symbol = _clean_symbol(row.get("symbol", ""))
+        name = _clean_name(row.get("companyName", ""))
+        if not symbol or not name:
+            continue
+        if not re.fullmatch(r"[A-Z0-9][A-Z0-9.\-]{0,9}", symbol):
+            continue
+        if symbol in symbols:
+            raise UniverseSourceError(f"duplicate constituent symbol {symbol} from {source_url}")
+        symbols.add(symbol)
+        constituents.append(
+            Constituent(
+                display_symbol=symbol,
+                provider_symbol=yahoo_symbol(symbol),
+                company_name=name,
+                indices=(index_id,),
+                source_asof=source_asof,
+                source_url=source_url,
+            )
+        )
+
+    if len(constituents) < minimum_records:
+        raise UniverseSourceError(
+            f"incomplete parsed response from {source_url}: expected at least {minimum_records}, got {len(constituents)}"
+        )
+    return constituents
+
+
 def parse_constituent_content(html: str, index_id: str, source_url: str, source_asof: str) -> list[Constituent]:
     try:
         return parse_constituent_tables(html, index_id, source_url, source_asof)
@@ -176,21 +259,47 @@ def parse_constituent_content(html: str, index_id: str, source_url: str, source_
 
 def fetch_index_constituents(
     index_id: str,
-    urls: Iterable[str],
+    sources: Iterable[str | Mapping[str, Any]],
     source_asof: str,
     session: requests.Session | None = None,
 ) -> tuple[list[Constituent], str]:
     client = session or requests.Session()
     errors: list[str] = []
-    for url in urls:
+    for source in sources:
+        if isinstance(source, str):
+            url = source
+            parser = "html"
+            minimum_records = 0
+        else:
+            url = str(source.get("url", ""))
+            parser = str(source.get("parser", "html"))
+            minimum_records = int(source.get("minimum_records", 0))
+        if not url:
+            errors.append("source has no URL")
+            continue
         try:
             response = client.get(
                 url,
                 timeout=30,
-                headers=DEFAULT_HEADERS,
+                headers=NASDAQ_API_HEADERS if parser == "nasdaq_api" else DEFAULT_HEADERS,
             )
             response.raise_for_status()
-            constituents = parse_constituent_content(response.text, index_id, url, source_asof)
+            if parser == "nasdaq_api":
+                constituents = parse_nasdaq_api_payload(
+                    response.json(),
+                    index_id,
+                    url,
+                    source_asof,
+                    minimum_records=minimum_records,
+                )
+            elif parser == "html":
+                constituents = parse_constituent_content(response.text, index_id, url, source_asof)
+                if len(constituents) < minimum_records:
+                    raise UniverseSourceError(
+                        f"incomplete parsed response from {url}: expected at least {minimum_records}, got {len(constituents)}"
+                    )
+            else:
+                raise UniverseSourceError(f"unknown parser {parser!r} for {url}")
             return constituents, url
         except Exception as exc:  # noqa: BLE001 - try the next official URL
             errors.append(f"{url}: {type(exc).__name__}: {exc}")

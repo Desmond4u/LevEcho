@@ -1,4 +1,12 @@
-from levecho.universe import constituent_diff, merge_constituents, parse_constituent_tables
+import pytest
+
+from levecho.universe import (
+    UniverseSourceError,
+    constituent_diff,
+    merge_constituents,
+    parse_constituent_tables,
+    parse_nasdaq_api_payload,
+)
 
 
 def test_parse_constituent_table() -> None:
@@ -37,3 +45,26 @@ def test_diff_reports_added_and_removed() -> None:
     diff = constituent_diff(old, new)
     assert [item["display_symbol"] for item in diff["added"]] == ["NEW"]
     assert [item["display_symbol"] for item in diff["removed"]] == ["OLD"]
+
+
+def test_parse_nasdaq_api_payload() -> None:
+    payload = {
+        "data": {
+            "totalrecords": 2,
+            "data": {
+                "rows": [
+                    {"symbol": "AAPL", "companyName": "Apple Inc. Common Stock"},
+                    {"symbol": "EXM.B", "companyName": "Example Class B Common Stock"},
+                ]
+            },
+        }
+    }
+    result = parse_nasdaq_api_payload(payload, "ndx100", "api", "2026-09-05", minimum_records=2)
+    assert [item.display_symbol for item in result] == ["AAPL", "EXM.B"]
+    assert result[1].provider_symbol == "EXM-B"
+
+
+def test_parse_nasdaq_api_payload_rejects_truncated_response() -> None:
+    payload = {"data": {"totalrecords": 100, "data": {"rows": [{"symbol": "AAPL", "companyName": "Apple"}]}}}
+    with pytest.raises(UniverseSourceError, match="truncated"):
+        parse_nasdaq_api_payload(payload, "ndx100", "api", "2026-09-05", minimum_records=100)
