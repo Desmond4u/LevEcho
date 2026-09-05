@@ -4,11 +4,21 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
 .venv/
 .env
 .env.*
 !.env.example
 *.log
+*.swp
+.idea/
+.vscode/
 AGENTS.md
 CLAUDE.md
 
