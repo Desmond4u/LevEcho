@@ -26,7 +26,7 @@ DEFAULT_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-SUPPORTED_LEVERAGE = frozenset({-3.0, -2.0, 2.0, 3.0})
+SUPPORTED_LEVERAGE = frozenset({-3.0, -2.0, -1.0, 1.0, 2.0, 3.0})
 
 _REFERENCE_NAME_ALIASES = {
     "ALPHABET": "GOOG",
@@ -584,7 +584,7 @@ def match_candidates(
             continue
         if candidate.leverage not in SUPPORTED_LEVERAGE:
             base_record["status"] = "pending_review"
-            base_record["reason"] = "unsupported leverage; v1 supports signed 2x and 3x only"
+            base_record["reason"] = "unsupported leverage; v1 supports signed 1x, 2x, and 3x only"
             pending.append(base_record)
             continue
         if not candidate.single_stock:
