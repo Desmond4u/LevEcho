@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 from levecho.io import load_json
-from levecho.model import ModelInputError, solve_etf_price, solve_stock_price
+from levecho.model import ModelInputError, daily_return, price_from_return, solve_etf_price, solve_stock_price
 from levecho.ui_text import format_updated_at, price_input_spec, translate
 
 ROOT = Path(__file__).resolve().parent
@@ -137,28 +137,60 @@ left, right = st.columns(2)
 with left, st.container(border=True, key="input_card"):
     st.subheader(t("input"))
     mode = st.radio(t("direction"), ["stock", "etf"], horizontal=True, key="direction",
+                    index=["stock", "etf"].index(st.session_state.get("direction", "stock")),
                     format_func=lambda value: t("forward" if value == "stock" else "reverse"))
     forward = mode == "stock"
     input_symbol = symbol if forward else pair["etf_symbol"]
     output_symbol = pair["etf_symbol"] if forward else symbol
     input_base, output_base = (stock_base, etf_base) if forward else (etf_base, stock_base)
+    input_kind = st.radio(t("input_kind"), ["price", "return"], horizontal=True,
+                          key="input_kind",
+                          index=["price", "return"].index(st.session_state.get("input_kind", "price")),
+                          format_func=lambda value: t(f"by_{value}"))
     # Store values separately from widget state so switching pairs/directions preserves scenarios.
     scenario = f"{pair_id}:{mode}"
     saved = st.session_state.setdefault("prices", {})
-    widget_key = f"price:{scenario}"
-    if widget_key not in st.session_state:
-        st.session_state[widget_key] = saved.get(scenario, input_base)
-    current_price = st.session_state[widget_key]
-    step, price_format = price_input_spec(input_base if current_price is None else current_price)
-    price = st.number_input(f"{input_symbol} · {t('input')} (USD)", min_value=0.0001,
-                            value=None, step=step, format=price_format, key=widget_key,
-                            help=t("precision"))
-    saved[scenario] = price
+    saved_returns = st.session_state.setdefault("returns", {})
+    widget_key = f"{input_kind}:{scenario}"
+    input_error = None
+    if input_kind == "price":
+        if widget_key not in st.session_state:
+            st.session_state[widget_key] = saved.get(scenario, input_base)
+        current_price = st.session_state[widget_key]
+        step, price_format = price_input_spec(input_base if current_price is None else current_price)
+        # Return-based scenarios may produce a positive price below the usual quote increment.
+        minimum = min(0.0001, current_price) if current_price is not None and current_price > 0 else 0.0001
+        price = st.number_input(f"{input_symbol} · {t('input')} (USD)", min_value=minimum,
+                                value=None, step=step, format=price_format, key=widget_key,
+                                help=t("precision"))
+        saved[scenario] = price
+        try:
+            saved_returns[scenario] = daily_return(input_base, price) * 100
+        except ModelInputError:
+            saved_returns[scenario] = None
+    else:
+        if widget_key not in st.session_state:
+            st.session_state[widget_key] = saved_returns.get(scenario, 0.0)
+        return_percent = st.number_input(f"{input_symbol} · {t('input_return')} (%)",
+                                         value=None, step=0.1, format="%.2f", key=widget_key,
+                                         help=t("return_help"))
+        saved_returns[scenario] = return_percent
+        try:
+            if return_percent is None:
+                raise ModelInputError("return input is empty")
+            price = price_from_return(input_base, return_percent / 100)
+        except ModelInputError:
+            price = None
+            input_error = t("return_error")
+        saved[scenario] = price
+        if price is not None:
+            st.caption(f"{t('converted_price')} · {input_symbol} {price:,.4f} USD")
 
     def apply_scenario(change: float) -> None:
-        value = input_base * (1 + change)
-        st.session_state[widget_key] = value
+        value = price_from_return(input_base, change)
+        st.session_state[widget_key] = value if input_kind == "price" else change * 100
         saved[scenario] = value
+        saved_returns[scenario] = change * 100
 
     st.caption(t("quick"))
     with st.container(key="shortcuts"):
@@ -175,7 +207,7 @@ with right, st.container(border=True, key="result_card"):
         st.metric(f"{output_symbol} · USD", f"${result:,.4f}")
         st.markdown(f"**{(result / output_base - 1) * 100:+.2f}%** · {t('change')}")
     except ModelInputError:
-        st.error(t("error"))
+        st.error(input_error or t("error"))
     st.caption(t("hint"))
 
 with st.container(border=True, key="data_card"):
