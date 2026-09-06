@@ -29,3 +29,6 @@ reports/*.tmp
 
 # Streamlit local state
 .streamlit/secrets.toml
+
+# Personal development notes
+notes/

@@ -1,74 +1,93 @@
 # LevEcho
 
-LevEcho 是一个面向美股日重置杠杆 ETF 的单日理论价格计算器。
+> 输入一个交易日的股票价格，估算对应单股票杠杆 ETF 的理论价格；也支持从 ETF 价格反推股票价格。
 
-## 当前能力
+[在线体验](https://levecho.streamlit.app) · [English](README.en.md) · [开发文档](docs/DEVELOPMENT.md)
 
-- 股票池：S&P 500 与 Nasdaq-100 成分股并集。
-- ETF：自动读取 Direxion、Tradr、ProShares、GraniteShares、T-REX、Leverage Shares、Defiance 的公开产品目录，匹配明确的单股票 `±1x`、`±2x`、`±3x` 日目标产品。
-- 计算：以最新共同交易日收盘价作为价格基准，输入下一目标交易日的股票或 ETF 假设价格或涨跌幅，进行双向理论反推。
-- 数据：每日收盘后运行 EOD 更新；网页只读取 `data/latest.json`。
-- 页面：Streamlit，带语言图标的中英文切换、日间/夜间模式、股票与 ETF 双向联动选择、双向计算卡片；切换语言或外观保留当前选择和输入。数据警告保留来源原文。更新时间随语言显示为北京时间（GMT+8）或 EST（固定 GMT−5，不随美国夏令时变化）；行情交易日期保持原有口径。
+[![Daily EOD update](https://github.com/Desmond4u/LevEcho/actions/workflows/daily_update.yml/badge.svg)](https://github.com/Desmond4u/LevEcho/actions/workflows/daily_update.yml)
+[![Review ETF mappings](https://github.com/Desmond4u/LevEcho/actions/workflows/etf_review.yml/badge.svg)](https://github.com/Desmond4u/LevEcho/actions/workflows/etf_review.yml)
 
-这是单日理论模型，不代表实时价格、NAV 或交易建议。费用、融资成本、跟踪误差、分红、拆分、买卖价差和市场价/NAV偏差都会影响实际结果。
+LevEcho 是一个面向美股单股票日重置杠杆 ETF 的双向理论价格计算器。它使用股票和 ETF 最近的共同收盘价作为计算基准，让你快速回答：
 
-## 计算日期口径
+- 如果股票上涨或下跌到某个价格，杠杆 ETF 的理想单日价格是多少？
+- 如果 ETF 变动到某个价格，对应股票的理论价格是多少？
 
-- `as_of_session` 是最新共同交易日；它的股票和 ETF 收盘价是下一目标交易日计算的价格基准。
-- `base_session → as_of_session` 用于展示最近已完成交易日的实际涨幅、理想杠杆涨幅和跟踪误差。
-- 页面输入价格被视为价格基准日之后目标交易日的假设价格。页面只读取仓库中的日收盘快照，不提供实时行情。
+## 一个简单例子
+
+假设最近共同交易日的收盘价为：
+
+| 标的 | 基准价 |
+| --- | ---: |
+| 股票 | $100 |
+| +2x ETF | $10 |
+
+如果下一目标交易日 ETF 价格为 $12，ETF 上涨 20%，对应股票的理论涨幅为 10%，理论股票价格为 $110。
+
+反向输入股票价格 $110，程序也会得到 ETF 理论价格 $12。
+
+## 计算方式
+
+设股票基准价为 `S0`、ETF 基准价为 `E0`、有符号日目标倍数为 `L`：
+
+```text
+ETF 理论价 = E0 × [1 + L × (股票输入价 / S0 - 1)]
+
+股票理论价 = S0 × [1 + (ETF 输入价 / E0 - 1) / L]
+```
+
+页面支持直接输入价格，也支持输入涨跌幅。计算基准是股票和 ETF 最近的共同交易日收盘价；输入值代表基准日之后目标交易日的假设价格。周末或节假日没有新的常规收盘价时，数据快照会继续使用最近的共同交易日。
+
+## 当前覆盖范围
+
+- 股票池：S&P 500 与 Nasdaq-100 成分股并集，并保留指数归属信息。
+- ETF：来自多个发行商公开资料的单股票日重置产品。
+- 支持的有符号日目标倍数：`+1x`、`+2x`、`+3x`、`-1x`、`-2x`、`-3x`。
+- 只有参考资产、日目标倍数和产品状态都能由公开资料明确核验的配对才会展示在页面中。
+
+ETF 发现范围包括 Direxion、Tradr、ProShares、GraniteShares、T-REX、Leverage Shares 和 Defiance 等发行商。无法确认或发生元数据变化的产品会进入待审核清单。
+
+## 数据更新
+
+网页访问时只读取仓库中的 `data/latest.json`，不会让每位访问者重复请求行情接口。GitHub Actions 负责：
+
+- 每个工作日收盘后更新 EOD 快照；
+- 每周检查指数成分股变化；
+- 每周检查 ETF 配对变化，并生成审核 PR。
+
+行情层优先使用 `yfinance`，缺失标的时使用 Nasdaq 公共历史行情接口作为备用源。数据流程和审核边界见：
+
+- [数据流程与日期口径](docs/DATA_PIPELINE.md)
+- [ETF 发现与审核流程](docs/ETF_REVIEW.md)
+
+## 重要限制
+
+- 这是单日理论模型，不适合直接套用于多个交易日的累计收益。杠杆 ETF 每日重置，跨日复利会产生偏离。
+- 结果不是实时价格、NAV 或交易报价。费用、融资成本、跟踪误差、分红、拆分、ETF 分配、买卖价差和市场价/NAV 偏差都会影响实际结果。
+- 页面使用未复权收盘价；检测到分红、拆分或 ETF 分配时会显示警告。
+- 数据源的公开可访问性不等于允许任意再分发。公开部署和进一步使用前，请核对相关数据提供方的条款。
+- LevEcho 仅供研究和教育用途，不构成投资建议。
 
 ## 本地运行
 
+项目使用 Conda 环境 `trading`：
+
 ```bash
-conda run -n trading python -m pip install -r requirements-dev.txt
-conda run -n trading python -m pytest
+conda run -n trading python -m pip install -r requirements.txt
 conda run -n trading streamlit run app.py
 ```
 
-首次运行数据更新前，需要先审核指数候选清单：
+运行测试：
 
 ```bash
-conda run -n trading python -m scripts.check_universe
+conda run -n trading python -m pip install -r requirements-dev.txt
+conda run -n trading python -m pytest -q
 ```
 
-确认 `data/universe_candidate.json` 后，将其 `constituents` 复制到 `data/approved_universe.json`，再运行：
+完整的开发、数据更新、审核和部署说明见 [开发文档](docs/DEVELOPMENT.md)。
 
-```bash
-conda run -n trading python -m scripts.update_daily
-```
+## 项目文档
 
-当发行商页面无法解析、数据源失败或配对不明确时，程序保留已有数据并生成待审核信息。
-
-当前本地目录检查得到 193 个高置信度配对，覆盖 93 只股票；例如 `SNDK` 已识别 `SNDG`、`SNDQ`、`SNDU`、`SNXX`。1x、1.25x、1.5x 等产品仍会记录在 `data/pending_pairs.json`，等待后续扩大模型支持范围。
-
-ETF 审核工作流会把自动发现结果写入 `data/approved_pairs_proposal.json`，并通过 PR 提供 `reports/etf_pair_review.md`。新产品可以按高置信度规则自动加入；参考资产或杠杆发生变化的已有产品需要人工核验后再修改 `data/approved_pairs.json`。
-
-## GitHub 连接与公开部署
-
-本地仓库准备完成后，在 GitHub 创建一个空的公开仓库，然后执行：
-
-```bash
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-git branch -M main
-git add .
-git commit -m "Initial LevEcho implementation"
-git push -u origin main
-```
-
-之后在 Streamlit Community Cloud 中选择这个仓库的 `app.py` 作为入口。GitHub Actions 工作流会在美东收盘后运行，并把最新快照提交回仓库。
-
-## 数据源说明
-
-指数成分清单使用配置化的多级来源：S&P 500 优先使用 S&P 官方页面；Nasdaq-100 优先使用 Nasdaq 的公开成分 JSON 接口，官方页面和 Wikipedia 的专门成分表作为备用。Nasdaq-100 来源必须返回至少 100 条记录，并且接口声明数量必须与实际返回数量一致，避免把截断结果写入股票池。
-
-当前行情层优先使用 yfinance，Nasdaq 公共历史行情接口作为缺失标的的备用源；后者在 Python HTTPS 协商失败时使用本机 `curl` 传输回退。公开发布前应检查数据提供方的使用和再分发条款；若后续改用需要密钥的正式 API，密钥应放在 GitHub/Streamlit Secrets 中，不进入仓库。
-
-## 页面显示与移动端
-
-- 支持手机端单栏计算布局，语言/外观控件并排，快捷情景按钮保留同一行。
-- 杠杆标签显示有符号每日目标；快捷情景以当前输入侧的基准价计算，支持双向计算。
-- 输入方式支持“按价格 / 按涨跌幅”。涨跌幅以百分数输入（10 表示 +10%），使用 `price_from_return()` 折算为假设价格后计算；页面显示折算价格。切换方式保持同一场景，快捷按钮适配两种方式。涨跌幅必须大于 −100%，输入价格和理论结果均须为有限正数。
-- 页面标明纳斯达克100与标普500成分股并集；选择器仅列出已有可用 ETF 配对的股票。
-- 输入显示及加减步长按当前一般报价规则：价格 ≥ $1 时 2 位小数、$0.01 步长；低于 $1 时 4 位、$0.0001 步长。原始基准、快捷情景和模型计算不提前舍入；这是理论计算工具，输入显示规则不作为成交价合法性校验。
-- 规则核对日期：2026-09-05。[SEC Rule 612 FAQ](https://www.sec.gov/divisions/marketreg/subpenny612faq.htm)；[半美分规则实施延期至 2027 年 11 月首个工作日](https://www.sec.gov/files/rules/exorders/2026/34-105656.pdf)。新规则实施时需重新核对逐标的报价步长。
+- [开发与部署](docs/DEVELOPMENT.md)
+- [数据流程](docs/DATA_PIPELINE.md)
+- [ETF 审核](docs/ETF_REVIEW.md)
+- [变更记录](CHANGELOG.md)
