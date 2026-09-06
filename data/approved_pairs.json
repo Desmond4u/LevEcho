@@ -1,6 +1,6 @@
 {
   "model_version": "1.0",
-  "updated_at": "2026-09-05T13:54:02Z",
+  "updated_at": "2026-09-06T02:12:33Z",
   "pairs": [
     {
       "pair_id": "aapl-aapb",
@@ -10,6 +10,17 @@
       "issuer": "GraniteShares",
       "reference_asset": "AAPL",
       "source_url": "https://www.graniteshares.com/etfs/?category=leveraged",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "aapl-aapd",
+      "underlying_symbol": "AAPL",
+      "etf_symbol": "AAPD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "AAPL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -135,6 +146,17 @@
       "status": "active"
     },
     {
+      "pair_id": "amd-amdd",
+      "underlying_symbol": "AMD",
+      "etf_symbol": "AMDD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "AMD",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
       "pair_id": "amd-amdg",
       "underlying_symbol": "AMD",
       "etf_symbol": "AMDG",
@@ -175,6 +197,17 @@
       "issuer": "Defiance",
       "reference_asset": "AMD",
       "source_url": "https://www.defianceetfs.com/prospectuses/",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "amzn-amzd",
+      "underlying_symbol": "AMZN",
+      "etf_symbol": "AMZD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "AMZN",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -337,6 +370,17 @@
       "underlying_symbol": "AVGO",
       "etf_symbol": "AVL",
       "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "AVGO",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "avgo-avs",
+      "underlying_symbol": "AVGO",
+      "etf_symbol": "AVS",
+      "leverage": -1.0,
       "issuer": "Direxion",
       "reference_asset": "AVGO",
       "source_url": "https://www.direxion.com/single-stock-etfs",
@@ -597,6 +641,17 @@
       "status": "active"
     },
     {
+      "pair_id": "csco-cscs",
+      "underlying_symbol": "CSCO",
+      "etf_symbol": "CSCS",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "CSCO",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
       "pair_id": "dell-dlll",
       "underlying_symbol": "DELL",
       "etf_symbol": "DLLL",
@@ -711,6 +766,17 @@
       "underlying_symbol": "GOOGL",
       "etf_symbol": "GGLL",
       "leverage": 2.0,
+      "issuer": "Direxion",
+      "reference_asset": "GOOGL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "googl-ggls",
+      "underlying_symbol": "GOOGL",
+      "etf_symbol": "GGLS",
+      "leverage": -1.0,
       "issuer": "Direxion",
       "reference_asset": "GOOGL",
       "source_url": "https://www.direxion.com/single-stock-etfs",
@@ -1015,6 +1081,17 @@
       "status": "active"
     },
     {
+      "pair_id": "meta-metd",
+      "underlying_symbol": "META",
+      "etf_symbol": "METD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "META",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
       "pair_id": "meta-metg",
       "underlying_symbol": "META",
       "etf_symbol": "METG",
@@ -1088,6 +1165,17 @@
       "issuer": "GraniteShares",
       "reference_asset": "MRVL",
       "source_url": "https://www.graniteshares.com/etfs/?category=leveraged",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "msft-msfd",
+      "underlying_symbol": "MSFT",
+      "etf_symbol": "MSFD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "MSFT",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -1176,6 +1264,17 @@
       "issuer": "Defiance",
       "reference_asset": "MSTR",
       "source_url": "https://www.defianceetfs.com/prospectuses/",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "mu-mud",
+      "underlying_symbol": "MU",
+      "etf_symbol": "MUD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "MU",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -1301,6 +1400,17 @@
       "status": "active"
     },
     {
+      "pair_id": "nflx-nfxs",
+      "underlying_symbol": "NFLX",
+      "etf_symbol": "NFXS",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "NFLX",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
       "pair_id": "now-nowl",
       "underlying_symbol": "NOW",
       "etf_symbol": "NOWL",
@@ -1341,6 +1451,17 @@
       "issuer": "ProShares",
       "reference_asset": "NVDA",
       "source_url": "https://www.proshares.com/our-etfs/find-leveraged-and-inverse-etfs?product=Product%20Overview&strategy=Single%20Stock",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "nvda-nvdd",
+      "underlying_symbol": "NVDA",
+      "etf_symbol": "NVDD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "NVDA",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -1444,6 +1565,17 @@
       "status": "active"
     },
     {
+      "pair_id": "orcl-orcs",
+      "underlying_symbol": "ORCL",
+      "etf_symbol": "ORCS",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "ORCL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
       "pair_id": "orcl-orcu",
       "underlying_symbol": "ORCL",
       "etf_symbol": "ORCU",
@@ -1473,6 +1605,17 @@
       "issuer": "Tradr",
       "reference_asset": "ORCL",
       "source_url": "https://www.tradretfs.com/etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "panw-pald",
+      "underlying_symbol": "PANW",
+      "etf_symbol": "PALD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "PANW",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -1517,6 +1660,17 @@
       "issuer": "ProShares",
       "reference_asset": "PLTR",
       "source_url": "https://www.proshares.com/our-etfs/find-leveraged-and-inverse-etfs?product=Product%20Overview&strategy=Single%20Stock",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "pltr-pltd",
+      "underlying_symbol": "PLTR",
+      "etf_symbol": "PLTD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "PLTR",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },
@@ -1582,6 +1736,17 @@
       "leverage": 2.0,
       "issuer": "Direxion",
       "reference_asset": "PYPL",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "qcom-qcmd",
+      "underlying_symbol": "QCOM",
+      "etf_symbol": "QCMD",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "QCOM",
       "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
@@ -1737,6 +1902,17 @@
       "issuer": "Tradr",
       "reference_asset": "SNDK",
       "source_url": "https://www.tradretfs.com/etfs",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "spcx-dspc",
+      "underlying_symbol": "SPCX",
+      "etf_symbol": "DSPC",
+      "leverage": -1.0,
+      "issuer": "Leverage Shares",
+      "reference_asset": "SPCX",
+      "source_url": "https://leverageshares.com/us/all-etfs?category=Daily+Leveraged",
       "confidence": "high",
       "status": "active"
     },
@@ -1990,6 +2166,17 @@
       "issuer": "GraniteShares",
       "reference_asset": "TSLA",
       "source_url": "https://www.graniteshares.com/etfs/?category=leveraged",
+      "confidence": "high",
+      "status": "active"
+    },
+    {
+      "pair_id": "tsla-tsls",
+      "underlying_symbol": "TSLA",
+      "etf_symbol": "TSLS",
+      "leverage": -1.0,
+      "issuer": "Direxion",
+      "reference_asset": "TSLA",
+      "source_url": "https://www.direxion.com/single-stock-etfs",
       "confidence": "high",
       "status": "active"
     },

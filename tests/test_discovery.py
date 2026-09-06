@@ -127,7 +127,29 @@ def test_match_requires_supported_high_confidence_pair() -> None:
     )
     assert approved[0].etf_symbol == "ABCU"
     assert not pending
-    assert SUPPORTED_LEVERAGE == frozenset({-3.0, -2.0, 2.0, 3.0})
+    assert SUPPORTED_LEVERAGE == frozenset({-3.0, -2.0, -1.0, 1.0, 2.0, 3.0})
+
+
+def test_match_accepts_supported_one_times_inverse_pair() -> None:
+    candidate = ETFCandidate(
+        ticker="AAPD",
+        fund_name="Direxion Daily AAPL Bear 1X ETF",
+        reference_symbol="AAPL",
+        reference_text="Common shares of Apple Inc. (AAPL)",
+        leverage=-1,
+        issuer="Direxion",
+        source_url="https://example.test",
+        confidence="high",
+        single_stock=True,
+    )
+    approved, pending = match_candidates(
+        [candidate],
+        [{"display_symbol": "AAPL", "active": True}],
+    )
+    assert [(item.etf_symbol, item.underlying_symbol, item.leverage) for item in approved] == [
+        ("AAPD", "AAPL", -1.0)
+    ]
+    assert not pending
 
 
 def test_parse_single_stock_pdf_text() -> None:

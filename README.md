@@ -5,7 +5,7 @@ LevEcho 是一个面向美股日重置杠杆 ETF 的单日理论价格计算器�
 ## 当前能力
 
 - 股票池：S&P 500 与 Nasdaq-100 成分股并集。
-- ETF：自动读取 Direxion、Tradr、ProShares、GraniteShares、T-REX、Leverage Shares、Defiance 的公开产品目录，匹配明确的单股票 `+2x`、`+3x`、`-2x`、`-3x` 日目标产品。
+- ETF：自动读取 Direxion、Tradr、ProShares、GraniteShares、T-REX、Leverage Shares、Defiance 的公开产品目录，匹配明确的单股票 `±1x`、`±2x`、`±3x` 日目标产品。
 - 计算：以最新共同交易日收盘价作为价格基准，输入下一目标交易日的股票或 ETF 假设价格，进行双向理论反推。
 - 数据：每日收盘后运行 EOD 更新；网页只读取 `data/latest.json`。
 - 页面：Streamlit。
