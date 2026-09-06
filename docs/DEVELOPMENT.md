@@ -21,29 +21,29 @@
 
 ## 本地环境
 
-项目默认使用 Conda 环境 `trading`。运行以下命令安装运行依赖和开发依赖：
+请先激活一个隔离的 Python 或 Conda 环境。以下命令假设该环境已经激活：
 
 ```bash
-conda run -n trading python -m pip install -r requirements.txt
-conda run -n trading python -m pip install -r requirements-dev.txt
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
 ```
 
 启动页面：
 
 ```bash
-conda run -n trading streamlit run app.py
+streamlit run app.py
 ```
 
 运行测试：
 
 ```bash
-conda run -n trading python -m pytest -q
+python -m pytest -q
 ```
 
 只检查受影响模块时，可以先运行更小的范围：
 
 ```bash
-conda run -n trading python -m pytest tests/test_model.py tests/test_pipeline.py -q
+python -m pytest tests/test_model.py tests/test_pipeline.py -q
 ```
 
 ## 数据脚本
@@ -53,25 +53,25 @@ conda run -n trading python -m pytest tests/test_model.py tests/test_pipeline.py
 检查指数成分股变化：
 
 ```bash
-conda run -n trading python -m scripts.check_universe
+python -m scripts.check_universe
 ```
 
 为审核 PR 同时写入候选 approved 文件：
 
 ```bash
-conda run -n trading python -m scripts.check_universe --write-approved-proposal
+python -m scripts.check_universe --write-approved-proposal
 ```
 
 检查 ETF 配对：
 
 ```bash
-conda run -n trading python -m scripts.check_etfs
+python -m scripts.check_etfs
 ```
 
 生成最新 EOD 快照：
 
 ```bash
-conda run -n trading python -m scripts.update_daily
+python -m scripts.update_daily
 ```
 
 数据文件的职责和日期语义见 [数据流程](DATA_PIPELINE.md)；ETF 配对的审核边界见 [ETF 审核流程](ETF_REVIEW.md)。

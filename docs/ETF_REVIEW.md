@@ -46,7 +46,7 @@ LevEcho 只把高置信度的单股票日重置杠杆 ETF 展示给公众。产�
 手动运行检查：
 
 ```bash
-conda run -n trading python -m scripts.check_etfs
+python -m scripts.check_etfs
 ```
 
 检查结果会更新提案、待审核清单和报告。GitHub Actions 每周运行同一检查并创建 PR。审核 PR 时：

@@ -1,6 +1,6 @@
 # LevEcho
 
-> Estimate the theoretical price of a single-stock leveraged ETF from an assumed stock price, or work backwards from an assumed ETF price.
+> Enter a stock price to estimate the theoretical price of the corresponding single-stock leveraged ETF using the previous trading day's close; you can also work backwards from an ETF price.
 
 [Live demo](https://levecho.streamlit.app) · [简体中文](README.md) · [Developer documentation](docs/DEVELOPMENT.md)
 
@@ -69,18 +69,18 @@ The market-data layer uses `yfinance` as the primary provider and Nasdaq's publi
 
 ## Run locally
 
-The project uses the Conda environment `trading`:
+Prepare an isolated Python environment of your choice, then install the dependencies:
 
 ```bash
-conda run -n trading python -m pip install -r requirements.txt
-conda run -n trading streamlit run app.py
+python -m pip install -r requirements.txt
+streamlit run app.py
 ```
 
 Run the test suite with:
 
 ```bash
-conda run -n trading python -m pip install -r requirements-dev.txt
-conda run -n trading python -m pytest -q
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
 ```
 
 See the [developer documentation](docs/DEVELOPMENT.md) for development, data updates, review, and deployment details.

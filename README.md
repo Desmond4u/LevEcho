@@ -1,6 +1,6 @@
 # LevEcho
 
-> 输入一个交易日的股票价格，估算对应单股票杠杆 ETF 的理论价格；也支持从 ETF 价格反推股票价格。
+> 输入股票价格，根据上一交易日收盘价估算对应单股票杠杆 ETF 的理论价格；也支持从 ETF 价格反推股票价格。
 
 [在线体验](https://levecho.streamlit.app) · [English](README.en.md) · [开发文档](docs/DEVELOPMENT.md)
 
@@ -69,18 +69,18 @@ ETF 发现范围包括 Direxion、Tradr、ProShares、GraniteShares、T-REX、Le
 
 ## 本地运行
 
-项目使用 Conda 环境 `trading`：
+请先准备一个隔离的 Python 环境，然后安装依赖：
 
 ```bash
-conda run -n trading python -m pip install -r requirements.txt
-conda run -n trading streamlit run app.py
+python -m pip install -r requirements.txt
+streamlit run app.py
 ```
 
 运行测试：
 
 ```bash
-conda run -n trading python -m pip install -r requirements-dev.txt
-conda run -n trading python -m pytest -q
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
 ```
 
 完整的开发、数据更新、审核和部署说明见 [开发文档](docs/DEVELOPMENT.md)。
