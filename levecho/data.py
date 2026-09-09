@@ -93,7 +93,7 @@ def _bars_from_frame(symbol: str, frame: pd.DataFrame, source: str) -> list[Pric
 class YFinanceProvider:
     name = "yfinance"
 
-    def __init__(self, chunk_size: int = 25, timeout: int = 15) -> None:
+    def __init__(self, chunk_size: int = 100, timeout: int = 15) -> None:
         self.chunk_size = chunk_size
         self.timeout = timeout
 

@@ -2,7 +2,7 @@ from datetime import date
 from types import SimpleNamespace
 
 import levecho.data as data_module
-from levecho.data import FetchResult, FallbackProvider, NasdaqProvider
+from levecho.data import FetchResult, FallbackProvider, NasdaqProvider, YFinanceProvider
 from levecho.types import PriceBar
 
 
@@ -26,6 +26,12 @@ def test_fallback_only_fetches_missing_symbols() -> None:
     result = FallbackProvider(primary, fallback).fetch(["AAA", "BBB"])
     assert set(result.bars) == {"AAA", "BBB"}
     assert not result.errors
+
+
+def test_yfinance_uses_100_symbol_chunks_by_default() -> None:
+    provider = YFinanceProvider()
+
+    assert provider.chunk_size == 100
 
 
 def test_nasdaq_uses_curl_when_python_request_fails(monkeypatch) -> None:
