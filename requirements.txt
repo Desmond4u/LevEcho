@@ -6,3 +6,4 @@ streamlit==1.53.1
 lxml==6.0.2
 beautifulsoup4==4.13.4
 pypdf==6.17.0
+exchange_calendars==4.13.2

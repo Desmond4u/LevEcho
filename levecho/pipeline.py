@@ -6,6 +6,9 @@ from collections.abc import Iterable
 from datetime import date
 from typing import Any
 
+import exchange_calendars as xcals
+import pandas as pd
+
 from .data import FetchResult
 from .io import utc_now_iso
 from .model import daily_return
@@ -14,6 +17,22 @@ from .types import PairConfig, PriceBar
 
 class SnapshotBuildError(RuntimeError):
     """Raised when a complete, same-session snapshot cannot be built."""
+
+
+# Offline NYSE calendar; built once at import because get_calendar is slow.
+_NYSE = xcals.get_calendar("XNYS")
+
+
+def _sessions_are_adjacent(base_session: date, as_of_session: date) -> bool:
+    """True when the two dates are consecutive NYSE sessions (holidays and
+    weekends in between are fine; missing sessions and non-session dates are
+    not)."""
+
+    base = pd.Timestamp(base_session)
+    if not _NYSE.is_session(base):
+        return False
+    next_session = _NYSE.next_session(base)
+    return next_session is not None and next_session.date() == as_of_session
 
 
 def _bar_map(bars: Iterable[PriceBar]) -> dict[date, PriceBar]:
@@ -43,6 +62,11 @@ def build_pair_snapshot(
         )
 
     base_session, as_of_session = common[-2], common[-1]
+    if not _sessions_are_adjacent(base_session, as_of_session):
+        raise SnapshotBuildError(
+            f"{pair.pair_id}: base {base_session} and latest {as_of_session} "
+            "are not consecutive NYSE sessions"
+        )
     stock_base = stock_map[base_session]
     etf_base = etf_map[base_session]
     stock_latest = stock_map[as_of_session]
