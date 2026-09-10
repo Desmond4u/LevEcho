@@ -308,22 +308,54 @@ class StooqProvider:
 
 
 class FallbackProvider:
-    """Use the fallback only for symbols missing from the primary result."""
+    """Use the fallback for symbols the primary cannot fully cover.
+
+    That covers symbols with no bars at all and symbols whose latest
+    session trails the freshest session other symbols already returned,
+    e.g. when the primary's history feed lags one session behind for a
+    thinly traded ETF.
+    """
 
     def __init__(self, primary: PriceProvider, fallback: PriceProvider) -> None:
         self.primary = primary
         self.fallback = fallback
 
+    @staticmethod
+    def _stale_symbols(result: FetchResult) -> list[str]:
+        latest = {
+            symbol: max(bar.session for bar in bars)
+            for symbol, bars in result.bars.items()
+            if bars
+        }
+        if not latest:
+            return []
+        newest = max(latest.values())
+        return [symbol for symbol, session in latest.items() if session < newest]
+
+    @staticmethod
+    def _merge_sessions(primary_bars: list[PriceBar], fallback_bars: list[PriceBar]) -> list[PriceBar]:
+        primary_sessions = {bar.session for bar in primary_bars}
+        filled = [bar for bar in fallback_bars if bar.session not in primary_sessions]
+        return sorted([*primary_bars, *filled], key=lambda bar: bar.session)
+
     def fetch(self, symbols: Iterable[str], lookback_days: int = 15) -> FetchResult:
         unique_symbols = list(dict.fromkeys(str(symbol).upper() for symbol in symbols))
         primary_result = self.primary.fetch(unique_symbols, lookback_days)
         missing = [symbol for symbol in unique_symbols if symbol not in primary_result.bars]
-        if not missing:
+        stale = self._stale_symbols(primary_result)
+        if not missing and not stale:
             return primary_result
 
-        fallback_result = self.fallback.fetch(missing, lookback_days)
+        fallback_result = self.fallback.fetch(missing + stale, lookback_days)
         merged = FetchResult(bars=dict(primary_result.bars), errors=dict(primary_result.errors))
-        merged.bars.update(fallback_result.bars)
+        merged.bars.update(
+            {symbol: bars for symbol, bars in fallback_result.bars.items() if symbol in missing}
+        )
+        for symbol in stale:
+            if symbol in fallback_result.bars:
+                merged.bars[symbol] = self._merge_sessions(
+                    primary_result.bars[symbol], fallback_result.bars[symbol]
+                )
         for symbol in missing:
             if symbol in fallback_result.bars:
                 merged.errors.pop(symbol, None)
