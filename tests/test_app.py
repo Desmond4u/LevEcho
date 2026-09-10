@@ -102,6 +102,30 @@ def test_select_from_either_side():
         assert not page.exception
 
 
+def test_comparison_table_ranks_products_for_selected_stock():
+    base = dict(leverage=2, base_session="2026-09-03", as_of_session="2026-09-04",
+                base_stock_close=99, base_etf_close=9, latest_stock_close=100,
+                latest_etf_close=10, stock_return=.01, etf_return=.02,
+                ideal_etf_return=.02, tracking_error=0, source="fixture", warnings=[],
+                issuer="Test Issuer")
+    pairs = [
+        dict(base, pair_id="a", underlying_symbol="AAA", etf_symbol="AAA2", tracking_error=0.0031),
+        dict(base, pair_id="b", underlying_symbol="AAA", etf_symbol="AAA3", leverage=-2, tracking_error=-0.0007),
+        dict(base, pair_id="c", underlying_symbol="BBB", etf_symbol="BBB2", tracking_error=0),
+    ]
+    with patch("levecho.io.load_json", return_value={"pairs": pairs}):
+        page = AppTest.from_file(str(APP)).run()
+        page.number_input[0].set_value(110).run()
+        table = page.table[1].value
+        assert list(table.iloc[:, 0]) == ["AAA3", "● AAA2"]  # ascending |deviation|, current marked
+        assert list(table["理论价"]) == ["$8.0000", "$12.0000"]  # -2x and +2x at stock=110
+        page.radio(key="direction").set_value("etf").run()
+        assert list(page.table[1].value.columns) == ["产品", "杠杆", "发行商", "偏差 (pp)"]
+        page.selectbox(key="stock").select("BBB").run()
+        assert len(page.table) == 1  # single-product stock has no comparison card
+        assert not page.exception
+
+
 def test_update_time_follows_language(page):
     assert "2026-09-06 04:22:35" in [item.value for item in page.text]
     assert any("GMT+8" in item.value for item in page.caption)

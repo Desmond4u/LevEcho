@@ -44,7 +44,7 @@ h1 {{letter-spacing: -0.055em;}}
 h3 {{letter-spacing: -0.02em;}}
 h1, h2, h3, label, [data-testid="stWidgetLabel"],
 [data-testid="stMarkdownContainer"], [data-testid="stMetricLabel"] {{color: {text};}}
-.st-key-selection, .st-key-input_card, .st-key-result_card, .st-key-data_card, .st-key-history_card {{background: {card}; border: 1px solid {border}; border-color: {border} !important; border-radius: 18px;}}
+.st-key-selection, .st-key-input_card, .st-key-result_card, .st-key-data_card, .st-key-history_card, .st-key-compare_card {{background: {card}; border: 1px solid {border}; border-color: {border} !important; border-radius: 18px;}}
 .st-key-result_card {{border-top: 3px solid {accent} !important;}}
 .st-key-result_card [data-testid="stMetricValue"] {{font-size: clamp(2rem, 4vw, 3rem);}}
 .st-key-data_card [data-testid="stText"] {{color: {text}; font-variant-numeric: tabular-nums;}}
@@ -239,6 +239,37 @@ with st.container(border=True, key="history_card"):
     st.table(pd.DataFrame({"": [symbol, pair["etf_symbol"]],
               pair["base_session"]: [f"${pair['base_stock_close']:,.4f}", f"${pair['base_etf_close']:,.4f}"],
               pair["as_of_session"]: [f"${pair['latest_stock_close']:,.4f}", f"${pair['latest_etf_close']:,.4f}"]}).set_index(""))
+
+peers = [item for item in pairs if item["underlying_symbol"] == symbol]
+if len(peers) > 1:
+    st.subheader(f"{t('compare')} · {symbol}")
+    st.caption(t("compare_help"))
+    with st.container(border=True, key="compare_card"):
+        rows = []
+        for item in sorted(peers, key=lambda value: (abs(float(value.get("tracking_error") or 0.0)), value["etf_symbol"])):
+            row = {
+                t("col_etf"): ("● " if item["pair_id"] == pair_id else "") + item["etf_symbol"],
+                t("col_leverage"): f"{item['leverage']:+g}x",
+                t("col_issuer"): item.get("issuer") or t("unknown"),
+                t("col_deviation"): f"{float(item.get('tracking_error') or 0.0) * 100:+.2f}",
+            }
+            if forward and price is not None:
+                try:
+                    theoretical = solve_etf_price(
+                        float(item.get("calculation_base_stock_close", item["latest_stock_close"])),
+                        float(item.get("calculation_base_etf_close", item["latest_etf_close"])),
+                        item["leverage"],
+                        price,
+                    )
+                    row[t("col_theoretical")] = f"${theoretical:,.4f}"
+                except ModelInputError:
+                    row[t("col_theoretical")] = "—"
+            rows.append(row)
+        columns = [t("col_etf"), t("col_leverage"), t("col_issuer")]
+        if forward and price is not None:
+            columns.insert(3, t("col_theoretical"))
+        columns.append(t("col_deviation"))
+        st.table(pd.DataFrame(rows, columns=columns))
 with st.expander(t("details")):
     st.latex(r"E = E_0[1 + L(S/S_0 - 1)]")
     st.latex(r"S = S_0[1 + (E/E_0 - 1)/L]")

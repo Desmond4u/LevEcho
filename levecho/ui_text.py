@@ -52,6 +52,13 @@ TEXT = {
     "formula_help": ("S₀ 为股票基准价，E₀ 为 ETF 基准价，L 为有符号日目标倍数。模型仅用于单日，不适用于跨日累计收益。历史区间取双方最近两个共同行情日期，并已按 NYSE 交易日历确认相邻；公司行为字段缺失不代表已确认无公司行为。", "S₀ is the stock reference price, E₀ the ETF reference price, and L the signed daily leverage. The model applies to one session, not cumulative multi-day returns. Historical dates are the latest two common quote dates, verified as consecutive NYSE sessions. Missing corporate-action fields do not confirm the absence of corporate actions."),
     "error": ("无法计算：请检查价格与基准数据。输入必须是有限正数，且计算结果必须大于零；当前假设可能超出单日线性模型的有效范围。", "Unable to calculate. Check the input and reference data: prices must be finite and positive, and the theoretical result must exceed zero. This scenario may be outside the one-day linear model’s valid range."),
     "warnings": ("数据警告（来源原文）", "Data warnings (source text)"),
+    "compare": ("同标的多产品对比", "Compare products on the same underlying"),
+    "compare_help": ("按最近两个共同交易日的实际与理想收益偏差升序排列，● 为当前产品；股票 → ETF 方向下同时给出当前假设价格映射到各产品的理论价。", "Sorted by the latest-session tracking error, closest first; ● marks the current product. In stock → ETF direction, the theoretical column maps the current hypothetical price onto each product."),
+    "col_etf": ("产品", "Product"),
+    "col_leverage": ("杠杆", "Leverage"),
+    "col_issuer": ("发行商", "Issuer"),
+    "col_theoretical": ("理论价", "Theoretical"),
+    "col_deviation": ("偏差 (pp)", "Deviation (pp)"),
 }
 
 
