@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- `update_daily` 构建失败时在日志中摘要打印每个标的的行情源错误（每条截断、最多 10 条），便于从 Actions 日志直接定位原因。
 - 新增 `ci.yml`：push 与 PR 时自动安装开发依赖并运行全量 pytest。
 - 快照构建通过 NYSE 交易日历（`exchange_calendars`）验证基准日与最新日相邻：节假日与周末跨跃正常通过，缺失中间行情或出现非交易日数据时构建失败，避免把跨日累计收益当作单日收益。
 - 锁定 `requirements.txt` / `requirements-dev.txt` 到实测可用的精确版本，避免每日 Actions 安装到行为有变的新版本。

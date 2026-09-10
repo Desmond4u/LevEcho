@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from levecho.data import FallbackProvider, NasdaqProvider, YFinanceProvider
+from levecho.data import FallbackProvider, FetchResult, NasdaqProvider, YFinanceProvider
 from levecho.discovery import discover_candidates, match_candidates, merge_approved_pairs
 from levecho.io import load_json, utc_now_iso, write_json
 from levecho.pipeline import SnapshotBuildError, build_snapshot
@@ -59,6 +59,20 @@ def _refresh_pairs(universe_path: str, pairs_path: str, pending_path: str, sourc
     return [PairConfig.from_mapping(item) for item in merged if item.get("status", "active") == "active"]
 
 
+def _print_fetch_errors(fetched: FetchResult, limit: int = 10, width: int = 200) -> None:
+    """Summarize per-symbol provider errors so CI logs point at the cause."""
+
+    if not fetched.errors:
+        return
+    print(f"Provider errors for {len(fetched.errors)} symbol(s):")
+    for symbol, message in sorted(fetched.errors.items())[:limit]:
+        message = message if len(message) <= width else message[: width - 3] + "..."
+        print(f"  {symbol}: {message}")
+    hidden = len(fetched.errors) - limit
+    if hidden > 0:
+        print(f"  ... and {hidden} more")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--universe", default=str(ROOT / "data/approved_universe.json"))
@@ -82,6 +96,7 @@ def main() -> int:
         snapshot = build_snapshot(pairs, fetched)
     except SnapshotBuildError as exc:
         print(f"Snapshot was not published: {exc}")
+        _print_fetch_errors(fetched)
         return 2
     write_json(args.output, snapshot)
     print(f"Published {len(snapshot['pairs'])} pairs for {snapshot['as_of_session']}.")
