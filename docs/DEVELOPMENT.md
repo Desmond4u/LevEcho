@@ -78,10 +78,11 @@ python -m scripts.update_daily
 
 ## GitHub Actions
 
-三个工作流都支持 `workflow_dispatch` 手动运行，也配置了定时运行：
+三个定时工作流都支持 `workflow_dispatch` 手动运行；`ci.yml` 在 push 和 PR 时运行：
 
 | 工作流 | 配置时间 | 作用 |
 | --- | --- | --- |
+| `ci.yml` | push 与 PR | 安装 `requirements-dev.txt` 并运行全量 pytest |
 | `daily_update.yml` | 周一至周五 18:17，美东时间 | 抓取 EOD 数据并提交 `data/latest.json` |
 | `universe_check.yml` | 每周一 09:23，美东时间 | 检查 S&P 500 与 Nasdaq-100 成分变化并创建审核 PR |
 | `etf_review.yml` | 每周一 10:37，美东时间 | 检查 ETF 映射并创建审核 PR |
