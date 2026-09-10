@@ -41,46 +41,124 @@ with appearance:
     theme = st.selectbox(t("appearance"), ["light", "dark"], key="theme",
                          format_func=lambda value: t(value))
 
+# Design tokens: bg_top, bg_bottom, card, field, text, muted, accent, accent2,
+# border, shadow, accent_soft, topbar_bg, pos, neg
 palette = (
-    ("#0e1726", "#172438", "#21324a", "#e7eef8", "#aebed2", "#79d7ce", "#34465e")
+    ("#0b1122", "#0d1528", "#151d34", "#1b2442", "#e9eefb", "#8e9cbd",
+     "#7d9bff", "#35d6e4", "#263254",
+     "0 1px 2px rgba(0,0,0,.45), 0 14px 34px rgba(0,0,0,.38)",
+     "rgba(125,155,255,.14)", "rgba(11,17,34,.72)", "#3ddc97", "#ff7a7a")
     if theme == "dark" else
-    ("#f5f7fb", "#ffffff", "#edf2f7", "#16283f", "#52657a", "#145c65", "#d8e1eb")
+    ("#f7f8fc", "#eef2f9", "#ffffff", "#f3f5fb", "#17203a", "#5d6b85",
+     "#2c53f0", "#1fb6cc", "#e3e8f3",
+     "0 1px 2px rgba(23,32,58,.05), 0 10px 30px rgba(23,32,58,.07)",
+     "rgba(44,83,240,.09)", "rgba(247,248,252,.78)", "#0c9d70", "#e0484d")
 )
-bg, card, field, text, muted, accent, border = palette
+bg_top, bg_bottom, card, field, text, muted, accent, accent2, border, shadow, accent_soft, topbar_bg, pos, neg = palette
 st.markdown(f"""
 <style>
-.stApp {{background: {bg}; color: {text}; color-scheme: {theme};}}
-.block-container {{max-width: 1060px; padding-top: 3.5rem; padding-bottom: 3rem;}}
-[data-testid="stHeader"] {{background: {bg};}}
-h1 {{letter-spacing: -0.055em;}}
-h3 {{letter-spacing: -0.02em;}}
-h1, h2, h3, label, [data-testid="stWidgetLabel"],
+.stApp {{
+    background: linear-gradient(180deg, {bg_top} 0%, {bg_bottom} 100%) fixed;
+    color: {text}; color-scheme: {theme};
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+                 Roboto, "Helvetica Neue", Arial, "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}}
+.block-container {{max-width: 1040px; padding-top: 4.4rem; padding-bottom: 3rem;}}
+[data-testid="stHeader"] {{background: transparent;}}
+h1 {{letter-spacing: -.045em; font-weight: 750;}}
+h3 {{letter-spacing: -.02em; position: relative; padding-left: 14px;}}
+h3::before {{
+    content: ""; position: absolute; left: 0; top: .3em; width: 4px; height: .95em;
+    border-radius: 2px; background: linear-gradient(180deg, {accent}, {accent2});
+}}
+h1, h2, label, [data-testid="stWidgetLabel"],
 [data-testid="stMarkdownContainer"], [data-testid="stMetricLabel"] {{color: {text};}}
-.st-key-selection, .st-key-input_card, .st-key-result_card, .st-key-data_card, .st-key-history_card, .st-key-compare_card {{background: {card}; border: 1px solid {border}; border-color: {border} !important; border-radius: 18px;}}
-.st-key-result_card {{border-top: 3px solid {accent} !important;}}
-.st-key-result_card [data-testid="stMetricValue"] {{font-size: clamp(2rem, 4vw, 3rem);}}
-.st-key-data_card [data-testid="stText"] {{color: {text}; font-variant-numeric: tabular-nums;}}
-[data-testid="stTable"] {{font-variant-numeric: tabular-nums;}}
-[data-testid="stMetricValue"], [data-testid="stMetricValue"] * {{color: {accent} !important; font-variant-numeric: tabular-nums;}}
-[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] * {{color: {muted} !important;}}
-[data-baseweb="select"] > div, [data-baseweb="input"],
-[data-baseweb="base-input"], input, [data-testid="stNumberInput"] button {{background: {field} !important; color: {text} !important;}}
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] * {{color: {muted} !important; font-size: .82rem; letter-spacing: .01em;}}
+
+/* Sticky frosted topbar */
+.st-key-topbar {{
+    position: sticky; top: 0; z-index: 200; margin: 0 -1rem; padding: .55rem 1rem;
+    background: {topbar_bg}; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid {border};
+}}
+.st-key-topbar [data-baseweb="select"] > div {{
+    background: {card}; border: 1px solid {border}; border-radius: 999px;
+    min-height: 38px; font-size: .85rem;
+}}
+
+/* Cards */
+.st-key-selection, .st-key-input_card, .st-key-result_card, .st-key-data_card,
+.st-key-history_card, .st-key-compare_card {{
+    background: {card}; border: 1px solid {border}; border-color: {border} !important;
+    border-radius: 20px; box-shadow: {shadow};
+}}
+.st-key-result_card {{position: relative; overflow: hidden;}}
+.st-key-result_card::before {{
+    content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+    background: linear-gradient(90deg, {accent}, {accent2});
+}}
+.st-key-result_card::after {{
+    content: ""; position: absolute; inset: 0 0 auto 0; height: 180px; pointer-events: none;
+    background: radial-gradient(60% 100% at 50% 0%, {accent_soft}, transparent 75%);
+}}
+.st-key-result_card [data-testid="stMetricValue"] {{
+    font-size: clamp(2.4rem, 4.5vw, 3.3rem); font-weight: 700; letter-spacing: -.02em;
+    background: linear-gradient(90deg, {accent}, {accent2});
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: {accent};
+    font-variant-numeric: tabular-nums;
+}}
+.delta {{font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums;}}
+.delta.up {{color: {pos};}}
+.delta.down {{color: {neg};}}
+.delta-label {{color: {muted}; font-weight: 500;}}
+
+/* Product chips */
+.chip {{
+    display: inline-flex; align-items: center; padding: .38rem .85rem; margin: 0 .5rem .8rem 0;
+    border-radius: 999px; background: {field}; color: {muted};
+    border: 1px solid {border}; font-size: .85rem; font-weight: 600; letter-spacing: .01em;
+}}
+.chip-accent {{background: {accent_soft}; color: {accent}; border-color: transparent; font-size: .9rem;}}
+
+/* Inputs, selects, quick buttons */
+[data-baseweb="select"] > div, [data-baseweb="input"], [data-baseweb="base-input"],
+input, [data-testid="stNumberInput"] button {{background: {field} !important; color: {text} !important;}}
+[data-baseweb="select"] > div, [data-baseweb="input"] {{border-radius: 12px;}}
+[data-baseweb="input"]:focus-within {{border-color: {accent}; box-shadow: 0 0 0 3px {accent_soft};}}
 [data-baseweb="select"] svg {{fill: {text};}}
 [data-baseweb="popover"], [data-baseweb="popover"] ul,
-[data-baseweb="popover"] li {{background: {card}; color: {text};}}
+[data-baseweb="popover"] li {{background: {card}; color: {text}; border-radius: 12px;}}
 [data-baseweb="popover"] li:hover, [role="option"][aria-selected="true"] {{background: {field};}}
-[data-testid="stTable"] td, [data-testid="stTable"] th {{color: {text}; border-color: {border};}}
-[data-testid="stExpander"] details {{background: {card}; border-color: {border};}}
-[data-testid="stExpander"] summary {{color: {text};}}
+.st-key-shortcuts button {{
+    background: {field}; color: {text}; border: 1px solid {border}; border-radius: 12px;
+    min-height: 42px; font-weight: 600; font-variant-numeric: tabular-nums;
+    transition: border-color .15s ease, transform .15s ease, background .15s ease, color .15s ease;
+}}
+.st-key-shortcuts button:hover {{
+    border-color: {accent}; color: {accent}; background: {accent_soft}; transform: translateY(-1px);
+}}
+
+/* Metrics, tables, expanders */
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] * {{color: {accent} !important; font-variant-numeric: tabular-nums;}}
+[data-testid="stMetricLabel"] {{font-size: .78rem; letter-spacing: .02em;}}
+.st-key-data_card [data-testid="stText"] {{color: {text}; font-variant-numeric: tabular-nums;}}
+[data-testid="stTable"] {{font-variant-numeric: tabular-nums; overflow-x: auto;}}
+[data-testid="stTable"] th {{
+    color: {muted} !important; font-size: .72rem; text-transform: uppercase;
+    letter-spacing: .08em; border-color: {border};
+}}
+[data-testid="stTable"] td {{color: {text}; border-color: {border};}}
+[data-testid="stTable"] tbody tr:hover td {{background: {accent_soft};}}
+[data-testid="stExpander"] details {{background: {card}; border: 1px solid {border}; border-radius: 16px;}}
+[data-testid="stExpander"] summary {{color: {text}; font-weight: 600;}}
+[data-testid="stExpander"] summary:hover {{color: {accent};}}
 [data-testid="stAlert"] [data-testid="stMarkdownContainer"] {{color: inherit;}}
- .leverage-badge {{display: inline-block; padding: .35rem .8rem; border: 1px solid {accent}; border-radius: 999px; color: {accent}; background: {card}; font-weight: 650; margin-bottom: .8rem;}}
-.st-key-shortcuts button {{background: {field}; color: {text}; border-color: {border}; min-height: 44px;}}
-.st-key-shortcuts button:hover {{border-color: {accent};}}
-[data-testid="stTable"] {{overflow-x: auto;}}
 @media (max-width: 640px) {{
-    .block-container {{padding: 3.3rem 1rem 2rem;}}
+    .block-container {{padding: 3.6rem 1rem 2rem;}}
     h1 {{font-size: 2rem !important; padding-bottom: .2rem !important;}}
-    h3 {{font-size: 1.25rem !important;}}
+    h3 {{font-size: 1.2rem !important;}}
     .st-key-topbar [data-testid="stHorizontalBlock"] {{flex-wrap: wrap; gap: .65rem;}}
     .st-key-topbar [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {{min-width: 0 !important; flex: 1 1 calc(50% - .65rem) !important; width: calc(50% - .65rem) !important;}}
     .st-key-topbar [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:first-child {{flex-basis: 100% !important; width: 100% !important;}}
@@ -90,7 +168,7 @@ h1, h2, h3, label, [data-testid="stWidgetLabel"],
     .st-key-shortcuts button p {{font-size: .8rem; white-space: nowrap;}}
     [data-baseweb="input"] input {{font-size: 16px;}}
     [data-baseweb="select"] > div {{min-height: 44px;}}
-    .st-key-result_card [data-testid="stMetricValue"] {{font-size: 2.5rem;}}
+    .st-key-result_card [data-testid="stMetricValue"] {{font-size: 2.4rem;}}
 }}
 </style>
 """, unsafe_allow_html=True)
@@ -145,7 +223,11 @@ base_date = pair.get("calculation_base_session", pair["as_of_session"])
 stock_base = float(pair.get("calculation_base_stock_close", pair["latest_stock_close"]))
 etf_base = float(pair.get("calculation_base_etf_close", pair["latest_etf_close"]))
 
-st.markdown(f'<span class="leverage-badge">{pair["leverage"]:+g}× · {t("daily_target")}</span>', unsafe_allow_html=True)
+chips = f'<span class="chip chip-accent">{pair["leverage"]:+g}× · {t("daily_target")}</span>'
+chips += f'<span class="chip">{pair["etf_symbol"]}</span>'
+if pair.get("issuer"):
+    chips += f'<span class="chip">{pair["issuer"]}</span>'
+st.markdown(chips, unsafe_allow_html=True)
 st.caption(t("snapshot"))
 left, right = st.columns(2)
 with left, st.container(border=True, key="input_card"):
@@ -219,7 +301,10 @@ with right, st.container(border=True, key="result_card"):
         solver = solve_etf_price if forward else solve_stock_price
         result = solver(stock_base, etf_base, pair["leverage"], price)
         st.metric(f"{output_symbol} · USD", f"${result:,.4f}")
-        st.markdown(f"**{(result / output_base - 1) * 100:+.2f}%** · {t('change')}")
+        change_percent = (result / output_base - 1) * 100
+        delta_class = "delta up" if change_percent >= 0 else "delta down"
+        st.markdown(f'<span class="{delta_class}">{change_percent:+.2f}%</span>'
+                    f' <span class="delta-label">· {t("change")}</span>', unsafe_allow_html=True)
     except ModelInputError:
         st.error(input_error or t("error"))
     st.caption(t("hint"))

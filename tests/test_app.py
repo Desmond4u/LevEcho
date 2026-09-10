@@ -61,13 +61,13 @@ def test_theme_preserves_scenario(page):
     assert not page.exception
     assert page.number_input[0].value == 110
     assert page.metric[0].value == "$12.0000"
-    assert "#0e1726" in page.markdown[0].value
+    assert "#0b1122" in page.markdown[0].value
     assert "🌐" in page.selectbox(key="language").label
     page.selectbox(key="language").select("en").run()
     assert page.selectbox(key="theme").value == "dark"
     page.selectbox(key="theme").select("light").run()
     assert page.number_input[0].value == 110
-    assert "#f5f7fb" in page.markdown[0].value
+    assert "#f7f8fc" in page.markdown[0].value
 
 
 def test_select_from_either_side():
@@ -141,7 +141,7 @@ def test_url_params_seed_and_track_selection():
         page.run()
         assert page.selectbox(key="pair").value == "b"
         assert page.selectbox(key="language").value == "en"
-        assert "#0e1726" in page.markdown[0].value  # dark palette active
+        assert "#0b1122" in page.markdown[0].value  # dark palette active
         page.selectbox(key="pair").select("a").run()
         # AppTest exposes query-param values as lists.
         assert page.query_params["pair"] == ["a"]
