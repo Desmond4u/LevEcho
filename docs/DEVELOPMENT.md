@@ -83,7 +83,7 @@ python -m scripts.update_daily
 | 工作流 | 配置时间 | 作用 |
 | --- | --- | --- |
 | `ci.yml` | push 与 PR | 安装 `requirements-dev.txt` 并运行全量 pytest |
-| `daily_update.yml` | 周一至周五 18:17，美东时间 | 抓取 EOD 数据并提交 `data/latest.json` |
+| `daily_update.yml` | 周一至周五 18:17，美东时间 | 抓取 EOD 数据并提交 `data/latest.json`；失败后每 30 分钟重试，最多 3 次 |
 | `universe_check.yml` | 每周一 09:23，美东时间 | 检查 S&P 500 与 Nasdaq-100 成分变化并创建审核 PR |
 | `etf_review.yml` | 每周一 10:37，美东时间 | 检查 ETF 映射并创建审核 PR |
 
