@@ -126,6 +126,28 @@ def test_comparison_table_ranks_products_for_selected_stock():
         assert not page.exception
 
 
+def test_url_params_seed_and_track_selection():
+    base = dict(leverage=2, base_session="2026-09-03", as_of_session="2026-09-04",
+                base_stock_close=99, base_etf_close=9, latest_stock_close=100,
+                latest_etf_close=10, stock_return=.01, etf_return=.02,
+                ideal_etf_return=.02, tracking_error=0, source="fixture", warnings=[])
+    pairs = [dict(base, pair_id=key, underlying_symbol=stock, etf_symbol=etf)
+             for key, stock, etf in [("a", "AAA", "AAA2"), ("b", "BBB", "BBB2")]]
+    with patch("levecho.io.load_json", return_value={"pairs": pairs}):
+        page = AppTest.from_file(str(APP))
+        page.query_params["pair"] = "b"
+        page.query_params["lang"] = "en"
+        page.query_params["theme"] = "dark"
+        page.run()
+        assert page.selectbox(key="pair").value == "b"
+        assert page.selectbox(key="language").value == "en"
+        assert "#0e1726" in page.markdown[0].value  # dark palette active
+        page.selectbox(key="pair").select("a").run()
+        # AppTest exposes query-param values as lists.
+        assert page.query_params["pair"] == ["a"]
+        assert not page.exception
+
+
 def test_update_time_follows_language(page):
     assert "2026-09-06 04:22:35" in [item.value for item in page.text]
     assert any("GMT+8" in item.value for item in page.caption)

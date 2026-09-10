@@ -13,6 +13,18 @@ ROOT = Path(__file__).resolve().parent
 SNAPSHOT_PATH = ROOT / "data/latest.json"
 
 st.set_page_config(page_title="LevEcho", page_icon="↗", layout="centered")
+
+
+def _seed_query_state() -> None:
+    """Deep-link language and theme from the URL on a fresh session."""
+    if st.query_params.get("lang") in ("zh", "en"):
+        st.session_state.setdefault("language", st.query_params["lang"])
+    if st.query_params.get("theme") in ("light", "dark"):
+        st.session_state.setdefault("theme", st.query_params["theme"])
+
+
+_seed_query_state()
+
 with st.container(key="topbar"):
     header, languages, appearance = st.columns([3, 1.5, 1.5])
 with languages:
@@ -99,6 +111,8 @@ if not pairs:
 
 pair_by_id = {p["pair_id"]: p for p in pairs}
 stocks = sorted({p["underlying_symbol"] for p in pairs})
+if st.query_params.get("pair") in pair_by_id:
+    st.session_state.setdefault("pair", st.query_params["pair"])
 if st.session_state.get("pair") not in pair_by_id:
     st.session_state["pair"] = pairs[0]["pair_id"]
 st.session_state["stock"] = pair_by_id[st.session_state["pair"]]["underlying_symbol"]
@@ -275,3 +289,7 @@ with st.expander(t("details")):
     st.latex(r"S = S_0[1 + (E/E_0 - 1)/L]")
     st.write(t("formula_help"))
 st.caption(t("notice"))
+# Keep the URL shareable: reflect the current selection, language and theme.
+st.query_params["pair"] = pair_id
+st.query_params["lang"] = language
+st.query_params["theme"] = theme
