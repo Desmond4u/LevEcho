@@ -1,8 +1,16 @@
 from datetime import date
 from types import SimpleNamespace
 
+import pandas as pd
+
 import levecho.data as data_module
-from levecho.data import FetchResult, FallbackProvider, NasdaqProvider, YFinanceProvider
+from levecho.data import (
+    FetchResult,
+    FallbackProvider,
+    NasdaqProvider,
+    YFinanceProvider,
+    YFinanceRecentProvider,
+)
 from levecho.types import PriceBar
 
 
@@ -74,7 +82,7 @@ def test_fallback_skipped_when_all_symbols_share_latest_session() -> None:
     assert set(result.bars) == {"SPCX", "DSPC"}
 
 
-def test_fallback_without_newer_data_keeps_primary_bars() -> None:
+def test_fallback_without_newer_data_keeps_primary_bars_and_records_gap() -> None:
     primary = _FakeProvider(
         {
             "SPCX": [PriceBar("SPCX", date(2026, 9, 9), 147.55, source="yfinance")],
@@ -88,7 +96,77 @@ def test_fallback_without_newer_data_keeps_primary_bars() -> None:
 
     assert fallback.requested == [["DSPC"]]
     assert result.bars["DSPC"] == [PriceBar("DSPC", date(2026, 9, 8), 13.577, source="yfinance")]
+    assert "stale fill failed" in result.errors["DSPC"]
+    assert "fallback latest 2026-09-08" in result.errors["DSPC"]
+
+
+def test_stale_fill_transport_failure_is_visible() -> None:
+    primary = _FakeProvider(
+        {
+            "SPCX": [PriceBar("SPCX", date(2026, 9, 9), 147.55)],
+            "DSPC": [PriceBar("DSPC", date(2026, 9, 8), 13.577)],
+        }
+    )
+    fallback = _FakeProvider({}, errors={"DSPC": "HTTP 403 blocked"})
+    result = FallbackProvider(primary, fallback).fetch(["SPCX", "DSPC"])
+
+    assert result.bars["DSPC"] == [PriceBar("DSPC", date(2026, 9, 8), 13.577)]
+    assert "stale fill failed" in result.errors["DSPC"]
+    assert "HTTP 403 blocked" in result.errors["DSPC"]
+    assert "required 2026-09-09" in result.errors["DSPC"]
+
+
+def test_nested_fallback_chain_recovers_stale_symbol() -> None:
+    primary = _FakeProvider(
+        {
+            "SPCX": [PriceBar("SPCX", date(2026, 9, 9), 147.55)],
+            "DSPC": [PriceBar("DSPC", date(2026, 9, 8), 13.577)],
+        }
+    )
+    nasdaq = _FakeProvider({}, errors={"DSPC": "HTTP 403 blocked"})
+    recent = _FakeProvider(
+        {"DSPC": [PriceBar("DSPC", date(2026, 9, 9), 14.0871, source="yfinance-recent")]}
+    )
+    chain = FallbackProvider(primary, FallbackProvider(nasdaq, recent))
+    result = chain.fetch(["SPCX", "DSPC"])
+
+    assert recent.requested == [["DSPC"]]  # Nasdaq failed, the 1d pipeline filled the gap
+    assert [bar.session for bar in result.bars["DSPC"]] == [date(2026, 9, 8), date(2026, 9, 9)]
+    assert result.bars["DSPC"][-1].source == "yfinance-recent"
     assert not result.errors
+
+
+class _FakeTicker:
+    def __init__(self, frame) -> None:
+        self._frame = frame
+
+    def history(self, **kwargs) -> pd.DataFrame:
+        assert kwargs.get("period") == "1d"
+        return self._frame
+
+
+def test_yfinance_recent_provider_uses_one_day_pipeline(monkeypatch) -> None:
+    frame = pd.DataFrame(
+        {"Close": [14.0871], "Dividends": [0.0], "Stock Splits": [1.0]},
+        index=pd.DatetimeIndex([pd.Timestamp("2026-09-09", tz="America/New_York")]),
+    )
+    monkeypatch.setattr(data_module.yf, "Ticker", lambda symbol: _FakeTicker(frame))
+    result = data_module.YFinanceRecentProvider().fetch(["DSPC"])
+
+    assert result.errors == {}
+    assert result.bars["DSPC"] == [PriceBar("DSPC", date(2026, 9, 9), 14.0871, source="yfinance-recent")]
+
+
+def test_yfinance_recent_provider_reports_null_close(monkeypatch) -> None:
+    frame = pd.DataFrame(
+        {"Close": [float("nan")], "Dividends": [0.0], "Stock Splits": [1.0]},
+        index=pd.DatetimeIndex([pd.Timestamp("2026-09-09", tz="America/New_York")]),
+    )
+    monkeypatch.setattr(data_module.yf, "Ticker", lambda symbol: _FakeTicker(frame))
+    result = data_module.YFinanceRecentProvider().fetch(["DSPC"])
+
+    assert result.bars == {}
+    assert result.errors["DSPC"] == "no usable daily close returned"
 
 
 def test_yfinance_uses_100_symbol_chunks_by_default() -> None:

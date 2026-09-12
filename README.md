@@ -54,7 +54,7 @@ ETF 发现范围包括 Direxion、Tradr、ProShares、GraniteShares、T-REX、Le
 - 每周检查指数成分股变化；
 - 每周检查 ETF 配对变化，并生成审核 PR。
 
-行情层优先使用 `yfinance`，缺失标的或最新交易日落后于整体时，使用 Nasdaq 公共历史行情接口补齐。数据流程和审核边界见：
+行情层优先使用 `yfinance`，缺失标的或最新交易日落后于整体时，依次使用 Nasdaq 公共历史行情接口与 Yahoo 1d 报价管线补齐。数据流程和审核边界见：
 
 - [数据流程与日期口径](docs/DATA_PIPELINE.md)
 - [ETF 发现与审核流程](docs/ETF_REVIEW.md)

@@ -129,6 +129,42 @@ class YFinanceProvider:
         return result
 
 
+class YFinanceRecentProvider:
+    """Fetch only the latest session through Yahoo's 1d quote pipeline.
+
+    Yahoo's daily-history feed (ranges of 5d and above) often leaves the
+    newest close null for hours; the 1d range is served by the realtime
+    quote pipeline and carries the official close right after the bell.
+    """
+
+    name = "yfinance-recent"
+
+    def __init__(self, timeout: int = 15) -> None:
+        self.timeout = timeout
+
+    def fetch(self, symbols: Iterable[str], lookback_days: int = 15) -> FetchResult:
+        unique_symbols = list(dict.fromkeys(str(symbol).upper() for symbol in symbols))
+        result = FetchResult()
+        for symbol in unique_symbols:
+            try:
+                frame = yf.Ticker(symbol).history(
+                    period="1d",
+                    interval="1d",
+                    auto_adjust=False,
+                    actions=True,
+                    timeout=self.timeout,
+                )
+            except Exception as exc:  # provider failures are handled by the fallback layer
+                result.errors[symbol] = f"{type(exc).__name__}: {exc}"
+                continue
+            bars = _bars_from_frame(symbol, frame, self.name)
+            if bars:
+                result.bars[symbol] = bars
+            else:
+                result.errors[symbol] = "no usable daily close returned"
+        return result
+
+
 class NasdaqProvider:
     """Read daily closes from Nasdaq's public historical quote endpoint."""
 
@@ -321,18 +357,6 @@ class FallbackProvider:
         self.fallback = fallback
 
     @staticmethod
-    def _stale_symbols(result: FetchResult) -> list[str]:
-        latest = {
-            symbol: max(bar.session for bar in bars)
-            for symbol, bars in result.bars.items()
-            if bars
-        }
-        if not latest:
-            return []
-        newest = max(latest.values())
-        return [symbol for symbol, session in latest.items() if session < newest]
-
-    @staticmethod
     def _merge_sessions(primary_bars: list[PriceBar], fallback_bars: list[PriceBar]) -> list[PriceBar]:
         primary_sessions = {bar.session for bar in primary_bars}
         filled = [bar for bar in fallback_bars if bar.session not in primary_sessions]
@@ -341,8 +365,14 @@ class FallbackProvider:
     def fetch(self, symbols: Iterable[str], lookback_days: int = 15) -> FetchResult:
         unique_symbols = list(dict.fromkeys(str(symbol).upper() for symbol in symbols))
         primary_result = self.primary.fetch(unique_symbols, lookback_days)
+        latest = {
+            symbol: max(bar.session for bar in bars)
+            for symbol, bars in primary_result.bars.items()
+            if bars
+        }
         missing = [symbol for symbol in unique_symbols if symbol not in primary_result.bars]
-        stale = self._stale_symbols(primary_result)
+        newest = max(latest.values(), default=None)
+        stale = [] if newest is None else [symbol for symbol, session in latest.items() if session < newest]
         if not missing and not stale:
             return primary_result
 
@@ -352,10 +382,26 @@ class FallbackProvider:
             {symbol: bars for symbol, bars in fallback_result.bars.items() if symbol in missing}
         )
         for symbol in stale:
-            if symbol in fallback_result.bars:
+            fallback_bars = fallback_result.bars.get(symbol)
+            if fallback_bars:
                 merged.bars[symbol] = self._merge_sessions(
-                    primary_result.bars[symbol], fallback_result.bars[symbol]
+                    primary_result.bars[symbol], fallback_bars
                 )
+            filled_latest = max(bar.session for bar in merged.bars[symbol])
+            if filled_latest >= newest:
+                continue
+            # Surface the gap so consumers can tell a rate-limited fallback
+            # from a feed that simply lacks the session yet.
+            detail = (
+                f"fallback latest {filled_latest}" if fallback_bars else "fallback returned no bars"
+            )
+            fallback_error = fallback_result.errors.get(symbol)
+            if fallback_error:
+                detail = f"{detail}; {fallback_error}"
+            merged.errors[symbol] = (
+                f"stale fill failed: primary stopped at {latest[symbol]}, "
+                f"required {newest}; {detail}"
+            )
         for symbol in missing:
             if symbol in fallback_result.bars:
                 merged.errors.pop(symbol, None)

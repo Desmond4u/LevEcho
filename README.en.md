@@ -54,7 +54,7 @@ The app reads the repository snapshot at `data/latest.json`, so visitors do not 
 - weekly index constituent checks;
 - weekly ETF-pair checks that create review pull requests.
 
-The market-data layer uses `yfinance` as the primary provider and Nasdaq's public historical endpoint as a fallback for missing symbols or ones whose latest session trails the rest. See:
+The market-data layer uses `yfinance` as the primary provider, with Nasdaq's public historical endpoint and Yahoo's 1d quote pipeline as fallbacks for missing symbols or ones whose latest session trails the rest. See:
 
 - [Data pipeline and date semantics](docs/DATA_PIPELINE.md)
 - [ETF discovery and review](docs/ETF_REVIEW.md)

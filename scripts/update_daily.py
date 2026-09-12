@@ -5,7 +5,13 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from levecho.data import FallbackProvider, FetchResult, NasdaqProvider, YFinanceProvider
+from levecho.data import (
+    FallbackProvider,
+    FetchResult,
+    NasdaqProvider,
+    YFinanceProvider,
+    YFinanceRecentProvider,
+)
 from levecho.discovery import discover_candidates, match_candidates, merge_approved_pairs
 from levecho.io import load_json, utc_now_iso, write_json
 from levecho.pipeline import SnapshotBuildError, build_snapshot
@@ -90,7 +96,13 @@ def main() -> int:
     symbols = []
     for pair in pairs:
         symbols.extend((pair.underlying_provider_symbol, pair.etf_provider_symbol))
-    provider = FallbackProvider(YFinanceProvider(), NasdaqProvider())
+    # Yahoo's 15d history feed lags the latest close for hours on some
+    # symbols; Nasdaq fills those gaps, and Yahoo's own 1d quote pipeline
+    # is the last resort when Nasdaq is unreachable.
+    provider = FallbackProvider(
+        YFinanceProvider(),
+        FallbackProvider(NasdaqProvider(), YFinanceRecentProvider()),
+    )
     fetched = provider.fetch(symbols, lookback_days=15)
     try:
         snapshot = build_snapshot(pairs, fetched)
