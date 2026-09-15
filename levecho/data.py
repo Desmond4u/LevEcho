@@ -344,17 +344,18 @@ class StooqProvider:
 
 
 class FallbackProvider:
-    """Use the fallback for symbols the primary cannot fully cover.
+    """Use fallbacks for symbols the primary cannot fully cover.
 
     That covers symbols with no bars at all and symbols whose latest
     session trails the freshest session other symbols already returned,
-    e.g. when the primary's history feed lags one session behind for a
-    thinly traded ETF.
+    e.g. when the primary's history feed lags one session behind. All
+    fallbacks are judged against the same primary-derived baseline, and
+    each fallback only receives the symbols the earlier ones left behind.
     """
 
-    def __init__(self, primary: PriceProvider, fallback: PriceProvider) -> None:
+    def __init__(self, primary: PriceProvider, *fallbacks: PriceProvider) -> None:
         self.primary = primary
-        self.fallback = fallback
+        self.fallbacks = fallbacks
 
     @staticmethod
     def _merge_sessions(primary_bars: list[PriceBar], fallback_bars: list[PriceBar]) -> list[PriceBar]:
@@ -376,38 +377,50 @@ class FallbackProvider:
         if not missing and not stale:
             return primary_result
 
-        fallback_result = self.fallback.fetch(missing + stale, lookback_days)
         merged = FetchResult(bars=dict(primary_result.bars), errors=dict(primary_result.errors))
-        merged.bars.update(
-            {symbol: bars for symbol, bars in fallback_result.bars.items() if symbol in missing}
-        )
-        for symbol in stale:
-            fallback_bars = fallback_result.bars.get(symbol)
-            if fallback_bars:
-                merged.bars[symbol] = self._merge_sessions(
-                    primary_result.bars[symbol], fallback_bars
-                )
-            filled_latest = max(bar.session for bar in merged.bars[symbol])
-            if filled_latest >= newest:
-                continue
-            # Surface the gap so consumers can tell a rate-limited fallback
-            # from a feed that simply lacks the session yet.
-            detail = (
-                f"fallback latest {filled_latest}" if fallback_bars else "fallback returned no bars"
-            )
-            fallback_error = fallback_result.errors.get(symbol)
-            if fallback_error:
-                detail = f"{detail}; {fallback_error}"
-            merged.errors[symbol] = (
-                f"stale fill failed: primary stopped at {latest[symbol]}, "
-                f"required {newest}; {detail}"
-            )
+        notes: dict[str, list[str]] = {}
+        for fallback in self.fallbacks:
+            if not missing and not stale:
+                break
+            fallback_result = fallback.fetch(missing + stale, lookback_days)
+            for symbol in missing:
+                if symbol in fallback_result.bars:
+                    merged.bars[symbol] = fallback_result.bars[symbol]
+                    merged.errors.pop(symbol, None)
+                elif fallback_result.errors.get(symbol):
+                    notes.setdefault(symbol, []).append(
+                        f"{fallback.name}: {fallback_result.errors[symbol]}"
+                    )
+            still_stale = []
+            for symbol in stale:
+                fallback_bars = fallback_result.bars.get(symbol)
+                if fallback_bars:
+                    merged.bars[symbol] = self._merge_sessions(merged.bars[symbol], fallback_bars)
+                filled_latest = max(bar.session for bar in merged.bars[symbol])
+                if filled_latest >= newest:
+                    merged.errors.pop(symbol, None)
+                    notes.pop(symbol, None)
+                    continue
+                still_stale.append(symbol)
+                if fallback_result.errors.get(symbol):
+                    note = f"{fallback.name}: {fallback_result.errors[symbol]}"
+                elif fallback_bars:
+                    note = f"{fallback.name}: latest {filled_latest}"
+                else:
+                    note = f"{fallback.name}: no bars"
+                notes.setdefault(symbol, []).append(note)
+            missing = [symbol for symbol in missing if symbol not in merged.bars]
+            stale = still_stale
         for symbol in missing:
-            if symbol in fallback_result.bars:
-                merged.errors.pop(symbol, None)
-            elif symbol in fallback_result.errors:
+            if symbol in notes:
                 merged.errors[symbol] = (
                     f"primary: {primary_result.errors.get(symbol, 'missing')}; "
-                    f"fallback: {fallback_result.errors[symbol]}"
+                    + "; ".join(notes[symbol])
+                )
+        for symbol in stale:
+            if symbol in notes:
+                merged.errors[symbol] = (
+                    f"stale fill failed: primary stopped at {latest[symbol]}, "
+                    f"required {newest}; " + "; ".join(notes[symbol])
                 )
         return merged

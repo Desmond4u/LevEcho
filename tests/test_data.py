@@ -97,7 +97,7 @@ def test_fallback_without_newer_data_keeps_primary_bars_and_records_gap() -> Non
     assert fallback.requested == [["DSPC"]]
     assert result.bars["DSPC"] == [PriceBar("DSPC", date(2026, 9, 8), 13.577, source="yfinance")]
     assert "stale fill failed" in result.errors["DSPC"]
-    assert "fallback latest 2026-09-08" in result.errors["DSPC"]
+    assert "fake: latest 2026-09-08" in result.errors["DSPC"]
 
 
 def test_stale_fill_transport_failure_is_visible() -> None:
@@ -112,11 +112,11 @@ def test_stale_fill_transport_failure_is_visible() -> None:
 
     assert result.bars["DSPC"] == [PriceBar("DSPC", date(2026, 9, 8), 13.577)]
     assert "stale fill failed" in result.errors["DSPC"]
-    assert "HTTP 403 blocked" in result.errors["DSPC"]
+    assert "fake: HTTP 403 blocked" in result.errors["DSPC"]
     assert "required 2026-09-09" in result.errors["DSPC"]
 
 
-def test_nested_fallback_chain_recovers_stale_symbol() -> None:
+def test_multi_fallback_chain_recovers_stale_symbol() -> None:
     primary = _FakeProvider(
         {
             "SPCX": [PriceBar("SPCX", date(2026, 9, 9), 147.55)],
@@ -127,13 +127,60 @@ def test_nested_fallback_chain_recovers_stale_symbol() -> None:
     recent = _FakeProvider(
         {"DSPC": [PriceBar("DSPC", date(2026, 9, 9), 14.0871, source="yfinance-recent")]}
     )
-    chain = FallbackProvider(primary, FallbackProvider(nasdaq, recent))
+    chain = FallbackProvider(primary, nasdaq, recent)
     result = chain.fetch(["SPCX", "DSPC"])
 
+    assert nasdaq.requested == [["DSPC"]]
     assert recent.requested == [["DSPC"]]  # Nasdaq failed, the 1d pipeline filled the gap
     assert [bar.session for bar in result.bars["DSPC"]] == [date(2026, 9, 8), date(2026, 9, 9)]
     assert result.bars["DSPC"][-1].source == "yfinance-recent"
     assert not result.errors
+
+
+def test_later_fallback_runs_when_earlier_one_lacks_new_session() -> None:
+    # The production incident: Nasdaq responds fine but its newest session
+    # is also behind, which must not stop the next fallback from running.
+    primary = _FakeProvider(
+        {
+            "SPCX": [PriceBar("SPCX", date(2026, 9, 14), 151.21)],
+            "DSPC": [PriceBar("DSPC", date(2026, 9, 11), 13.31)],
+        }
+    )
+    nasdaq = _FakeProvider(
+        {"DSPC": [PriceBar("DSPC", date(2026, 9, 11), 13.31, source="nasdaq")]}
+    )
+    recent = _FakeProvider(
+        {"DSPC": [PriceBar("DSPC", date(2026, 9, 14), 13.55, source="yfinance-recent")]}
+    )
+    chain = FallbackProvider(primary, nasdaq, recent)
+    result = chain.fetch(["SPCX", "DSPC"])
+
+    assert nasdaq.requested == [["DSPC"]]
+    assert recent.requested == [["DSPC"]]
+    assert [bar.session for bar in result.bars["DSPC"]] == [date(2026, 9, 11), date(2026, 9, 14)]
+    assert result.bars["DSPC"][-1].close == 13.55
+    assert not result.errors
+
+
+def test_stale_fill_error_aggregates_all_fallbacks() -> None:
+    primary = _FakeProvider(
+        {
+            "SPCX": [PriceBar("SPCX", date(2026, 9, 14), 151.21)],
+            "DSPC": [PriceBar("DSPC", date(2026, 9, 11), 13.31)],
+        }
+    )
+    nasdaq = _FakeProvider(
+        {"DSPC": [PriceBar("DSPC", date(2026, 9, 11), 13.31, source="nasdaq")]}
+    )
+    recent = _FakeProvider({}, errors={"DSPC": "YFRateLimitError: too many requests"})
+    chain = FallbackProvider(primary, nasdaq, recent)
+    result = chain.fetch(["SPCX", "DSPC"])
+
+    message = result.errors["DSPC"]
+    assert "stale fill failed" in message
+    assert "required 2026-09-14" in message
+    assert "latest 2026-09-11" in message  # first fallback's newest session
+    assert "fake: YFRateLimitError" in message  # second fallback's failure
 
 
 class _FakeTicker:
