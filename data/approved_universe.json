@@ -1,8 +1,8 @@
 {
   "model_version": "1.0",
   "source_status": "approved",
-  "source_asof": "2026-09-05",
-  "updated_at": "2026-09-05T13:04:47Z",
+  "source_asof": "2026-09-15",
+  "updated_at": "2026-09-15T01:02:24Z",
   "source_urls": {
     "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
     "ndx100": "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
@@ -15,7 +15,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -29,7 +29,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -43,7 +43,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -57,7 +57,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -71,7 +71,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -84,7 +84,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -97,7 +97,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -111,7 +111,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -126,7 +126,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -140,7 +140,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -154,7 +154,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -169,7 +169,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -183,7 +183,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -197,7 +197,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -211,7 +211,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -224,7 +224,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -237,7 +237,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -250,7 +250,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -263,7 +263,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -276,7 +276,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -289,7 +289,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -302,7 +302,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -315,7 +315,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -328,7 +328,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -341,7 +341,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -354,7 +354,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -368,7 +368,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -382,7 +382,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -396,7 +396,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -410,7 +410,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -424,7 +424,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -438,7 +438,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -451,7 +451,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -465,7 +465,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -479,7 +479,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -492,7 +492,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -505,7 +505,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -518,7 +518,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -531,7 +531,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -544,7 +544,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -557,7 +557,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -571,7 +571,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -585,7 +585,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -598,7 +598,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -611,7 +611,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -624,7 +624,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -637,7 +637,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -650,7 +650,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -664,7 +664,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -678,7 +678,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -691,7 +691,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -705,7 +705,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -719,7 +719,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -732,7 +732,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -745,7 +745,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -758,7 +758,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -771,7 +771,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -784,7 +784,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -797,7 +797,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -810,7 +810,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -823,7 +823,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -836,7 +836,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -849,7 +849,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -862,7 +862,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -876,7 +876,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -891,7 +891,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -905,7 +905,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -918,7 +918,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -931,7 +931,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -944,7 +944,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -957,7 +957,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -970,7 +970,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -983,7 +983,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -996,7 +996,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1009,7 +1009,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1022,7 +1022,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1035,7 +1035,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1048,7 +1048,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1061,7 +1061,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1074,7 +1074,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1087,7 +1087,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1100,7 +1100,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1113,7 +1113,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1126,7 +1126,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1139,7 +1139,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -1152,7 +1152,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1165,7 +1165,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1179,7 +1179,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1193,7 +1193,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1207,7 +1207,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1221,7 +1221,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1234,7 +1234,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1247,7 +1247,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1260,7 +1260,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1273,7 +1273,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1286,7 +1286,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1299,7 +1299,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1312,7 +1312,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1325,7 +1325,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1338,7 +1338,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1352,7 +1352,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1366,7 +1366,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1379,7 +1379,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1392,7 +1392,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1405,7 +1405,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1418,7 +1418,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1431,7 +1431,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1444,7 +1444,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1457,7 +1457,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1470,7 +1470,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1483,7 +1483,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1496,7 +1496,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1509,7 +1509,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1523,7 +1523,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1537,7 +1537,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1551,7 +1551,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1565,7 +1565,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1578,7 +1578,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1591,7 +1591,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1604,7 +1604,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1618,7 +1618,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1632,7 +1632,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -1646,7 +1646,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1660,7 +1660,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1674,7 +1674,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1689,7 +1689,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1703,7 +1703,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1716,7 +1716,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1729,7 +1729,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1742,7 +1742,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1755,7 +1755,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1768,7 +1768,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1781,7 +1781,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1795,7 +1795,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1809,7 +1809,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1823,7 +1823,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -1837,7 +1837,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1850,7 +1850,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1863,7 +1863,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1876,7 +1876,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1889,7 +1889,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1902,7 +1902,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1915,7 +1915,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1928,7 +1928,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1941,7 +1941,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1954,7 +1954,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1967,7 +1967,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1980,7 +1980,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -1993,7 +1993,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2006,7 +2006,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2019,7 +2019,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2032,7 +2032,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2045,7 +2045,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2058,7 +2058,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2071,7 +2071,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2085,7 +2085,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2099,7 +2099,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2112,7 +2112,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2125,7 +2125,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2138,7 +2138,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2151,7 +2151,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2164,7 +2164,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2177,7 +2177,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2190,7 +2190,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2203,7 +2203,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2216,7 +2216,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2229,7 +2229,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2242,7 +2242,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2255,7 +2255,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2268,7 +2268,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2281,7 +2281,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2294,7 +2294,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2307,7 +2307,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2320,7 +2320,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2333,7 +2333,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2346,7 +2346,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2359,7 +2359,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2373,7 +2373,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2387,7 +2387,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2400,7 +2400,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2413,7 +2413,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2426,7 +2426,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2439,7 +2439,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2453,7 +2453,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2468,7 +2468,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2482,7 +2482,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2495,7 +2495,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2508,7 +2508,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2521,7 +2521,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2534,7 +2534,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2547,7 +2547,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -2560,7 +2560,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2573,7 +2573,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2586,7 +2586,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2599,7 +2599,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2612,7 +2612,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2625,7 +2625,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2638,7 +2638,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2651,7 +2651,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2664,7 +2664,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2677,7 +2677,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2690,7 +2690,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2703,7 +2703,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2717,7 +2717,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2731,7 +2731,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2744,7 +2744,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2757,7 +2757,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2770,7 +2770,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2784,7 +2784,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2798,7 +2798,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2811,7 +2811,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2825,7 +2825,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2839,7 +2839,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2852,7 +2852,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2865,7 +2865,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2878,7 +2878,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2891,7 +2891,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2905,7 +2905,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2920,7 +2920,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -2934,7 +2934,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2947,7 +2947,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2960,7 +2960,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2973,7 +2973,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2986,7 +2986,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -2999,7 +2999,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3012,7 +3012,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3025,7 +3025,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3038,7 +3038,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3051,7 +3051,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3064,7 +3064,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3077,7 +3077,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3090,7 +3090,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3104,7 +3104,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3119,7 +3119,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3133,7 +3133,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3146,7 +3146,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3159,7 +3159,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3172,7 +3172,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3185,7 +3185,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3198,7 +3198,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3211,7 +3211,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3224,7 +3224,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3237,7 +3237,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3250,7 +3250,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3263,7 +3263,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3276,7 +3276,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3289,7 +3289,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3303,7 +3303,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3317,7 +3317,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3330,7 +3330,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3343,7 +3343,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3357,7 +3357,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3372,7 +3372,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3386,7 +3386,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3399,7 +3399,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3412,7 +3412,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3425,7 +3425,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3438,7 +3438,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3452,7 +3452,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3466,7 +3466,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3479,7 +3479,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3492,7 +3492,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3505,7 +3505,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3518,7 +3518,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3531,7 +3531,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3544,7 +3544,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3557,7 +3557,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3570,7 +3570,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3583,7 +3583,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3597,7 +3597,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3611,7 +3611,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3624,7 +3624,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3633,14 +3633,12 @@
     {
       "display_symbol": "KHC",
       "provider_symbol": "KHC",
-      "company_name": "The Kraft Heinz Company Common Stock",
+      "company_name": "Kraft Heinz",
       "indices": [
-        "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
-        "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
       "active": true
@@ -3652,7 +3650,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3665,7 +3663,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3679,7 +3677,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3693,7 +3691,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3706,7 +3704,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3719,7 +3717,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3732,7 +3730,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3745,7 +3743,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3758,7 +3756,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3771,7 +3769,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3784,7 +3782,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3797,7 +3795,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3810,7 +3808,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3823,7 +3821,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3837,7 +3835,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3852,7 +3850,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3866,7 +3864,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3879,7 +3877,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3892,7 +3890,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3905,7 +3903,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3919,7 +3917,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -3933,7 +3931,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3946,7 +3944,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3959,7 +3957,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3972,7 +3970,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3985,7 +3983,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -3998,7 +3996,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4011,7 +4009,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4025,7 +4023,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4039,7 +4037,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4052,7 +4050,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4066,7 +4064,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4080,7 +4078,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4093,7 +4091,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4107,7 +4105,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4121,7 +4119,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4134,7 +4132,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -4147,7 +4145,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4161,7 +4159,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4175,7 +4173,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4188,7 +4186,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4201,7 +4199,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4214,7 +4212,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4228,7 +4226,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4242,7 +4240,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4255,7 +4253,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4268,7 +4266,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4282,7 +4280,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4296,7 +4294,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4309,7 +4307,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4322,7 +4320,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4336,7 +4334,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4350,7 +4348,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4363,7 +4361,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4377,7 +4375,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4391,7 +4389,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4404,7 +4402,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -4417,7 +4415,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4430,7 +4428,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4444,7 +4442,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4458,7 +4456,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -4471,7 +4469,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4484,7 +4482,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4497,7 +4495,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4510,7 +4508,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4523,7 +4521,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4537,7 +4535,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4551,7 +4549,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4564,7 +4562,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4577,7 +4575,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4590,7 +4588,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4603,7 +4601,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4616,7 +4614,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4629,7 +4627,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4642,7 +4640,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4655,7 +4653,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4669,7 +4667,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4683,7 +4681,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4696,7 +4694,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4709,7 +4707,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4723,7 +4721,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4737,7 +4735,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4751,7 +4749,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4765,7 +4763,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4778,7 +4776,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4791,7 +4789,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4804,7 +4802,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4818,7 +4816,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4832,7 +4830,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4845,7 +4843,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4859,7 +4857,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4874,7 +4872,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4889,7 +4887,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4903,7 +4901,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4916,7 +4914,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -4929,7 +4927,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4943,7 +4941,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -4957,7 +4955,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4970,7 +4968,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4983,7 +4981,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -4996,7 +4994,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5009,7 +5007,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5022,7 +5020,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5035,7 +5033,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5048,7 +5046,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5062,7 +5060,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5076,7 +5074,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5089,7 +5087,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5102,7 +5100,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5115,7 +5113,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5128,7 +5126,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5141,7 +5139,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5154,7 +5152,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5167,7 +5165,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5180,7 +5178,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5193,7 +5191,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5206,7 +5204,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5219,7 +5217,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5232,7 +5230,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5246,7 +5244,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5260,7 +5258,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5274,7 +5272,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5288,7 +5286,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5301,7 +5299,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5314,7 +5312,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5328,7 +5326,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5342,7 +5340,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5355,7 +5353,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5368,7 +5366,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -5381,7 +5379,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5394,7 +5392,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5407,7 +5405,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5420,7 +5418,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5434,7 +5432,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5449,7 +5447,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5463,7 +5461,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5476,7 +5474,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5489,7 +5487,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5502,7 +5500,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5516,7 +5514,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5530,7 +5528,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5543,7 +5541,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -5556,7 +5554,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5569,7 +5567,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5582,7 +5580,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5595,7 +5593,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5608,7 +5606,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5622,7 +5620,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5637,7 +5635,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5651,7 +5649,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5664,7 +5662,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5677,7 +5675,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -5690,7 +5688,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5703,7 +5701,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5716,7 +5714,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5729,7 +5727,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5742,7 +5740,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5755,7 +5753,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5769,7 +5767,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5783,7 +5781,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5796,7 +5794,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5809,7 +5807,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5822,7 +5820,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5835,7 +5833,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5848,7 +5846,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5861,7 +5859,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5874,7 +5872,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5887,7 +5885,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5900,7 +5898,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5913,7 +5911,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5926,7 +5924,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5939,7 +5937,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5953,7 +5951,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -5967,7 +5965,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5980,7 +5978,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -5993,7 +5991,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6006,7 +6004,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6019,7 +6017,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6033,7 +6031,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6047,7 +6045,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6060,7 +6058,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6073,7 +6071,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6086,7 +6084,7 @@
       "indices": [
         "ndx100"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
       ],
@@ -6099,7 +6097,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6112,7 +6110,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6125,7 +6123,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6138,7 +6136,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6152,7 +6150,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6166,7 +6164,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6179,7 +6177,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6192,7 +6190,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6206,7 +6204,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6221,7 +6219,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6235,7 +6233,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6248,7 +6246,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6261,7 +6259,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6274,7 +6272,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6287,7 +6285,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6300,7 +6298,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6313,7 +6311,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6326,7 +6324,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6339,7 +6337,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6352,7 +6350,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6365,7 +6363,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6378,7 +6376,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6391,7 +6389,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6404,7 +6402,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6417,7 +6415,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6430,7 +6428,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6443,7 +6441,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6456,7 +6454,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6469,7 +6467,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6482,7 +6480,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6495,7 +6493,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6508,7 +6506,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6522,7 +6520,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6536,7 +6534,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6549,7 +6547,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6562,7 +6560,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6575,7 +6573,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6588,7 +6586,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6601,7 +6599,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6615,7 +6613,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6630,7 +6628,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6645,7 +6643,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6659,7 +6657,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6672,7 +6670,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6685,7 +6683,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6698,7 +6696,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6711,7 +6709,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6725,7 +6723,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6739,7 +6737,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6752,7 +6750,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6765,7 +6763,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6778,7 +6776,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6791,7 +6789,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6804,7 +6802,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6818,7 +6816,7 @@
         "ndx100",
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -6832,7 +6830,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6845,7 +6843,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6858,7 +6856,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6871,7 +6869,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6884,7 +6882,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6897,7 +6895,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6910,7 +6908,7 @@
       "indices": [
         "sp500"
       ],
-      "source_asof": "2026-09-05",
+      "source_asof": "2026-09-15",
       "source_urls": [
         "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
       ],
@@ -6918,8 +6916,8 @@
     }
   ],
   "diff_summary": {
-    "added": 5,
-    "removed": 2,
-    "changed": 101
+    "added": 0,
+    "removed": 0,
+    "changed": 1
   }
 }
