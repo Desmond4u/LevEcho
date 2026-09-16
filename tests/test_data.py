@@ -188,7 +188,7 @@ def test_nasdaq_quote_parses_last_sale(monkeypatch) -> None:
         "data": {
             "primaryData": {
                 "lastSalePrice": "$11.6068",
-                "lastTradeTimestamp": "09/15/2026 04:00:00 PM ET",
+                "lastTradeTimestamp": "Sep 15, 2026",
             }
         }
     }
@@ -201,6 +201,24 @@ def test_nasdaq_quote_parses_last_sale(monkeypatch) -> None:
     assert result.bars["FLEL"] == [
         PriceBar("FLEL", date(2026, 9, 15), 11.6068, source="nasdaq-quote")
     ]
+
+
+def test_nasdaq_quote_parses_numeric_timestamp_variant(monkeypatch) -> None:
+    payload = {
+        "data": {
+            "primaryData": {
+                "lastSalePrice": "$11.6068",
+                "lastTradeTimestamp": "09/15/2026 04:00:00 PM ET",
+            }
+        }
+    }
+    monkeypatch.setattr(
+        data_module.NasdaqQuoteProvider, "_request_json", staticmethod(lambda *args, **kwargs: payload)
+    )
+    result = data_module.NasdaqQuoteProvider().fetch(["FLEL"])
+
+    assert result.errors == {}
+    assert result.bars["FLEL"][0].session == date(2026, 9, 15)
 
 
 def test_nasdaq_quote_requires_timestamp_and_price(monkeypatch) -> None:
@@ -225,7 +243,7 @@ def test_nasdaq_quote_falls_back_to_stocks_asset_class(monkeypatch) -> None:
             "data": {
                 "primaryData": {
                     "lastSalePrice": "$333.08",
-                    "lastTradeTimestamp": "09/15/2026 03:59:58 PM ET",
+                    "lastTradeTimestamp": "Sep 15, 2026",
                 }
             }
         }

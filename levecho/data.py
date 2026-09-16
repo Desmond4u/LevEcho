@@ -328,17 +328,24 @@ class NasdaqQuoteProvider:
 
     @staticmethod
     def _session_from_timestamp(text: str) -> date | None:
-        """Parse Nasdaq's ``MM/DD/YYYY hh:mm:ss`` ET trade timestamp."""
+        """Parse Nasdaq quote timestamps like ``Sep 15, 2026`` or ``09/15/2026``."""
 
         text = str(text).strip()
-        match = re.match(r"^(\d{2})/(\d{2})/(\d{4})", text)
-        if not match:
-            return None
-        month, day, year = (int(part) for part in match.groups())
-        try:
-            return date(year, month, day)
-        except ValueError:
-            return None
+        match = re.match(r"^([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})", text)
+        if match:
+            try:
+                return datetime.strptime(
+                    f"{match.group(1)} {match.group(2)} {match.group(3)}", "%b %d %Y"
+                ).date()
+            except ValueError:
+                return None
+        match = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", text)
+        if match:
+            try:
+                return date(int(match.group(3)), int(match.group(1)), int(match.group(2)))
+            except ValueError:
+                return None
+        return None
 
     def _fetch_one(self, symbol: str, asset_class: str) -> PriceBar:
         url = f"https://api.nasdaq.com/api/quote/{self._request_symbol(symbol)}/info"
