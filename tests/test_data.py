@@ -183,6 +183,86 @@ def test_stale_fill_error_aggregates_all_fallbacks() -> None:
     assert "fake: YFRateLimitError" in message  # second fallback's failure
 
 
+def test_nasdaq_quote_parses_last_sale(monkeypatch) -> None:
+    payload = {
+        "data": {
+            "primaryData": {
+                "lastSalePrice": "$11.6068",
+                "lastTradeTimestamp": "09/15/2026 04:00:00 PM ET",
+            }
+        }
+    }
+    monkeypatch.setattr(
+        data_module.NasdaqQuoteProvider, "_request_json", staticmethod(lambda *args, **kwargs: payload)
+    )
+    result = data_module.NasdaqQuoteProvider().fetch(["FLEL"])
+
+    assert result.errors == {}
+    assert result.bars["FLEL"] == [
+        PriceBar("FLEL", date(2026, 9, 15), 11.6068, source="nasdaq-quote")
+    ]
+
+
+def test_nasdaq_quote_requires_timestamp_and_price(monkeypatch) -> None:
+    payload = {"data": {"primaryData": {"lastSalePrice": "$11.61"}}}  # no timestamp
+    monkeypatch.setattr(
+        data_module.NasdaqQuoteProvider, "_request_json", staticmethod(lambda *args, **kwargs: payload)
+    )
+    result = data_module.NasdaqQuoteProvider().fetch(["FLEL"])
+
+    assert result.bars == {}
+    assert "no last sale available" in result.errors["FLEL"]
+
+
+def test_nasdaq_quote_falls_back_to_stocks_asset_class(monkeypatch) -> None:
+    calls = []
+
+    def fake_request_json(url, params, headers, timeout):
+        calls.append(params["assetclass"])
+        if params["assetclass"] == "etf":
+            raise data_module.DataSourceError("blocked")
+        return {
+            "data": {
+                "primaryData": {
+                    "lastSalePrice": "$333.08",
+                    "lastTradeTimestamp": "09/15/2026 03:59:58 PM ET",
+                }
+            }
+        }
+
+    monkeypatch.setattr(data_module.NasdaqQuoteProvider, "_request_json", staticmethod(fake_request_json))
+    result = data_module.NasdaqQuoteProvider().fetch(["AAPL"])
+
+    assert calls == ["etf", "stocks"]
+    assert result.bars["AAPL"] == [PriceBar("AAPL", date(2026, 9, 15), 333.08, source="nasdaq-quote")]
+
+
+def test_quote_layer_rescues_when_all_earlier_fallbacks_lack_the_session() -> None:
+    # The 2026-09-15 incident: thinly traded ETF has a valid last sale in the
+    # live quote feed while every history feed still lacks the session.
+    primary = _FakeProvider(
+        {
+            "FLEX": [PriceBar("FLEX", date(2026, 9, 15), 33.4)],
+            "FLEL": [PriceBar("FLEL", date(2026, 9, 14), 11.55)],
+        }
+    )
+    nasdaq_history = _FakeProvider(
+        {"FLEL": [PriceBar("FLEL", date(2026, 9, 14), 11.55, source="nasdaq")]}
+    )
+    recent = _FakeProvider({}, errors={"FLEL": "possibly delisted; no price data found"})
+    quote = _FakeProvider(
+        {"FLEL": [PriceBar("FLEL", date(2026, 9, 15), 11.6068, source="nasdaq-quote")]}
+    )
+    chain = FallbackProvider(primary, nasdaq_history, recent, quote)
+    result = chain.fetch(["FLEX", "FLEL"])
+
+    assert quote.requested == [["FLEL"]]
+    sessions = [bar.session for bar in result.bars["FLEL"]]
+    assert sessions == [date(2026, 9, 14), date(2026, 9, 15)]
+    assert result.bars["FLEL"][-1].source == "nasdaq-quote"
+    assert not result.errors
+
+
 class _FakeTicker:
     def __init__(self, frame) -> None:
         self._frame = frame

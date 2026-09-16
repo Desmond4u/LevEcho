@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 from dataclasses import dataclass, field
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from io import StringIO
 from typing import Iterable, Protocol
@@ -287,6 +288,94 @@ class NasdaqProvider:
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = {
                 executor.submit(self._fetch_symbol, symbol, lookback_days): symbol
+                for symbol in unique_symbols
+            }
+            for future in as_completed(futures):
+                symbol, bars, error = future.result()
+                if bars:
+                    result.bars[symbol] = bars
+                elif error:
+                    result.errors[symbol] = error
+        return result
+
+
+class NasdaqQuoteProvider:
+    """Fetch the latest close from Nasdaq's live quote endpoint.
+
+    Nasdaq's historical endpoint can lag the newest session for hours on
+    thinly traded ETFs, while its quote endpoint carries the last
+    regular-session sale, which equals the official close once the market
+    has settled. Zero-volume sessions have no last sale and stay missing.
+    """
+
+    name = "nasdaq-quote"
+
+    def __init__(self, timeout: int = 15) -> None:
+        self.timeout = timeout
+
+    _HEADERS = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+        ),
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://www.nasdaq.com",
+        "Referer": "https://www.nasdaq.com/",
+    }
+
+    _request_symbol = staticmethod(NasdaqProvider._request_symbol)
+    _request_json = staticmethod(NasdaqProvider._request_json)
+
+    @staticmethod
+    def _session_from_timestamp(text: str) -> date | None:
+        """Parse Nasdaq's ``MM/DD/YYYY hh:mm:ss`` ET trade timestamp."""
+
+        text = str(text).strip()
+        match = re.match(r"^(\d{2})/(\d{2})/(\d{4})", text)
+        if not match:
+            return None
+        month, day, year = (int(part) for part in match.groups())
+        try:
+            return date(year, month, day)
+        except ValueError:
+            return None
+
+    def _fetch_one(self, symbol: str, asset_class: str) -> PriceBar:
+        url = f"https://api.nasdaq.com/api/quote/{self._request_symbol(symbol)}/info"
+        payload = self._request_json(url, {"assetclass": asset_class}, self._HEADERS, self.timeout)
+        data = payload.get("data") or {}
+        primary = data.get("primaryData") or {}
+        last_text = str(primary.get("lastSalePrice") or "").replace("$", "").replace(",", "").strip()
+        timestamp = self._session_from_timestamp(primary.get("lastTradeTimestamp") or "")
+        if not last_text or timestamp is None:
+            raise DataSourceError("no last sale available")
+        return PriceBar(
+            symbol=symbol,
+            session=timestamp,
+            close=float(last_text),
+            source=self.name,
+        )
+
+    def _fetch_symbol(self, symbol: str) -> tuple[str, list[PriceBar] | None, str | None]:
+        try:
+            return symbol, [self._fetch_one(symbol, "etf")], None
+        except Exception as etf_exc:
+            try:
+                return symbol, [self._fetch_one(symbol, "stocks")], None
+            except Exception as stock_exc:  # noqa: BLE001 - surfaced through FetchResult
+                return (
+                    symbol,
+                    None,
+                    f"etf: {type(etf_exc).__name__}: {etf_exc}; "
+                    f"stocks: {type(stock_exc).__name__}: {stock_exc}",
+                )
+
+    def fetch(self, symbols: Iterable[str], lookback_days: int = 15) -> FetchResult:
+        unique_symbols = list(dict.fromkeys(str(symbol).upper() for symbol in symbols))
+        result = FetchResult()
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            futures = {
+                executor.submit(self._fetch_symbol, symbol): symbol
                 for symbol in unique_symbols
             }
             for future in as_completed(futures):
