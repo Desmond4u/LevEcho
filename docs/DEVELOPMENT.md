@@ -89,6 +89,8 @@ python -m scripts.update_daily
 
 GitHub Actions 的定时任务可能延迟。页面使用快照中的 `published_at`、`base_session` 和 `as_of_session` 展示真实更新时间与交易日。
 
+`universe_check.yml` 和 `etf_review.yml` 依赖仓库设置 **Settings → Actions → General → Workflow permissions** 中的 "Allow GitHub Actions to create and approve pull requests" 处于开启状态；该设置被关闭或重置时，抓取本身仍会成功，但创建审核 PR 的一步会以 "not permitted to create or approve pull requests" 失败。2026-09-14 曾因该开关被重置导致一次失败。
+
 日常更新失败时，脚本不会发布不完整快照；网页继续读取上一次成功的数据。自动发现出的新配对和元数据变化会进入提案或待审核文件，不能仅凭一次抓取结果直接公开。
 
 ## Streamlit 部署
