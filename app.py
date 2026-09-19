@@ -1,5 +1,6 @@
 """Bilingual Streamlit UI for the one-session price calculator."""
 
+from html import escape
 from pathlib import Path
 
 import pandas as pd
@@ -58,7 +59,7 @@ bg_top, bg_bottom, card, field, text, muted, accent, accent2, border, shadow, ac
 st.markdown(f"""
 <style>
 .stApp {{
-    background: linear-gradient(180deg, {bg_top} 0%, {bg_bottom} 100%) fixed;
+    background: {bg_top};
     color: {text}; color-scheme: {theme};
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
                  Roboto, "Helvetica Neue", Arial, "PingFang SC",
@@ -67,11 +68,7 @@ st.markdown(f"""
 .block-container {{max-width: 1040px; padding-top: 4.4rem; padding-bottom: 3rem;}}
 [data-testid="stHeader"] {{background: transparent;}}
 h1 {{letter-spacing: -.045em; font-weight: 750;}}
-h3 {{letter-spacing: -.02em; position: relative; padding-left: 14px;}}
-h3::before {{
-    content: ""; position: absolute; left: 0; top: .3em; width: 4px; height: .95em;
-    border-radius: 2px; background: linear-gradient(180deg, {accent}, {accent2});
-}}
+h3 {{letter-spacing: -.02em; font-weight: 650;}}
 h1, h2, label, [data-testid="stWidgetLabel"],
 [data-testid="stMarkdownContainer"], [data-testid="stMetricLabel"] {{color: {text};}}
 [data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] * {{color: {muted} !important; font-size: .82rem; letter-spacing: .01em;}}
@@ -91,24 +88,21 @@ h1, h2, label, [data-testid="stWidgetLabel"],
 .st-key-selection, .st-key-input_card, .st-key-result_card, .st-key-data_card,
 .st-key-history_card, .st-key-compare_card {{
     background: {card}; border: 1px solid {border}; border-color: {border} !important;
-    border-radius: 20px; box-shadow: {shadow};
+    border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.025);
 }}
-.st-key-result_card {{position: relative; overflow: hidden;}}
-.st-key-result_card::before {{
-    content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
-    background: linear-gradient(90deg, {accent}, {accent2});
-}}
-.st-key-result_card::after {{
-    content: ""; position: absolute; inset: 0 0 auto 0; height: 180px; pointer-events: none;
-    background: radial-gradient(60% 100% at 50% 0%, {accent_soft}, transparent 75%);
-}}
+.st-key-result_card {{border-top: 3px solid {accent} !important;}}
 .st-key-result_card [data-testid="stMetricValue"] {{
-    font-size: clamp(2.4rem, 4.5vw, 3.3rem); font-weight: 700; letter-spacing: -.02em;
-    background: linear-gradient(90deg, {accent}, {accent2});
-    -webkit-background-clip: text; background-clip: text;
-    -webkit-text-fill-color: transparent; color: {accent};
-    font-variant-numeric: tabular-nums;
+    font-size: clamp(2.4rem, 4.5vw, 3.3rem); font-weight: 700; letter-spacing: -.035em;
+    color: {accent}; font-variant-numeric: tabular-nums;
 }}
+/* Reference closes remain visible side by side on small screens. */
+.reference-grid {{display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem;}}
+.reference-card {{padding: 1.2rem 1.35rem; border: 1px solid {border}; border-radius: 16px; background: {card}; min-width: 0;}}
+.reference-label {{font-size: .8rem; color: {muted}; margin-bottom: .65rem;}}
+.reference-symbol {{font-size: 1rem; font-weight: 650; color: {text};}}
+.reference-price {{font-size: clamp(1.5rem, 3.5vw, 2.4rem); letter-spacing: -.04em; font-weight: 700; color: {text}; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; margin: .15rem 0 .5rem;}}
+.reference-date {{font-size: .75rem; color: {muted};}}
+.reference-currency {{font-size: .7rem; font-weight: 500; color: {muted}; letter-spacing: .04em;}}
 .delta {{font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums;}}
 .delta.up {{color: {pos};}}
 .delta.down {{color: {neg};}}
@@ -157,6 +151,12 @@ input, [data-testid="stNumberInput"] button {{background: {field} !important; co
 [data-testid="stAlert"] [data-testid="stMarkdownContainer"] {{color: inherit;}}
 @media (max-width: 640px) {{
     .block-container {{padding: 3.6rem 1rem 2rem;}}
+    .st-key-topbar {{position: static;}}
+    .reference-grid {{gap: .6rem;}}
+    .reference-card {{padding: .85rem; border-radius: 12px;}}
+    .reference-label {{font-size: .72rem;}}
+    .reference-price {{font-size: 1.55rem;}}
+    .reference-date {{font-size: .68rem;}}
     h1 {{font-size: 2rem !important; padding-bottom: .2rem !important;}}
     h3 {{font-size: 1.2rem !important;}}
     .st-key-topbar [data-testid="stHorizontalBlock"] {{flex-wrap: wrap; gap: .65rem;}}
@@ -223,12 +223,25 @@ base_date = pair.get("calculation_base_session", pair["as_of_session"])
 stock_base = float(pair.get("calculation_base_stock_close", pair["latest_stock_close"]))
 etf_base = float(pair.get("calculation_base_etf_close", pair["latest_etf_close"]))
 
-chips = f'<span class="chip chip-accent">{pair["leverage"]:+g}× · {t("daily_target")}</span>'
-chips += f'<span class="chip">{pair["etf_symbol"]}</span>'
+# Display the same reference closes used by the model, including session overrides.
+reference_cards = []
+for label, ticker, close in (("stock_close", symbol, stock_base),
+                              ("etf_close", pair["etf_symbol"], etf_base)):
+    # Keep sub-cent reference detail without filling ordinary prices with zeroes.
+    display_close = f"{close:,.4f}".rstrip("0")
+    whole, fraction = display_close.split(".")
+    display_close = f"{whole}.{fraction.ljust(2, '0')}"
+    reference_cards.append(
+        f'<div class="reference-card"><div class="reference-label">{t(label)}</div>'
+        f'<div class="reference-symbol">{escape(str(ticker))} <span class="reference-currency">USD</span></div>'
+        f'<div class="reference-price">${display_close}</div>'
+        f'<div class="reference-date">{escape(str(base_date))} · {t("close_label")}</div></div>'
+    )
+st.markdown('<div class="reference-grid">' + "".join(reference_cards) + '</div>', unsafe_allow_html=True)
+product_detail = f'{pair["leverage"]:+g}× {t("daily_target")}'
 if pair.get("issuer"):
-    chips += f'<span class="chip">{pair["issuer"]}</span>'
-st.markdown(chips, unsafe_allow_html=True)
-st.caption(t("snapshot"))
+    product_detail += f' · {pair["issuer"]}'
+st.caption(f'{product_detail} · {t("snapshot")}')
 left, right = st.columns(2)
 with left, st.container(border=True, key="input_card"):
     st.subheader(t("input"))
@@ -294,7 +307,6 @@ with left, st.container(border=True, key="input_card"):
             column.button(t("reset") if change == 0 else f"{change:+.0%}",
                           key=f"quick:{change}", on_click=apply_scenario, args=(change,),
                           use_container_width=True)
-    st.caption(f"{t('reference')} · {symbol} {stock_base:,.4f} USD / {pair['etf_symbol']} {etf_base:,.4f} USD")
 with right, st.container(border=True, key="result_card"):
     st.subheader(t("result"))
     try:

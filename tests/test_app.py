@@ -271,3 +271,21 @@ def test_return_input_supports_signed_leverage(sample_pair, leverage, direction,
         page.number_input[0].set_value(return_percent).run()
         assert page.metric[0].value == expected
         assert not page.exception
+
+
+def test_reference_cards_use_calculation_session_and_closes(sample_pair):
+    sample_pair.update(calculation_base_session="2026-09-02",
+                       calculation_base_stock_close=98.125,
+                       calculation_base_etf_close=8.5)
+    with patch("levecho.io.load_json", return_value={"pairs": [sample_pair]}):
+        page = AppTest.from_file(str(APP)).run()
+        cards = next(item.value for item in page.markdown if 'class="reference-grid"' in item.value)
+        assert "$98.125" in cards and "$8.50" in cards
+        assert cards.count("2026-09-02") == 2
+        assert "股票 · 基准收盘价" in cards
+        assert page.number_input[0].value == 98.125
+        page.selectbox(key="language").select("en").run()
+        cards = next(item.value for item in page.markdown if 'class="reference-grid"' in item.value)
+        assert "Stock · Reference close" in cards
+        assert "ETF · Reference close" in cards
+        assert not page.exception
