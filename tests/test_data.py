@@ -281,6 +281,82 @@ def test_quote_layer_rescues_when_all_earlier_fallbacks_lack_the_session() -> No
     assert not result.errors
 
 
+def test_gap_fill_triggered_when_base_session_is_missing() -> None:
+    # The 2026-09-24 incident: Yahoo's feed dropped Sep 22 for FIX while
+    # keeping Sep 23, leaving the pair with a non-adjacent [9/21, 9/23].
+    primary = _FakeProvider(
+        {
+            "AAPL": [
+                PriceBar("AAPL", date(2026, 9, 22), 258.0),
+                PriceBar("AAPL", date(2026, 9, 23), 260.0),
+            ],
+            "FIX": [
+                PriceBar("FIX", date(2026, 9, 21), 1690.0),
+                PriceBar("FIX", date(2026, 9, 23), 1582.0),
+            ],
+        }
+    )
+    nasdaq = _FakeProvider(
+        {
+            "FIX": [
+                PriceBar("FIX", date(2026, 9, 22), 1601.0, source="nasdaq"),
+                PriceBar("FIX", date(2026, 9, 23), 1582.0, source="nasdaq"),
+            ]
+        }
+    )
+    result = FallbackProvider(primary, nasdaq).fetch(["AAPL", "FIX"])
+
+    assert nasdaq.requested == [["FIX"]]
+    sessions = [bar.session for bar in result.bars["FIX"]]
+    assert sessions == [date(2026, 9, 21), date(2026, 9, 22), date(2026, 9, 23)]
+    assert result.bars["FIX"][1].source == "nasdaq"
+    assert not result.errors
+
+
+def test_gap_fill_failure_names_missing_base_session() -> None:
+    primary = _FakeProvider(
+        {
+            "AAPL": [
+                PriceBar("AAPL", date(2026, 9, 22), 258.0),
+                PriceBar("AAPL", date(2026, 9, 23), 260.0),
+            ],
+            "FIX": [
+                PriceBar("FIX", date(2026, 9, 21), 1690.0),
+                PriceBar("FIX", date(2026, 9, 23), 1582.0),
+            ],
+        }
+    )
+    nasdaq = _FakeProvider(
+        {"FIX": [PriceBar("FIX", date(2026, 9, 23), 1582.0, source="nasdaq")]}
+    )
+    result = FallbackProvider(primary, nasdaq).fetch(["AAPL", "FIX"])
+
+    message = result.errors["FIX"]
+    assert "gap fill failed" in message
+    assert "lacks 2026-09-22" in message
+    assert "fake: lacks 2026-09-22" in message
+
+
+def test_single_session_history_is_not_a_fillable_gap() -> None:
+    # A fund that only listed on the newest session cannot provide the base
+    # session; that is the pipeline's "fewer than two common sessions"
+    # case, not something the fallback chain should hammer.
+    primary = _FakeProvider(
+        {
+            "AAPL": [
+                PriceBar("AAPL", date(2026, 9, 22), 258.0),
+                PriceBar("AAPL", date(2026, 9, 23), 260.0),
+            ],
+            "NEW": [PriceBar("NEW", date(2026, 9, 23), 20.0)],
+        }
+    )
+    fallback = _FakeProvider({})
+    result = FallbackProvider(primary, fallback).fetch(["AAPL", "NEW"])
+
+    assert fallback.requested == []
+    assert not result.errors
+
+
 class _FakeTicker:
     def __init__(self, frame) -> None:
         self._frame = frame

@@ -16,12 +16,29 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 import requests
 import yfinance as yf
+import exchange_calendars as xcals
 
 from .types import PriceBar
 
 
 class DataSourceError(RuntimeError):
     """Raised when a provider cannot return usable data."""
+
+
+# Offline NYSE calendar; built once at import because get_calendar is slow.
+_NYSE = xcals.get_calendar("XNYS")
+
+
+def _previous_nyse_session(session: date | None) -> date | None:
+    """The NYSE session immediately before ``session``; None when unknown."""
+
+    if session is None:
+        return None
+    moment = pd.Timestamp(session)
+    if not _NYSE.is_session(moment):
+        return None
+    previous = _NYSE.previous_session(moment)
+    return previous.date() if previous is not None else None
 
 
 @dataclass
@@ -442,11 +459,12 @@ class StooqProvider:
 class FallbackProvider:
     """Use fallbacks for symbols the primary cannot fully cover.
 
-    That covers symbols with no bars at all and symbols whose latest
-    session trails the freshest session other symbols already returned,
-    e.g. when the primary's history feed lags one session behind. All
-    fallbacks are judged against the same primary-derived baseline, and
-    each fallback only receives the symbols the earlier ones left behind.
+    That covers symbols with no bars, symbols whose latest session trails
+    the freshest session other symbols returned, and symbols whose history
+    has a hole at the NYSE session right before that freshest one (the
+    snapshot compares exactly those two sessions). All fallbacks are
+    judged against one primary-derived baseline, and each only receives
+    the symbols the earlier ones left behind.
     """
 
     def __init__(self, primary: PriceProvider, *fallbacks: PriceProvider) -> None:
@@ -462,23 +480,37 @@ class FallbackProvider:
     def fetch(self, symbols: Iterable[str], lookback_days: int = 15) -> FetchResult:
         unique_symbols = list(dict.fromkeys(str(symbol).upper() for symbol in symbols))
         primary_result = self.primary.fetch(unique_symbols, lookback_days)
-        latest = {
-            symbol: max(bar.session for bar in bars)
+        sessions = {
+            symbol: {bar.session for bar in bars}
             for symbol, bars in primary_result.bars.items()
             if bars
         }
+        latest = {symbol: max(bar_sessions) for symbol, bar_sessions in sessions.items()}
         missing = [symbol for symbol in unique_symbols if symbol not in primary_result.bars]
         newest = max(latest.values(), default=None)
-        stale = [] if newest is None else [symbol for symbol, session in latest.items() if session < newest]
-        if not missing and not stale:
+        base_needed = _previous_nyse_session(newest)
+        trailing = [symbol for symbol, session in latest.items() if session < newest]
+        # A history that reaches before the base session but skips it is a
+        # fillable hole; a fund that only listed on the newest session is the
+        # pipeline's "fewer than two common sessions" case instead.
+        holed = [
+            symbol
+            for symbol, bar_sessions in sessions.items()
+            if base_needed is not None
+            and newest in bar_sessions
+            and base_needed not in bar_sessions
+            and any(session < base_needed for session in bar_sessions)
+        ]
+        gaps = trailing + holed
+        if not missing and not gaps:
             return primary_result
 
         merged = FetchResult(bars=dict(primary_result.bars), errors=dict(primary_result.errors))
         notes: dict[str, list[str]] = {}
         for fallback in self.fallbacks:
-            if not missing and not stale:
+            if not missing and not gaps:
                 break
-            fallback_result = fallback.fetch(missing + stale, lookback_days)
+            fallback_result = fallback.fetch(missing + gaps, lookback_days)
             for symbol in missing:
                 if symbol in fallback_result.bars:
                     merged.bars[symbol] = fallback_result.bars[symbol]
@@ -487,36 +519,45 @@ class FallbackProvider:
                     notes.setdefault(symbol, []).append(
                         f"{fallback.name}: {fallback_result.errors[symbol]}"
                     )
-            still_stale = []
-            for symbol in stale:
+            still_gapped = []
+            for symbol in gaps:
                 fallback_bars = fallback_result.bars.get(symbol)
                 if fallback_bars:
                     merged.bars[symbol] = self._merge_sessions(merged.bars[symbol], fallback_bars)
-                filled_latest = max(bar.session for bar in merged.bars[symbol])
-                if filled_latest >= newest:
+                bar_sessions = {bar.session for bar in merged.bars[symbol]}
+                healed = newest in bar_sessions and (
+                    base_needed is None or base_needed in bar_sessions
+                )
+                if healed:
                     merged.errors.pop(symbol, None)
                     notes.pop(symbol, None)
                     continue
-                still_stale.append(symbol)
+                still_gapped.append(symbol)
                 if fallback_result.errors.get(symbol):
                     note = f"{fallback.name}: {fallback_result.errors[symbol]}"
-                elif fallback_bars:
-                    note = f"{fallback.name}: latest {filled_latest}"
+                elif newest not in bar_sessions:
+                    note = f"{fallback.name}: latest {max(bar_sessions)}"
                 else:
-                    note = f"{fallback.name}: no bars"
+                    note = f"{fallback.name}: lacks {base_needed}"
                 notes.setdefault(symbol, []).append(note)
             missing = [symbol for symbol in missing if symbol not in merged.bars]
-            stale = still_stale
+            gaps = still_gapped
         for symbol in missing:
             if symbol in notes:
                 merged.errors[symbol] = (
                     f"primary: {primary_result.errors.get(symbol, 'missing')}; "
                     + "; ".join(notes[symbol])
                 )
-        for symbol in stale:
-            if symbol in notes:
+        for symbol in trailing:
+            if symbol in gaps and symbol in notes:
                 merged.errors[symbol] = (
                     f"stale fill failed: primary stopped at {latest[symbol]}, "
                     f"required {newest}; " + "; ".join(notes[symbol])
+                )
+        for symbol in holed:
+            if symbol in gaps and symbol in notes:
+                merged.errors[symbol] = (
+                    f"gap fill failed: primary lacks {base_needed} "
+                    f"(latest {latest[symbol]}); " + "; ".join(notes[symbol])
                 )
         return merged
