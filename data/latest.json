@@ -4,7 +4,7 @@
   "calculation_base_session": "2026-10-14",
   "base_session": "2026-10-13",
   "as_of_session": "2026-10-14",
-  "published_at": "2026-10-15T00:37:03Z",
+  "published_at": "2026-10-16T00:26:28Z",
   "pairs": [
     {
       "pair_id": "aapl-aapb",
@@ -18,18 +18,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 342.9599914550781,
-      "calculation_base_etf_close": 45.75529861450195,
+      "calculation_base_etf_close": 45.755001068115234,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 341.2699890136719,
       "base_etf_close": 45.41699981689453,
       "latest_stock_close": 342.9599914550781,
-      "latest_etf_close": 45.75529861450195,
+      "latest_etf_close": 45.755001068115234,
       "stock_return": 0.004952098033262908,
-      "etf_return": 0.007448726225231184,
+      "etf_return": 0.007442174793214074,
       "ideal_etf_return": 0.009904196066525817,
-      "tracking_error": -0.002455469841294633,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.002462021273311743,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -55,7 +55,7 @@
       "etf_return": -0.005964256174353699,
       "ideal_etf_return": -0.004952098033262908,
       "tracking_error": -0.001012158141090791,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -70,18 +70,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 342.9599914550781,
-      "calculation_base_etf_close": 17.150400161743164,
+      "calculation_base_etf_close": 17.149999618530273,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 341.2699890136719,
       "base_etf_close": 17.010000228881836,
       "latest_stock_close": 342.9599914550781,
-      "latest_etf_close": 17.150400161743164,
+      "latest_etf_close": 17.149999618530273,
       "stock_return": 0.004952098033262908,
-      "etf_return": 0.008253964195893415,
+      "etf_return": 0.008230416682224906,
       "ideal_etf_return": 0.009904196066525817,
-      "tracking_error": -0.0016502318706324015,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0016737793843009108,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -107,7 +107,7 @@
       "etf_return": 0.011029375065327862,
       "ideal_etf_return": 0.009904196066525817,
       "tracking_error": 0.0011251789988020455,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -133,7 +133,7 @@
       "etf_return": 0.009099642801453145,
       "ideal_etf_return": 0.009904196066525817,
       "tracking_error": -0.0008045532650726717,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -159,7 +159,7 @@
       "etf_return": 0.03621173190779836,
       "ideal_etf_return": 0.037243896387474607,
       "tracking_error": -0.0010321644796762453,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -174,18 +174,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 240.67999267578125,
-      "calculation_base_etf_close": 20.89579963684082,
+      "calculation_base_etf_close": 20.899999618530273,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 236.27999877929688,
       "base_etf_close": 20.209999084472656,
       "latest_stock_close": 240.67999267578125,
-      "latest_etf_close": 20.89579963684082,
+      "latest_etf_close": 20.899999618530273,
       "stock_return": 0.018621948193737303,
-      "etf_return": 0.033933725058654884,
+      "etf_return": 0.0341415420739799,
       "ideal_etf_return": 0.037243896387474607,
-      "tracking_error": -0.003310171328819722,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.003102354313494704,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -200,18 +200,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 403.57000732421875,
-      "calculation_base_etf_close": 12.19729995727539,
+      "calculation_base_etf_close": 12.199999809265137,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 414.70001220703125,
       "base_etf_close": 12.869999885559082,
       "latest_stock_close": 403.57000732421875,
-      "latest_etf_close": 12.19729995727539,
+      "latest_etf_close": 12.199999809265137,
       "stock_return": -0.02683868954712265,
-      "etf_return": -0.05226883716125763,
+      "etf_return": -0.05205905845001024,
       "ideal_etf_return": -0.0536773790942453,
-      "tracking_error": 0.0014085419329876725,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0016183206442350606,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -237,7 +237,7 @@
       "etf_return": -0.1699092005574604,
       "ideal_etf_return": -0.16451518454118075,
       "tracking_error": -0.005394016016279646,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -263,7 +263,7 @@
       "etf_return": -0.1482391821426554,
       "ideal_etf_return": -0.15445133585325377,
       "tracking_error": 0.006212153710598356,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -278,18 +278,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 97.97000122070312,
-      "calculation_base_etf_close": 3.6268999576568604,
+      "calculation_base_etf_close": 3.627000093460083,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 97.6500015258789,
       "base_etf_close": 3.619999885559082,
       "latest_stock_close": 97.97000122070312,
-      "latest_etf_close": 3.6268999576568604,
+      "latest_etf_close": 3.627000093460083,
       "stock_return": 0.0032770065522160774,
-      "etf_return": 0.0019060973248381519,
+      "etf_return": 0.0019337591498072015,
       "ideal_etf_return": 0.006554013104432155,
-      "tracking_error": -0.004647915779594003,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.004620253954624953,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -315,7 +315,7 @@
       "etf_return": -0.07815536798726486,
       "ideal_etf_return": -0.07586586990350397,
       "tracking_error": -0.002289498083760888,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -341,7 +341,7 @@
       "etf_return": -0.07612178238068301,
       "ideal_etf_return": -0.07586586990350397,
       "tracking_error": -0.0002559124771790433,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -367,7 +367,7 @@
       "etf_return": 0.05731918957531379,
       "ideal_etf_return": 0.05732171864863678,
       "tracking_error": -2.529073322987685e-06,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -382,18 +382,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 570.8200073242188,
-      "calculation_base_etf_close": 114.90190124511719,
+      "calculation_base_etf_close": 114.9020004272461,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 605.530029296875,
       "base_etf_close": 129.875,
       "latest_stock_close": 570.8200073242188,
-      "latest_etf_close": 114.90190124511719,
+      "latest_etf_close": 114.9020004272461,
       "stock_return": -0.05732171864863678,
-      "etf_return": -0.11528853709245668,
+      "etf_return": -0.11528777341870189,
       "ideal_etf_return": -0.11464343729727355,
-      "tracking_error": -0.0006450997951831239,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.000644336121428335,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -419,7 +419,7 @@
       "etf_return": -0.11352970471697854,
       "ideal_etf_return": -0.11464343729727355,
       "tracking_error": 0.0011137325802950127,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -445,7 +445,7 @@
       "etf_return": -0.1107674256204263,
       "ideal_etf_return": -0.11464343729727355,
       "tracking_error": 0.0038760116768472574,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -471,7 +471,7 @@
       "etf_return": 0.11469941415932428,
       "ideal_etf_return": 0.11464343729727355,
       "tracking_error": 5.597686205072172e-05,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -497,7 +497,7 @@
       "etf_return": 0.016607281682123,
       "ideal_etf_return": 0.01740267992454758,
       "tracking_error": -0.0007953982424245831,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -523,7 +523,7 @@
       "etf_return": -0.036679517131494976,
       "ideal_etf_return": -0.03480535984909516,
       "tracking_error": -0.0018741572823998132,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -549,7 +549,7 @@
       "etf_return": 0.03687315520113632,
       "ideal_etf_return": 0.03480535984909516,
       "tracking_error": 0.0020677953520411574,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -575,7 +575,7 @@
       "etf_return": -0.0349189028061887,
       "ideal_etf_return": -0.03480535984909516,
       "tracking_error": -0.00011354295709353757,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -590,18 +590,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 254.0800018310547,
-      "calculation_base_etf_close": 32.867698669433594,
+      "calculation_base_etf_close": 32.86800003051758,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 258.5799865722656,
       "base_etf_close": 34.17599868774414,
       "latest_stock_close": 254.0800018310547,
-      "latest_etf_close": 32.867698669433594,
+      "latest_etf_close": 32.86800003051758,
       "stock_return": -0.01740267992454758,
-      "etf_return": -0.03828125200565735,
+      "etf_return": -0.03827243408970593,
       "ideal_etf_return": -0.03480535984909516,
-      "tracking_error": -0.003475892156562188,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.003467074240610768,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -616,18 +616,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 195.4199981689453,
-      "calculation_base_etf_close": 24.774700164794922,
+      "calculation_base_etf_close": 24.774999618530273,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 204.52000427246094,
       "base_etf_close": 27.242000579833984,
       "latest_stock_close": 195.4199981689453,
-      "latest_etf_close": 24.774700164794922,
+      "latest_etf_close": 24.774999618530273,
       "stock_return": -0.04449445488663606,
-      "etf_return": -0.0905697218458138,
+      "etf_return": -0.09055872949103161,
       "ideal_etf_return": -0.08898890977327212,
-      "tracking_error": -0.0015808120725416819,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0015698197177594908,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -642,18 +642,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 82.69000244140625,
-      "calculation_base_etf_close": 14.758199691772461,
+      "calculation_base_etf_close": 14.760000228881836,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 85.88999938964844,
       "base_etf_close": 16.010000228881836,
       "latest_stock_close": 82.69000244140625,
-      "latest_etf_close": 14.758199691772461,
+      "latest_etf_close": 14.760000228881836,
       "stock_return": -0.03725692130611258,
-      "etf_return": -0.07818866453550344,
+      "etf_return": -0.07807620125732517,
       "ideal_etf_return": -0.07451384261222516,
-      "tracking_error": -0.003674821923278282,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0035623586451000167,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -668,18 +668,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 82.69000244140625,
-      "calculation_base_etf_close": 25.142499923706055,
+      "calculation_base_etf_close": 25.139999389648438,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 85.88999938964844,
       "base_etf_close": 27.270000457763672,
       "latest_stock_close": 82.69000244140625,
-      "latest_etf_close": 25.142499923706055,
+      "latest_etf_close": 25.139999389648438,
       "stock_return": -0.03725692130611258,
-      "etf_return": -0.07801615322129285,
+      "etf_return": -0.07810784863807474,
       "ideal_etf_return": -0.07451384261222516,
-      "tracking_error": -0.0035023106090676936,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.003594006025849583,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -705,7 +705,7 @@
       "etf_return": -0.0735608236289178,
       "ideal_etf_return": -0.07411485517207828,
       "tracking_error": 0.0005540315431604714,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -731,7 +731,7 @@
       "etf_return": -0.13457937672359555,
       "ideal_etf_return": -0.13610560260267546,
       "tracking_error": 0.0015262258790799121,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -746,18 +746,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 1650.0,
-      "calculation_base_etf_close": 41.30540084838867,
+      "calculation_base_etf_close": 41.30500030517578,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 1717.760009765625,
       "base_etf_close": 44.369998931884766,
       "latest_stock_close": 1650.0,
-      "latest_etf_close": 41.30540084838867,
+      "latest_etf_close": 41.30500030517578,
       "stock_return": -0.03944672677230987,
-      "etf_return": -0.06906914936375719,
+      "etf_return": -0.06907817670706418,
       "ideal_etf_return": -0.07889345354461974,
-      "tracking_error": 0.009824304180862553,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.009815276837555564,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -772,18 +772,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 1650.0,
-      "calculation_base_etf_close": 27.090700149536133,
+      "calculation_base_etf_close": 27.09000015258789,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 1717.760009765625,
       "base_etf_close": 29.049999237060547,
       "latest_stock_close": 1650.0,
-      "latest_etf_close": 27.090700149536133,
+      "latest_etf_close": 27.09000015258789,
       "stock_return": -0.03944672677230987,
-      "etf_return": -0.06744575349333704,
+      "etf_return": -0.06746984977446013,
       "ideal_etf_return": -0.07889345354461974,
-      "tracking_error": 0.011447700051282705,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.011423603770159607,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -798,18 +798,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 346.25,
-      "calculation_base_etf_close": 21.094499588012695,
+      "calculation_base_etf_close": 21.094999313354492,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 357.30999755859375,
       "base_etf_close": 22.520000457763672,
       "latest_stock_close": 346.25,
-      "latest_etf_close": 21.094499588012695,
+      "latest_etf_close": 21.094999313354492,
       "stock_return": -0.03095350713431988,
-      "etf_return": -0.06329932685501083,
+      "etf_return": -0.06327713656497358,
       "ideal_etf_return": -0.06190701426863976,
-      "tracking_error": -0.0013923125863710695,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.00137012229633382,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -824,18 +824,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 346.25,
-      "calculation_base_etf_close": 26.896799087524414,
+      "calculation_base_etf_close": 26.89699935913086,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 357.30999755859375,
       "base_etf_close": 28.704999923706055,
       "latest_stock_close": 346.25,
-      "latest_etf_close": 26.896799087524414,
+      "latest_etf_close": 26.89699935913086,
       "stock_return": -0.03095350713431988,
-      "etf_return": -0.06299253931327609,
+      "etf_return": -0.06298556242398923,
       "ideal_etf_return": -0.06190701426863976,
-      "tracking_error": -0.0010855250446363263,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.001078548155349468,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -861,7 +861,7 @@
       "etf_return": -0.06052768137153863,
       "ideal_etf_return": -0.06190701426863976,
       "tracking_error": 0.0013793328971011265,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -887,7 +887,7 @@
       "etf_return": -0.06190337486814479,
       "ideal_etf_return": -0.06190701426863976,
       "tracking_error": 3.6394004949702463e-06,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -913,7 +913,7 @@
       "etf_return": 0.03221812127807011,
       "ideal_etf_return": 0.03095350713431988,
       "tracking_error": 0.0012646141437502312,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -939,7 +939,7 @@
       "etf_return": -0.02013286282133786,
       "ideal_etf_return": -0.019625736255573845,
       "tracking_error": -0.0005071265657640156,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -954,18 +954,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 184.66000366210938,
-      "calculation_base_etf_close": 22.982200622558594,
+      "calculation_base_etf_close": 22.98200035095215,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 186.49000549316406,
       "base_etf_close": 23.500999450683594,
       "latest_stock_close": 184.66000366210938,
-      "latest_etf_close": 22.982200622558594,
+      "latest_etf_close": 22.98200035095215,
       "stock_return": -0.009812868127786922,
-      "etf_return": -0.022075607006148412,
+      "etf_return": -0.022084128839735317,
       "ideal_etf_return": -0.019625736255573845,
-      "tracking_error": -0.0024498707505745676,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.002458392584161473,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -991,7 +991,7 @@
       "etf_return": -0.06067166779151334,
       "ideal_etf_return": -0.06159592102756539,
       "tracking_error": 0.0009242532360520528,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1006,18 +1006,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 329.4599914550781,
-      "calculation_base_etf_close": 9.73799991607666,
+      "calculation_base_etf_close": 9.739999771118164,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 334.20001220703125,
       "base_etf_close": 9.989999771118164,
       "latest_stock_close": 329.4599914550781,
-      "latest_etf_close": 9.73799991607666,
+      "latest_etf_close": 9.739999771118164,
       "stock_return": -0.01418318545427455,
-      "etf_return": -0.02522521129280242,
+      "etf_return": -0.025025025598375716,
       "ideal_etf_return": -0.0283663709085491,
-      "tracking_error": 0.0031411596157466803,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0033413453101733825,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1043,7 +1043,7 @@
       "etf_return": -0.11227149788622937,
       "ideal_etf_return": -0.10987524615816824,
       "tracking_error": -0.0023962517280611273,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1069,7 +1069,7 @@
       "etf_return": -0.20553359162327145,
       "ideal_etf_return": -0.20379614592859752,
       "tracking_error": -0.0017374456946739336,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1095,7 +1095,7 @@
       "etf_return": -0.2071534811599579,
       "ideal_etf_return": -0.20379614592859752,
       "tracking_error": -0.003357335231360392,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1121,7 +1121,7 @@
       "etf_return": -0.18749999452163202,
       "ideal_etf_return": -0.18387476827405402,
       "tracking_error": -0.003625226247577995,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1147,7 +1147,7 @@
       "etf_return": 0.17510158199316317,
       "ideal_etf_return": 0.18387476827405402,
       "tracking_error": -0.008773186280890855,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1173,7 +1173,7 @@
       "etf_return": -0.1840547050161616,
       "ideal_etf_return": -0.18387476827405402,
       "tracking_error": -0.00017993674210758925,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1199,7 +1199,7 @@
       "etf_return": -0.09777227342975991,
       "ideal_etf_return": -0.09791511331953262,
       "tracking_error": 0.00014283988977270567,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1225,7 +1225,7 @@
       "etf_return": -0.1002278553814846,
       "ideal_etf_return": -0.09791511331953262,
       "tracking_error": -0.002312742061951978,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1240,18 +1240,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 172.88999938964844,
-      "calculation_base_etf_close": 27.252500534057617,
+      "calculation_base_etf_close": 27.253000259399414,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 181.7899932861328,
       "base_etf_close": 24.822999954223633,
       "latest_stock_close": 172.88999938964844,
-      "latest_etf_close": 27.252500534057617,
+      "latest_etf_close": 27.253000259399414,
       "stock_return": -0.04895755665976631,
-      "etf_return": 0.09787296395738854,
+      "etf_return": 0.09789309550243619,
       "ideal_etf_return": 0.09791511331953262,
-      "tracking_error": -4.2149362144083824e-05,
-      "source": "yfinance-recent",
+      "tracking_error": -2.2017817096431358e-05,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1277,7 +1277,7 @@
       "etf_return": -0.09293680099706825,
       "ideal_etf_return": -0.09791511331953262,
       "tracking_error": 0.004978312322464373,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1292,18 +1292,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 172.88999938964844,
-      "calculation_base_etf_close": 5.907700061798096,
+      "calculation_base_etf_close": 5.9079999923706055,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 181.7899932861328,
       "base_etf_close": 6.553999900817871,
       "latest_stock_close": 172.88999938964844,
-      "latest_etf_close": 5.907700061798096,
+      "latest_etf_close": 5.9079999923706055,
       "stock_return": -0.04895755665976631,
-      "etf_return": -0.09861151187065531,
+      "etf_return": -0.09856574888972025,
       "ideal_etf_return": -0.09791511331953262,
-      "tracking_error": -0.00069639855112269,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0006506355701876299,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1329,7 +1329,7 @@
       "etf_return": 0.0599368499145303,
       "ideal_etf_return": 0.05734157731727141,
       "tracking_error": 0.002595272597258891,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1355,7 +1355,7 @@
       "etf_return": -0.017857098255025683,
       "ideal_etf_return": -0.017310176934898225,
       "tracking_error": -0.0005469213201274581,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1370,18 +1370,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 249.2899932861328,
-      "calculation_base_etf_close": 90.88729858398438,
+      "calculation_base_etf_close": 90.88700103759766,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 261.2099914550781,
       "base_etf_close": 100.24700164794922,
       "latest_stock_close": 249.2899932861328,
-      "latest_etf_close": 90.88729858398438,
+      "latest_etf_close": 90.88700103759766,
       "stock_return": -0.04563377573171912,
-      "etf_return": -0.09336641405829338,
+      "etf_return": -0.09336938219082425,
       "ideal_etf_return": -0.09126755146343823,
-      "tracking_error": -0.0020988625948551443,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0021018307273860115,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1407,7 +1407,7 @@
       "etf_return": 0.30508472749833704,
       "ideal_etf_return": 0.30921473221324414,
       "tracking_error": -0.004130004714907098,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1433,7 +1433,7 @@
       "etf_return": -0.3095238206544624,
       "ideal_etf_return": -0.30921473221324414,
       "tracking_error": -0.00030908844121824153,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1459,7 +1459,7 @@
       "etf_return": -0.3098336855423387,
       "ideal_etf_return": -0.30921473221324414,
       "tracking_error": -0.0006189533290945626,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1485,7 +1485,7 @@
       "etf_return": -0.3066554657469829,
       "ideal_etf_return": -0.30921473221324414,
       "tracking_error": 0.0025592664662612563,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1500,18 +1500,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 113.63999938964844,
-      "calculation_base_etf_close": 54.76839828491211,
+      "calculation_base_etf_close": 54.768001556396484,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 115.06999969482422,
       "base_etf_close": 56.305999755859375,
       "latest_stock_close": 113.63999938964844,
-      "latest_etf_close": 54.76839828491211,
+      "latest_etf_close": 54.768001556396484,
       "stock_return": -0.012427220900045777,
-      "etf_return": -0.027307950797681335,
+      "etf_return": -0.027314996734479347,
       "ideal_etf_return": -0.024854441800091553,
-      "tracking_error": -0.0024535089975897817,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.002460554934387793,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1537,7 +1537,7 @@
       "etf_return": 0.015601064241006268,
       "ideal_etf_return": 0.012427220900045777,
       "tracking_error": 0.0031738433409604916,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1563,7 +1563,7 @@
       "etf_return": -0.22812753461897683,
       "ideal_etf_return": -0.22547899917990044,
       "tracking_error": -0.0026485354390763938,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1578,18 +1578,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 87.86000061035156,
-      "calculation_base_etf_close": 7.451399803161621,
+      "calculation_base_etf_close": 7.451000213623047,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 91.55999755859375,
       "base_etf_close": 8.109999656677246,
       "latest_stock_close": 87.86000061035156,
-      "latest_etf_close": 7.451399803161621,
+      "latest_etf_close": 7.451000213623047,
       "stock_return": -0.04041062742355772,
-      "etf_return": -0.08120837008585768,
+      "etf_return": -0.0812576413010846,
       "ideal_etf_return": -0.08082125484711544,
-      "tracking_error": -0.00038711523874224163,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0004363864539691509,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1604,18 +1604,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 408.8500061035156,
-      "calculation_base_etf_close": 12.288900375366211,
+      "calculation_base_etf_close": 12.289999961853027,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 428.30999755859375,
       "base_etf_close": 13.579999923706055,
       "latest_stock_close": 408.8500061035156,
-      "latest_etf_close": 12.288900375366211,
+      "latest_etf_close": 12.289999961853027,
       "stock_return": -0.045434361948126,
-      "etf_return": -0.09507360497742157,
+      "etf_return": -0.0949926339543734,
       "ideal_etf_return": -0.090868723896252,
-      "tracking_error": -0.004204881081169565,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.004123910058121405,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1630,18 +1630,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 69.62000274658203,
-      "calculation_base_etf_close": 14.456299781799316,
+      "calculation_base_etf_close": 14.460000038146973,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 72.41999816894531,
       "base_etf_close": 15.699999809265137,
       "latest_stock_close": 69.62000274658203,
-      "latest_etf_close": 14.456299781799316,
+      "latest_etf_close": 14.460000038146973,
       "stock_return": -0.03866329043300032,
-      "etf_return": -0.07921656322134907,
+      "etf_return": -0.07898087810080068,
       "ideal_etf_return": -0.07732658086600064,
-      "tracking_error": -0.0018899823553484296,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0016542972348000395,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1656,18 +1656,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 1541.6800537109375,
-      "calculation_base_etf_close": 11.012700080871582,
+      "calculation_base_etf_close": 11.010000228881836,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 1626.6400146484375,
       "base_etf_close": 12.359999656677246,
       "latest_stock_close": 1541.6800537109375,
-      "latest_etf_close": 11.012700080871582,
+      "latest_etf_close": 11.010000228881836,
       "stock_return": -0.05223033994762649,
-      "etf_return": -0.10900482307682036,
+      "etf_return": -0.10922325770988994,
       "ideal_etf_return": -0.10446067989525298,
-      "tracking_error": -0.004544143181567373,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.004762577814636959,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1682,18 +1682,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 100.3499984741211,
-      "calculation_base_etf_close": 9.620499610900879,
+      "calculation_base_etf_close": 9.619999885559082,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 110.87999725341797,
       "base_etf_close": 11.960000038146973,
       "latest_stock_close": 100.3499984741211,
-      "latest_etf_close": 9.620499610900879,
+      "latest_etf_close": 9.619999885559082,
       "stock_return": -0.09496752381072304,
-      "etf_return": -0.19561040299198573,
+      "etf_return": -0.1956521860471866,
       "ideal_etf_return": -0.18993504762144608,
-      "tracking_error": -0.0056753553705396476,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.005717138425740509,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1719,7 +1719,7 @@
       "etf_return": -0.11797776727185849,
       "ideal_etf_return": -0.12401886397550044,
       "tracking_error": 0.006041096703641946,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1745,7 +1745,7 @@
       "etf_return": -0.12447482800805099,
       "ideal_etf_return": -0.12401886397550044,
       "tracking_error": -0.00045596403255054874,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1771,7 +1771,7 @@
       "etf_return": -0.10224435324509695,
       "ideal_etf_return": -0.10300248070899243,
       "tracking_error": 0.0007581274638954749,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1797,7 +1797,7 @@
       "etf_return": -0.03735172782733043,
       "ideal_etf_return": -0.03358889506578633,
       "tracking_error": -0.0037628327615440993,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1823,7 +1823,7 @@
       "etf_return": -0.03538387351897154,
       "ideal_etf_return": -0.03471074765133775,
       "tracking_error": -0.0006731258676337948,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1849,7 +1849,7 @@
       "etf_return": 0.016718721998666197,
       "ideal_etf_return": 0.017355373825668874,
       "tracking_error": -0.0006366518270026766,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1875,7 +1875,7 @@
       "etf_return": -0.035741393687357514,
       "ideal_etf_return": -0.03471074765133775,
       "tracking_error": -0.0010306460360197667,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1901,7 +1901,7 @@
       "etf_return": -0.035094351138708735,
       "ideal_etf_return": -0.03471074765133775,
       "tracking_error": -0.00038360348737098704,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1916,18 +1916,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 207.61000061035156,
-      "calculation_base_etf_close": 11.964300155639648,
+      "calculation_base_etf_close": 11.960000038146973,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 207.2899932861328,
       "base_etf_close": 11.949999809265137,
       "latest_stock_close": 207.61000061035156,
-      "latest_etf_close": 11.964300155639648,
+      "latest_etf_close": 11.960000038146973,
       "stock_return": 0.0015437663880717434,
-      "etf_return": 0.001196681724080495,
+      "etf_return": 0.0008368392503306232,
       "ideal_etf_return": 0.0030875327761434868,
-      "tracking_error": -0.0018908510520629918,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0022506935258128635,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1953,7 +1953,7 @@
       "etf_return": -0.16902519866902455,
       "ideal_etf_return": -0.17082872057079368,
       "tracking_error": 0.001803521901769134,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1979,7 +1979,7 @@
       "etf_return": -0.17305194986150052,
       "ideal_etf_return": -0.17082872057079368,
       "tracking_error": -0.0022232292907068407,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -1994,18 +1994,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 101.08000183105469,
-      "calculation_base_etf_close": 28.64430046081543,
+      "calculation_base_etf_close": 28.643999099731445,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 110.5199966430664,
       "base_etf_close": 34.707000732421875,
       "latest_stock_close": 101.08000183105469,
-      "latest_etf_close": 28.64430046081543,
+      "latest_etf_close": 28.643999099731445,
       "stock_return": -0.08541436028539684,
-      "etf_return": -0.17468234487755419,
+      "etf_return": -0.17469102788321955,
       "ideal_etf_return": -0.17082872057079368,
-      "tracking_error": -0.003853624306760506,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0038623073124258722,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2031,7 +2031,7 @@
       "etf_return": -0.17039922398581642,
       "ideal_etf_return": -0.17082872057079368,
       "tracking_error": 0.0004294965849772625,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2057,7 +2057,7 @@
       "etf_return": -0.16640625646105023,
       "ideal_etf_return": -0.16567351113153195,
       "tracking_error": -0.0007327453295182806,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2083,7 +2083,7 @@
       "etf_return": -0.02489626884411178,
       "ideal_etf_return": -0.02513210773744512,
       "tracking_error": 0.00023583889333333996,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2109,7 +2109,7 @@
       "etf_return": -0.09058768506781956,
       "ideal_etf_return": -0.09123616230685716,
       "tracking_error": 0.0006484772390376037,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2135,7 +2135,7 @@
       "etf_return": -0.09241380362675111,
       "ideal_etf_return": -0.09123616230685716,
       "tracking_error": -0.0011776413198939517,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2150,18 +2150,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 420.239990234375,
-      "calculation_base_etf_close": 17.327499389648438,
+      "calculation_base_etf_close": 17.327999114990234,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 422.05999755859375,
       "base_etf_close": 17.51099967956543,
       "latest_stock_close": 420.239990234375,
-      "latest_etf_close": 17.327499389648438,
+      "latest_etf_close": 17.327999114990234,
       "stock_return": -0.00431220048037384,
-      "etf_return": -0.010479144153667574,
+      "etf_return": -0.010450606357371384,
       "ideal_etf_return": -0.00862440096074768,
-      "tracking_error": -0.0018547431929198943,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0018262053966237035,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2176,18 +2176,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 293.9100036621094,
-      "calculation_base_etf_close": 10.013099670410156,
+      "calculation_base_etf_close": 10.010000228881836,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 317.8599853515625,
       "base_etf_close": 11.899999618530273,
       "latest_stock_close": 293.9100036621094,
-      "latest_etf_close": 10.013099670410156,
+      "latest_etf_close": 10.010000228881836,
       "stock_return": -0.07534758319127133,
-      "etf_return": -0.15856302593337068,
+      "etf_return": -0.15882348321300743,
       "ideal_etf_return": -0.15069516638254266,
-      "tracking_error": -0.007867859550828027,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.008128316830464777,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2202,18 +2202,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 357.6199951171875,
-      "calculation_base_etf_close": 13.46660041809082,
+      "calculation_base_etf_close": 13.470000267028809,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 370.2200012207031,
       "base_etf_close": 14.399999618530273,
       "latest_stock_close": 357.6199951171875,
-      "latest_etf_close": 13.46660041809082,
+      "latest_etf_close": 13.470000267028809,
       "stock_return": -0.03403383410396632,
-      "etf_return": -0.06481939063653386,
+      "etf_return": -0.06458329000958574,
       "ideal_etf_return": -0.06806766820793264,
-      "tracking_error": 0.0032482775713987833,
-      "source": "yfinance-recent",
+      "tracking_error": 0.0034843781983469047,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2239,7 +2239,7 @@
       "etf_return": -0.057226433110742936,
       "ideal_etf_return": -0.056413070015285394,
       "tracking_error": -0.0008133630954575422,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2254,18 +2254,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 896.3300170898438,
-      "calculation_base_etf_close": 15.417099952697754,
+      "calculation_base_etf_close": 15.420000076293945,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 987.989990234375,
       "base_etf_close": 18.8700008392334,
       "latest_stock_close": 896.3300170898438,
-      "latest_etf_close": 15.417099952697754,
+      "latest_etf_close": 15.420000076293945,
       "stock_return": -0.09277419209762161,
-      "etf_return": -0.18298361065022184,
+      "etf_return": -0.18282992101231998,
       "ideal_etf_return": -0.18554838419524322,
-      "tracking_error": 0.0025647735450213816,
-      "source": "yfinance-recent",
+      "tracking_error": 0.0027184631829232364,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2291,7 +2291,7 @@
       "etf_return": -0.18714551573860094,
       "ideal_etf_return": -0.18554838419524322,
       "tracking_error": -0.0015971315433577216,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2317,7 +2317,7 @@
       "etf_return": -0.18590308562522329,
       "ideal_etf_return": -0.18554838419524322,
       "tracking_error": -0.0003547014299800644,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2343,7 +2343,7 @@
       "etf_return": 0.17934528786849802,
       "ideal_etf_return": 0.18554838419524322,
       "tracking_error": -0.0062030963267452055,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2358,18 +2358,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 1208.739990234375,
-      "calculation_base_etf_close": 29.986299514770508,
+      "calculation_base_etf_close": 29.986000061035156,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 1166.510009765625,
       "base_etf_close": 27.885000228881836,
       "latest_stock_close": 1208.739990234375,
-      "latest_etf_close": 29.986299514770508,
+      "latest_etf_close": 29.986000061035156,
       "stock_return": 0.03620198722275414,
-      "etf_return": 0.07535589989747438,
+      "etf_return": 0.07534516101517585,
       "ideal_etf_return": 0.07240397444550828,
-      "tracking_error": 0.0029519254519660976,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0029411865696675754,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2395,7 +2395,7 @@
       "etf_return": 0.07342797135711687,
       "ideal_etf_return": 0.07240397444550828,
       "tracking_error": 0.0010239969116085934,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2410,18 +2410,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 522.22998046875,
-      "calculation_base_etf_close": 30.44379997253418,
+      "calculation_base_etf_close": 30.444000244140625,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 504.0199890136719,
       "base_etf_close": 28.386999130249023,
       "latest_stock_close": 522.22998046875,
-      "latest_etf_close": 30.44379997253418,
+      "latest_etf_close": 30.444000244140625,
       "stock_return": 0.036129502503886135,
-      "etf_return": 0.07245573344501355,
+      "etf_return": 0.07246278849178078,
       "ideal_etf_return": 0.07225900500777227,
-      "tracking_error": 0.0001967284372412781,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.00020378348400851287,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2447,7 +2447,7 @@
       "etf_return": -0.0989828614410001,
       "ideal_etf_return": -0.09425108840054275,
       "tracking_error": -0.004731773040457354,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2462,18 +2462,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 94.08999633789062,
-      "calculation_base_etf_close": 3.6068999767303467,
+      "calculation_base_etf_close": 3.6070001125335693,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 94.33999633789062,
       "base_etf_close": 3.6500000953674316,
       "latest_stock_close": 94.08999633789062,
-      "latest_etf_close": 3.6068999767303467,
+      "latest_etf_close": 3.6070001125335693,
       "stock_return": -0.0026499895029102882,
-      "etf_return": -0.011808251372866452,
+      "etf_return": -0.011780816906946878,
       "ideal_etf_return": -0.0052999790058205765,
-      "tracking_error": -0.006508272367045875,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.006480837901126302,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2488,18 +2488,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 71.25,
-      "calculation_base_etf_close": 6.63129997253418,
+      "calculation_base_etf_close": 6.630000114440918,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 74.16000366210938,
       "base_etf_close": 7.190000057220459,
       "latest_stock_close": 71.25,
-      "latest_etf_close": 6.63129997253418,
+      "latest_etf_close": 6.630000114440918,
       "stock_return": -0.03923952964414679,
-      "etf_return": -0.07770515719609938,
+      "etf_return": -0.07788594413391814,
       "ideal_etf_return": -0.07847905928829357,
-      "tracking_error": 0.0007739020921941897,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0005931151543754343,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2514,18 +2514,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 71.25,
-      "calculation_base_etf_close": 11.765700340270996,
+      "calculation_base_etf_close": 11.770000457763672,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 74.16000366210938,
       "base_etf_close": 12.770000457763672,
       "latest_stock_close": 71.25,
-      "latest_etf_close": 11.765700340270996,
+      "latest_etf_close": 11.770000457763672,
       "stock_return": -0.03923952964414679,
-      "etf_return": -0.07864526871509236,
+      "etf_return": -0.07830853282327321,
       "ideal_etf_return": -0.07847905928829357,
-      "tracking_error": -0.00016620942679879125,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.00017052646502035973,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2551,7 +2551,7 @@
       "etf_return": -0.06416504406352352,
       "ideal_etf_return": -0.065468910092213,
       "tracking_error": 0.001303866028689482,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2577,7 +2577,7 @@
       "etf_return": 0.03286767592626694,
       "ideal_etf_return": 0.0327344550461065,
       "tracking_error": 0.00013322088016043399,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2603,7 +2603,7 @@
       "etf_return": -0.07072079046023294,
       "ideal_etf_return": -0.065468910092213,
       "tracking_error": -0.005251880368019934,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2629,7 +2629,7 @@
       "etf_return": 0.056782278866397196,
       "ideal_etf_return": 0.065468910092213,
       "tracking_error": -0.00868663122581581,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2655,7 +2655,7 @@
       "etf_return": -0.0636715637648031,
       "ideal_etf_return": -0.065468910092213,
       "tracking_error": 0.00179734632740991,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2681,7 +2681,7 @@
       "etf_return": -0.11167148256160497,
       "ideal_etf_return": -0.11585777067637237,
       "tracking_error": 0.0041862881147674,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2707,7 +2707,7 @@
       "etf_return": 0.09262110229253229,
       "ideal_etf_return": 0.0929480051029623,
       "tracking_error": -0.0003269028104300187,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2733,7 +2733,7 @@
       "etf_return": -0.16922876962498834,
       "ideal_etf_return": -0.17452469950015592,
       "tracking_error": 0.005295929875167582,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2759,7 +2759,7 @@
       "etf_return": -0.17620600946365184,
       "ideal_etf_return": -0.17452469950015592,
       "tracking_error": -0.0016813099634959139,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2785,7 +2785,7 @@
       "etf_return": 0.017506626898026845,
       "ideal_etf_return": 0.017959351451641625,
       "tracking_error": -0.0004527245536147806,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2811,7 +2811,7 @@
       "etf_return": -0.03504589318432083,
       "ideal_etf_return": -0.03591870290328325,
       "tracking_error": 0.0008728097189624195,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2837,7 +2837,7 @@
       "etf_return": -0.03616102134287058,
       "ideal_etf_return": -0.03591870290328325,
       "tracking_error": -0.00024231843958733013,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2863,7 +2863,7 @@
       "etf_return": -0.033927339299669734,
       "ideal_etf_return": -0.03591870290328325,
       "tracking_error": 0.0019913636036135163,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2878,18 +2878,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 143.24000549316406,
-      "calculation_base_etf_close": 24.1481990814209,
+      "calculation_base_etf_close": 24.148000717163086,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 152.17999267578125,
       "base_etf_close": 27.305999755859375,
       "latest_stock_close": 143.24000549316406,
-      "latest_etf_close": 24.1481990814209,
+      "latest_etf_close": 24.148000717163086,
       "stock_return": -0.05874614018193436,
-      "etf_return": -0.11564493893913808,
+      "etf_return": -0.11565220343264082,
       "ideal_etf_return": -0.11749228036386872,
-      "tracking_error": 0.0018473414247306419,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0018400769312278964,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2915,7 +2915,7 @@
       "etf_return": -0.11494551634509642,
       "ideal_etf_return": -0.11749228036386872,
       "tracking_error": 0.002546764018772296,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2941,7 +2941,7 @@
       "etf_return": -0.11787925848135461,
       "ideal_etf_return": -0.11749228036386872,
       "tracking_error": -0.00038697811748589217,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2967,7 +2967,7 @@
       "etf_return": 0.11895908045944403,
       "ideal_etf_return": 0.11749228036386872,
       "tracking_error": 0.0014668000955753158,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -2993,7 +2993,7 @@
       "etf_return": 0.11742425857058802,
       "ideal_etf_return": 0.11749228036386872,
       "tracking_error": -6.802179328069258e-05,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3019,7 +3019,7 @@
       "etf_return": 0.03956484528072224,
       "ideal_etf_return": 0.040978186362162106,
       "tracking_error": -0.0014133410814398673,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": [
         "stock latest has a dividend/distribution of 0.15"
       ]
@@ -3047,7 +3047,7 @@
       "etf_return": -0.07044195692922128,
       "ideal_etf_return": -0.08195637272432421,
       "tracking_error": 0.011514415795102928,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": [
         "stock latest has a dividend/distribution of 0.15"
       ]
@@ -3075,7 +3075,7 @@
       "etf_return": -0.0800596997258578,
       "ideal_etf_return": -0.08195637272432421,
       "tracking_error": 0.0018966729984664088,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": [
         "stock latest has a dividend/distribution of 0.15"
       ]
@@ -3103,7 +3103,7 @@
       "etf_return": -0.08307371648440454,
       "ideal_etf_return": -0.08195637272432421,
       "tracking_error": -0.0011173437600803249,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": [
         "stock latest has a dividend/distribution of 0.15"
       ]
@@ -3131,7 +3131,7 @@
       "etf_return": 0.0805288582775725,
       "ideal_etf_return": 0.08195637272432421,
       "tracking_error": -0.0014275144467517098,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": [
         "stock latest has a dividend/distribution of 0.15"
       ]
@@ -3159,7 +3159,7 @@
       "etf_return": -0.2024945125244445,
       "ideal_etf_return": -0.2015856718746647,
       "tracking_error": -0.0009088406497798074,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3185,7 +3185,7 @@
       "etf_return": -0.20232085453839277,
       "ideal_etf_return": -0.2015856718746647,
       "tracking_error": -0.0007351826637280734,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3211,7 +3211,7 @@
       "etf_return": 0.2023668277542321,
       "ideal_etf_return": 0.2015856718746647,
       "tracking_error": 0.0007811558795673967,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3237,7 +3237,7 @@
       "etf_return": -0.20128584733116917,
       "ideal_etf_return": -0.2015856718746647,
       "tracking_error": 0.00029982454349553045,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3252,18 +3252,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 111.55999755859375,
-      "calculation_base_etf_close": 17.90169906616211,
+      "calculation_base_etf_close": 17.902000427246094,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 115.58999633789062,
       "base_etf_close": 19.312000274658203,
       "latest_stock_close": 111.55999755859375,
-      "latest_etf_close": 17.90169906616211,
+      "latest_etf_close": 17.902000427246094,
       "stock_return": -0.03486459820897003,
-      "etf_return": -0.07302719492743248,
+      "etf_return": -0.07301159006622193,
       "ideal_etf_return": -0.06972919641794006,
-      "tracking_error": -0.003297998509492417,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.003282393648281867,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3289,7 +3289,7 @@
       "etf_return": -0.0013396153620129914,
       "ideal_etf_return": 0.003122356281035188,
       "tracking_error": -0.004461971643048179,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3315,7 +3315,7 @@
       "etf_return": 0.0021262003809696672,
       "ideal_etf_return": 0.003122356281035188,
       "tracking_error": -0.0009961559000655207,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3330,18 +3330,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 70.56999969482422,
-      "calculation_base_etf_close": 21.382200241088867,
+      "calculation_base_etf_close": 21.381999969482422,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 70.45999908447266,
       "base_etf_close": 21.3799991607666,
       "latest_stock_close": 70.56999969482422,
-      "latest_etf_close": 21.382200241088867,
+      "latest_etf_close": 21.381999969482422,
       "stock_return": 0.001561178140517594,
-      "etf_return": 0.0001029504400684722,
+      "etf_return": 9.358319898766787e-05,
       "ideal_etf_return": -0.001561178140517594,
-      "tracking_error": 0.0016641285805860662,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0016547613395052618,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3367,7 +3367,7 @@
       "etf_return": 0.021390353877556167,
       "ideal_etf_return": 0.019767622987589828,
       "tracking_error": 0.0016227308899663395,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3382,18 +3382,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 222.1999969482422,
-      "calculation_base_etf_close": 42.39390182495117,
+      "calculation_base_etf_close": 42.38999938964844,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 239.00999450683594,
       "base_etf_close": 49.54999923706055,
       "latest_stock_close": 222.1999969482422,
-      "latest_etf_close": 42.39390182495117,
+      "latest_etf_close": 42.38999938964844,
       "stock_return": -0.0703317766827235,
-      "etf_return": -0.14442174616134051,
+      "etf_return": -0.14450050368632184,
       "ideal_etf_return": -0.140663553365447,
-      "tracking_error": -0.0037581927958935113,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0038369503208748323,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3419,7 +3419,7 @@
       "etf_return": 0.060941837951047795,
       "ideal_etf_return": 0.0631892270761103,
       "tracking_error": -0.0022473891250625044,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3434,18 +3434,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 221.3000030517578,
-      "calculation_base_etf_close": 31.68829917907715,
+      "calculation_base_etf_close": 31.687999725341797,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 228.52000427246094,
       "base_etf_close": 33.755001068115234,
       "latest_stock_close": 221.3000030517578,
-      "latest_etf_close": 31.68829917907715,
+      "latest_etf_close": 31.687999725341797,
       "stock_return": -0.03159461353805515,
-      "etf_return": -0.061226538990996504,
+      "etf_return": -0.06123541037970559,
       "ideal_etf_return": -0.0631892270761103,
-      "tracking_error": 0.001962688085113795,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.001953816696404709,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3471,7 +3471,7 @@
       "etf_return": 0.03129344963031189,
       "ideal_etf_return": 0.03159461353805515,
       "tracking_error": -0.0003011639077432626,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3497,7 +3497,7 @@
       "etf_return": -0.06356801208217155,
       "ideal_etf_return": -0.0631892270761103,
       "tracking_error": -0.0003787850060612552,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3523,7 +3523,7 @@
       "etf_return": -0.06178245005750205,
       "ideal_etf_return": -0.0631892270761103,
       "tracking_error": 0.0014067770186082518,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3549,7 +3549,7 @@
       "etf_return": 0.05788180710010549,
       "ideal_etf_return": 0.0631892270761103,
       "tracking_error": -0.005307419976004812,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3575,7 +3575,7 @@
       "etf_return": -0.06243537675202415,
       "ideal_etf_return": -0.0631892270761103,
       "tracking_error": 0.0007538503240861472,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3601,7 +3601,7 @@
       "etf_return": -0.0603406237058105,
       "ideal_etf_return": -0.0631892270761103,
       "tracking_error": 0.002848603370299796,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3616,18 +3616,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 220.8300018310547,
-      "calculation_base_etf_close": 6.688199996948242,
+      "calculation_base_etf_close": 6.690000057220459,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 226.32000732421875,
       "base_etf_close": 6.989999771118164,
       "latest_stock_close": 220.8300018310547,
-      "latest_etf_close": 6.688199996948242,
+      "latest_etf_close": 6.690000057220459,
       "stock_return": -0.024257711715691355,
-      "etf_return": -0.04317593477140336,
+      "etf_return": -0.04291841541072261,
       "ideal_etf_return": -0.04851542343138271,
-      "tracking_error": 0.005339488659979352,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.005597008020660099,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3642,18 +3642,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 220.8300018310547,
-      "calculation_base_etf_close": 10.595000267028809,
+      "calculation_base_etf_close": 10.600000381469727,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 226.32000732421875,
       "base_etf_close": 10.6899995803833,
       "latest_stock_close": 220.8300018310547,
-      "latest_etf_close": 10.595000267028809,
+      "latest_etf_close": 10.600000381469727,
       "stock_return": -0.024257711715691355,
-      "etf_return": -0.008886746219225361,
+      "etf_return": -0.008419008647926218,
       "ideal_etf_return": -0.04851542343138271,
-      "tracking_error": 0.03962867721215735,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.04009641478345649,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3668,18 +3668,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 73.36000061035156,
-      "calculation_base_etf_close": 4.014999866485596,
+      "calculation_base_etf_close": 4.019999980926514,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 76.69000244140625,
       "base_etf_close": 4.420000076293945,
       "latest_stock_close": 73.36000061035156,
-      "latest_etf_close": 4.014999866485596,
+      "latest_etf_close": 4.019999980926514,
       "stock_return": -0.04342158984280797,
-      "etf_return": -0.0916290051623555,
+      "etf_return": -0.09049775757081469,
       "ideal_etf_return": -0.08684317968561595,
-      "tracking_error": -0.004785825476739558,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.00365457788519874,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3694,18 +3694,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 73.36000061035156,
-      "calculation_base_etf_close": 6.40500020980835,
+      "calculation_base_etf_close": 6.409999847412109,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 76.69000244140625,
       "base_etf_close": 7.039999961853027,
       "latest_stock_close": 73.36000061035156,
-      "latest_etf_close": 6.40500020980835,
+      "latest_etf_close": 6.409999847412109,
       "stock_return": -0.04342158984280797,
-      "etf_return": -0.09019882890418895,
+      "etf_return": -0.08948865310435217,
       "ideal_etf_return": -0.08684317968561595,
-      "tracking_error": -0.003355649218573009,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0026454734187362217,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3720,18 +3720,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 130.5500030517578,
-      "calculation_base_etf_close": 31.690200805664062,
+      "calculation_base_etf_close": 31.690000534057617,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 143.1999969482422,
       "base_etf_close": 29.033000946044922,
       "latest_stock_close": 130.5500030517578,
-      "latest_etf_close": 31.690200805664062,
+      "latest_etf_close": 31.690000534057617,
       "stock_return": -0.08833794808708384,
-      "etf_return": 0.09152343102792893,
+      "etf_return": 0.09151653296021567,
       "ideal_etf_return": 0.08833794808708384,
-      "tracking_error": 0.0031854829408450858,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.003178584873131829,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3757,7 +3757,7 @@
       "etf_return": -0.17605634039296347,
       "ideal_etf_return": -0.17667589617416768,
       "tracking_error": 0.0006195557812042063,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3783,7 +3783,7 @@
       "etf_return": -0.17732999446436515,
       "ideal_etf_return": -0.17667589617416768,
       "tracking_error": -0.000654098290197469,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3809,7 +3809,7 @@
       "etf_return": 0.18073047008036025,
       "ideal_etf_return": 0.17667589617416768,
       "tracking_error": 0.004054573906192571,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3824,18 +3824,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 375.0400085449219,
-      "calculation_base_etf_close": 9.74429988861084,
+      "calculation_base_etf_close": 9.744000434875488,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 397.0299987792969,
       "base_etf_close": 9.225000381469727,
       "latest_stock_close": 375.0400085449219,
-      "latest_etf_close": 9.74429988861084,
+      "latest_etf_close": 9.744000434875488,
       "stock_return": -0.05538621842678171,
-      "etf_return": 0.05629262717259409,
+      "etf_return": 0.056260166064413086,
       "ideal_etf_return": 0.05538621842678171,
-      "tracking_error": 0.0009064087458123815,
-      "source": "yfinance-recent",
+      "tracking_error": 0.0008739476376313782,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3861,7 +3861,7 @@
       "etf_return": -0.10970670163997986,
       "ideal_etf_return": -0.11077243685356342,
       "tracking_error": 0.0010657352135835518,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3876,18 +3876,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 375.0400085449219,
-      "calculation_base_etf_close": 33.650299072265625,
+      "calculation_base_etf_close": 33.650001525878906,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 397.0299987792969,
       "base_etf_close": 37.9370002746582,
       "latest_stock_close": 375.0400085449219,
-      "latest_etf_close": 33.650299072265625,
+      "latest_etf_close": 33.650001525878906,
       "stock_return": -0.05538621842678171,
-      "etf_return": -0.11299525980856429,
+      "etf_return": -0.11300310297973137,
       "ideal_etf_return": -0.11077243685356342,
-      "tracking_error": -0.0022228229550008693,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0022306661261679572,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3902,18 +3902,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 81.44999694824219,
-      "calculation_base_etf_close": 11.615099906921387,
+      "calculation_base_etf_close": 11.614999771118164,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 81.95999908447266,
       "base_etf_close": 11.769000053405762,
       "latest_stock_close": 81.44999694824219,
-      "latest_etf_close": 11.615099906921387,
+      "latest_etf_close": 11.614999771118164,
       "stock_return": -0.006222573718001501,
-      "etf_return": -0.013076739381935765,
+      "etf_return": -0.013085247819591306,
       "ideal_etf_return": -0.012445147436003001,
-      "tracking_error": -0.0006315919459327635,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0006401003835883046,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3928,18 +3928,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 200.97000122070312,
-      "calculation_base_etf_close": 24.268400192260742,
+      "calculation_base_etf_close": 24.26799964904785,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 208.6699981689453,
       "base_etf_close": 26.295000076293945,
       "latest_stock_close": 200.97000122070312,
-      "latest_etf_close": 24.268400192260742,
+      "latest_etf_close": 24.26799964904785,
       "stock_return": -0.03690035470268249,
-      "etf_return": -0.07707168199859671,
+      "etf_return": -0.07708691467445627,
       "ideal_etf_return": -0.07380070940536498,
-      "tracking_error": -0.0032709725932317246,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0032862052690912913,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3965,7 +3965,7 @@
       "etf_return": 0.03971953063628453,
       "ideal_etf_return": 0.03690035470268249,
       "tracking_error": 0.002819175933602036,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -3991,7 +3991,7 @@
       "etf_return": -0.07600471319976665,
       "ideal_etf_return": -0.07380070940536498,
       "tracking_error": -0.0022040037944016655,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4017,7 +4017,7 @@
       "etf_return": -0.07480256956687714,
       "ideal_etf_return": -0.07380070940536498,
       "tracking_error": -0.001001860161512158,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4043,7 +4043,7 @@
       "etf_return": 0.07290016518515907,
       "ideal_etf_return": 0.07380070940536498,
       "tracking_error": -0.0009005442202059122,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4069,7 +4069,7 @@
       "etf_return": -0.07307690840501047,
       "ideal_etf_return": -0.07380070940536498,
       "tracking_error": 0.0007238010003545181,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4084,18 +4084,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 56.099998474121094,
-      "calculation_base_etf_close": 7.797699928283691,
+      "calculation_base_etf_close": 7.797999858856201,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 56.16999816894531,
       "base_etf_close": 7.827000141143799,
       "latest_stock_close": 56.099998474121094,
-      "latest_etf_close": 7.797699928283691,
+      "latest_etf_close": 7.797999858856201,
       "stock_return": -0.0012462114492807208,
-      "etf_return": -0.003743479280917117,
+      "etf_return": -0.003705159290230964,
       "ideal_etf_return": -0.0024924228985614416,
-      "tracking_error": -0.0012510563823556753,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0012127363916695222,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4110,18 +4110,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 56.099998474121094,
-      "calculation_base_etf_close": 33.856998443603516,
+      "calculation_base_etf_close": 33.86000061035156,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 56.16999816894531,
       "base_etf_close": 34.0099983215332,
       "latest_stock_close": 56.099998474121094,
-      "latest_etf_close": 33.856998443603516,
+      "latest_etf_close": 33.86000061035156,
       "stock_return": -0.0012462114492807208,
-      "etf_return": -0.004498673492518757,
+      "etf_return": -0.004410400428825345,
       "ideal_etf_return": -0.0024924228985614416,
-      "tracking_error": -0.002006250593957315,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0019179775302639035,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4147,7 +4147,7 @@
       "etf_return": 0.02456314593432052,
       "ideal_etf_return": 0.02397379553619594,
       "tracking_error": 0.0005893503981245773,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4173,7 +4173,7 @@
       "etf_return": -0.047277022828373316,
       "ideal_etf_return": -0.04794759107239188,
       "tracking_error": 0.0006705682440185656,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4188,18 +4188,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 172.6199951171875,
-      "calculation_base_etf_close": 19.716800689697266,
+      "calculation_base_etf_close": 19.716999053955078,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 176.86000061035156,
       "base_etf_close": 20.72100067138672,
       "latest_stock_close": 172.6199951171875,
-      "latest_etf_close": 19.716800689697266,
+      "latest_etf_close": 19.716999053955078,
       "stock_return": -0.02397379553619594,
-      "etf_return": -0.04846290956768973,
+      "etf_return": -0.04845333646545602,
       "ideal_etf_return": -0.04794759107239188,
-      "tracking_error": -0.0005153184952978451,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0005057453930641387,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4225,7 +4225,7 @@
       "etf_return": -0.08682169912239779,
       "ideal_etf_return": -0.08616121413941213,
       "tracking_error": -0.0006604849829856541,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4251,7 +4251,7 @@
       "etf_return": -0.15611815930666406,
       "ideal_etf_return": -0.15696047398711532,
       "tracking_error": 0.0008423146804512616,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4277,7 +4277,7 @@
       "etf_return": 0.15491207274785923,
       "ideal_etf_return": 0.15696047398711532,
       "tracking_error": -0.0020484012392560924,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4292,18 +4292,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 186.47000122070312,
-      "calculation_base_etf_close": 20.71339988708496,
+      "calculation_base_etf_close": 20.71299934387207,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 183.02000427246094,
       "base_etf_close": 19.98699951171875,
       "latest_stock_close": 186.47000122070312,
-      "latest_etf_close": 20.71339988708496,
+      "latest_etf_close": 20.71299934387207,
       "stock_return": 0.018850381749014655,
-      "etf_return": 0.03634364302357174,
+      "etf_return": 0.036323602836316304,
       "ideal_etf_return": 0.03770076349802931,
-      "tracking_error": -0.0013571204744575738,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.001377160661713006,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4329,7 +4329,7 @@
       "etf_return": -0.04457775446119694,
       "ideal_etf_return": -0.045547294076154765,
       "tracking_error": 0.0009695396149578261,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4344,18 +4344,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 35.779998779296875,
-      "calculation_base_etf_close": 14.19909954071045,
+      "calculation_base_etf_close": 14.199000358581543,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 39.06999969482422,
       "base_etf_close": 17.15999984741211,
       "latest_stock_close": 35.779998779296875,
-      "latest_etf_close": 14.19909954071045,
+      "latest_etf_close": 14.199000358581543,
       "stock_return": -0.08420785618698601,
-      "etf_return": -0.17254663945397364,
+      "etf_return": -0.17255241929836695,
       "ideal_etf_return": -0.16841571237397202,
-      "tracking_error": -0.004130927080001623,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0041367069243949395,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4381,7 +4381,7 @@
       "etf_return": -0.16748767740064407,
       "ideal_etf_return": -0.16841571237397202,
       "tracking_error": 0.0009280349733279403,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4407,7 +4407,7 @@
       "etf_return": 0.17319591115569888,
       "ideal_etf_return": 0.16841571237397202,
       "tracking_error": 0.004780198781726863,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4422,18 +4422,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 1403.3399658203125,
-      "calculation_base_etf_close": 6.59499979019165,
+      "calculation_base_etf_close": 6.599999904632568,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 1482.3299560546875,
       "base_etf_close": 7.389999866485596,
       "latest_stock_close": 1403.3399658203125,
-      "latest_etf_close": 6.59499979019165,
+      "latest_etf_close": 6.599999904632568,
       "stock_return": -0.05328772444470575,
-      "etf_return": -0.1075778201159856,
+      "etf_return": -0.10690121463137747,
       "ideal_etf_return": -0.1065754488894115,
-      "tracking_error": -0.0010023712265740947,
-      "source": "yfinance-recent",
+      "tracking_error": -0.0003257657419659665,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4459,7 +4459,7 @@
       "etf_return": 0.10909087028915732,
       "ideal_etf_return": 0.1065754488894115,
       "tracking_error": 0.0025154213997458097,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4485,7 +4485,7 @@
       "etf_return": -0.10560699213003277,
       "ideal_etf_return": -0.1065754488894115,
       "tracking_error": 0.000968456759378733,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4511,7 +4511,7 @@
       "etf_return": -0.10393970604129077,
       "ideal_etf_return": -0.1065754488894115,
       "tracking_error": 0.0026357428481207368,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4526,18 +4526,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 152.16000366210938,
-      "calculation_base_etf_close": 13.352100372314453,
+      "calculation_base_etf_close": 13.350000381469727,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 156.5399932861328,
       "base_etf_close": 12.979999542236328,
       "latest_stock_close": 152.16000366210938,
-      "latest_etf_close": 13.352100372314453,
+      "latest_etf_close": 13.350000381469727,
       "stock_return": -0.027980003908761097,
-      "etf_return": 0.028667245238902073,
+      "etf_return": 0.02850545857335618,
       "ideal_etf_return": 0.027980003908761097,
-      "tracking_error": 0.0006872413301409752,
-      "source": "yfinance-recent",
+      "tracking_error": 0.0005254546645950819,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4563,7 +4563,7 @@
       "etf_return": 0.05150976127143925,
       "ideal_etf_return": 0.055960007817522195,
       "tracking_error": -0.004450246546082948,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4589,7 +4589,7 @@
       "etf_return": -0.058198145869363005,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": -0.00223813805184081,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4615,7 +4615,7 @@
       "etf_return": 0.05772236680249221,
       "ideal_etf_return": 0.055960007817522195,
       "tracking_error": 0.0017623589849700139,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4641,7 +4641,7 @@
       "etf_return": -0.057883091090936145,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": -0.0019230832734139502,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4667,7 +4667,7 @@
       "etf_return": -0.05462964279334381,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": 0.0013303650241783815,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4693,7 +4693,7 @@
       "etf_return": -0.05672150014762212,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": -0.0007614923300999221,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4719,7 +4719,7 @@
       "etf_return": 0.056843697485944755,
       "ideal_etf_return": 0.055960007817522195,
       "tracking_error": 0.0008836896684225604,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4745,7 +4745,7 @@
       "etf_return": -0.054716971965394934,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": 0.001243035852127261,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4771,7 +4771,7 @@
       "etf_return": -0.058026012138556626,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": -0.0020660043210344314,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4797,7 +4797,7 @@
       "etf_return": 0.054779726339530876,
       "ideal_etf_return": 0.055960007817522195,
       "tracking_error": -0.0011802814779913184,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4823,7 +4823,7 @@
       "etf_return": -0.05665723776336895,
       "ideal_etf_return": -0.055960007817522195,
       "tracking_error": -0.0006972299458467557,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4849,7 +4849,7 @@
       "etf_return": 0.05384616231071848,
       "ideal_etf_return": 0.055960007817522195,
       "tracking_error": -0.002113845506803713,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4875,7 +4875,7 @@
       "etf_return": -0.0943314689571797,
       "ideal_etf_return": -0.09009644975851816,
       "tracking_error": -0.004235019198661538,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4901,7 +4901,7 @@
       "etf_return": -0.09194101941392874,
       "ideal_etf_return": -0.09009644975851816,
       "tracking_error": -0.0018445696554105773,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4916,18 +4916,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 713.5399780273438,
-      "calculation_base_etf_close": 26.708999633789062,
+      "calculation_base_etf_close": 26.709999084472656,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 747.2000122070312,
       "base_etf_close": 29.459999084472656,
       "latest_stock_close": 713.5399780273438,
-      "latest_etf_close": 26.708999633789062,
+      "latest_etf_close": 26.709999084472656,
       "stock_return": -0.04504822487925908,
-      "etf_return": -0.09338083965296351,
+      "etf_return": -0.09334691396679062,
       "ideal_etf_return": -0.09009644975851816,
-      "tracking_error": -0.00328438989444535,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0032504642082724633,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4942,18 +4942,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 210.25,
-      "calculation_base_etf_close": 13.1343,
+      "calculation_base_etf_close": 13.130000114440918,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 215.9199981689453,
       "base_etf_close": 13.880000114440918,
       "latest_stock_close": 210.25,
-      "latest_etf_close": 13.1343,
+      "latest_etf_close": 13.130000114440918,
       "stock_return": -0.026259717566822438,
-      "etf_return": -0.05372479166373223,
+      "etf_return": -0.054034581687048444,
       "ideal_etf_return": -0.052519435133644876,
-      "tracking_error": -0.0012053565300873537,
-      "source": "nasdaq-quote+yfinance",
+      "tracking_error": -0.001515146553403568,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -4968,18 +4968,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 359.44000244140625,
-      "calculation_base_etf_close": 34.342201232910156,
+      "calculation_base_etf_close": 34.34199905395508,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 380.2900085449219,
       "base_etf_close": 38.64500045776367,
       "latest_stock_close": 359.44000244140625,
-      "latest_etf_close": 34.342201232910156,
+      "latest_etf_close": 34.34199905395508,
       "stock_return": -0.05482659453318961,
-      "etf_return": -0.11134167871355516,
+      "etf_return": -0.11134691041112754,
       "ideal_etf_return": -0.10965318906637922,
-      "tracking_error": -0.0016884896471759392,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0016937213447483224,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5005,7 +5005,7 @@
       "etf_return": 0.04311542980701755,
       "ideal_etf_return": 0.043013656093263686,
       "tracking_error": 0.00010177371375386102,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5031,7 +5031,7 @@
       "etf_return": -0.04200000762939449,
       "ideal_etf_return": -0.043013656093263686,
       "tracking_error": 0.001013648463869199,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5046,18 +5046,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 367.1600036621094,
-      "calculation_base_etf_close": 17.757099151611328,
+      "calculation_base_etf_close": 17.756999969482422,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 375.2300109863281,
       "base_etf_close": 18.72599983215332,
       "latest_stock_close": 367.1600036621094,
-      "latest_etf_close": 17.757099151611328,
+      "latest_etf_close": 17.756999969482422,
       "stock_return": -0.021506828046631843,
-      "etf_return": -0.05174093181814243,
+      "etf_return": -0.05174622831124276,
       "ideal_etf_return": -0.043013656093263686,
-      "tracking_error": -0.008727275724878747,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.008732572217979073,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5083,7 +5083,7 @@
       "etf_return": -0.04200000762939449,
       "ideal_etf_return": -0.043013656093263686,
       "tracking_error": 0.001013648463869199,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5109,7 +5109,7 @@
       "etf_return": 0.04304826923373528,
       "ideal_etf_return": 0.043013656093263686,
       "tracking_error": 3.461314047159547e-05,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5135,7 +5135,7 @@
       "etf_return": -0.043128236131304565,
       "ideal_etf_return": -0.043013656093263686,
       "tracking_error": -0.00011458003804087902,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5161,7 +5161,7 @@
       "etf_return": 0.020513779298298784,
       "ideal_etf_return": 0.021506828046631843,
       "tracking_error": -0.0009930487483330586,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5187,7 +5187,7 @@
       "etf_return": -0.04285717010498047,
       "ideal_etf_return": -0.043013656093263686,
       "tracking_error": 0.00015648598828321703,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5213,7 +5213,7 @@
       "etf_return": 0.044321375742576,
       "ideal_etf_return": 0.043013656093263686,
       "tracking_error": 0.001307719649312311,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5239,7 +5239,7 @@
       "etf_return": -0.002008078081031095,
       "ideal_etf_return": 0.0016434229776738363,
       "tracking_error": -0.0036515010587049312,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5265,7 +5265,7 @@
       "etf_return": -0.04581148488505271,
       "ideal_etf_return": -0.050026138991583036,
       "tracking_error": 0.0042146541065303245,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5291,7 +5291,7 @@
       "etf_return": -0.056480859011238005,
       "ideal_etf_return": -0.0569264943349177,
       "tracking_error": 0.00044563532367969394,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5317,7 +5317,7 @@
       "etf_return": 0.095608634532383,
       "ideal_etf_return": 0.09455731093740427,
       "tracking_error": 0.0010513235949787259,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5332,18 +5332,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 395.6199951171875,
-      "calculation_base_etf_close": 47.9911994934082,
+      "calculation_base_etf_close": 47.9900016784668,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 377.760009765625,
       "base_etf_close": 43.939998626708984,
       "latest_stock_close": 395.6199951171875,
-      "latest_etf_close": 47.9911994934082,
+      "latest_etf_close": 47.9900016784668,
       "stock_return": 0.047278655468702135,
-      "etf_return": 0.0921984750412963,
+      "etf_return": 0.09217121480053958,
       "ideal_etf_return": 0.09455731093740427,
-      "tracking_error": -0.002358835896107969,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": -0.0023860961368646905,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5369,7 +5369,7 @@
       "etf_return": -0.12356456028912499,
       "ideal_etf_return": -0.12187611668598053,
       "tracking_error": -0.0016884436031444627,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5395,7 +5395,7 @@
       "etf_return": -0.12877941937433268,
       "ideal_etf_return": -0.13020457359550952,
       "tracking_error": 0.0014251542211768387,
-      "source": "yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5421,7 +5421,7 @@
       "etf_return": -0.08666103807080683,
       "ideal_etf_return": -0.08725794291911781,
       "tracking_error": 0.0005969048483109862,
-      "source": "yfinance+yfinance-recent",
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5436,18 +5436,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 177.00999450683594,
-      "calculation_base_etf_close": 56.269901275634766,
+      "calculation_base_etf_close": 56.27000045776367,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 174.0800018310547,
       "base_etf_close": 54.40999984741211,
       "latest_stock_close": 177.00999450683594,
-      "latest_etf_close": 56.269901275634766,
+      "latest_etf_close": 56.27000045776367,
       "stock_return": 0.01683129966085839,
-      "etf_return": 0.03418308093068512,
+      "etf_return": 0.03418490379650363,
       "ideal_etf_return": 0.03366259932171678,
-      "tracking_error": 0.0005204816089683373,
-      "source": "yfinance+yfinance-recent",
+      "tracking_error": 0.0005223044747868499,
+      "source": "yfinance",
       "warnings": []
     },
     {
@@ -5462,18 +5462,18 @@
       "status": "active",
       "calculation_base_session": "2026-10-14",
       "calculation_base_stock_close": 75.8499984741211,
-      "calculation_base_etf_close": 15.08430004119873,
+      "calculation_base_etf_close": 15.083999633789062,
       "base_session": "2026-10-13",
       "as_of_session": "2026-10-14",
       "base_stock_close": 76.86000061035156,
       "base_etf_close": 15.473999977111816,
       "latest_stock_close": 75.8499984741211,
-      "latest_etf_close": 15.08430004119873,
+      "latest_etf_close": 15.083999633789062,
       "stock_return": -0.0131408031252922,
-      "etf_return": -0.0251841758103597,
+      "etf_return": -0.025203589498489,
       "ideal_etf_return": -0.0262816062505844,
-      "tracking_error": 0.0010974304402247004,
-      "source": "yfinance-recent",
+      "tracking_error": 0.001078016752095401,
+      "source": "yfinance",
       "warnings": []
     }
   ]
